@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -9,12 +9,13 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Example2</RootNamespace>
     <AssemblyName>example2</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,6 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Externalconsole>true</Externalconsole>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -33,6 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Externalconsole>true</Externalconsole>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug_Ubuntu|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,6 +46,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Externalconsole>true</Externalconsole>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release_Ubuntu|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -51,16 +55,82 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Externalconsole>true</Externalconsole>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Google.Protobuf, Version=3.24.4.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.24.4\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
     <Reference Include="System.Configuration" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Echo.cs" />
     <Compile Include="Chat.cs" />
+    <Compile Include="Protocol\Base.cs" />
+    <Compile Include="Protocol\Calltime.cs" />
+    <Compile Include="Protocol\Career.cs" />
+    <Compile Include="Protocol\Club1.cs" />
+    <Compile Include="Protocol\Club2.cs" />
+    <Compile Include="Protocol\Club3.cs" />
+    <Compile Include="Protocol\ClubActivity.cs" />
+    <Compile Include="Protocol\ClubBase.cs" />
+    <Compile Include="Protocol\ClubHelper.cs" />
+    <Compile Include="Protocol\Colorgame.cs" />
+    <Compile Include="Protocol\CreateClubRoom.cs" />
+    <Compile Include="Protocol\Evchop.cs" />
+    <Compile Include="Protocol\Flow.cs" />
+    <Compile Include="Protocol\Friend.cs" />
+    <Compile Include="Protocol\HandMission.cs" />
+    <Compile Include="Protocol\Item.cs" />
+    <Compile Include="Protocol\Jackpot.cs" />
+    <Compile Include="Protocol\League.cs" />
+    <Compile Include="Protocol\Lobby.cs" />
+    <Compile Include="Protocol\LuckyDraw.cs" />
+    <Compile Include="Protocol\Mtt.cs" />
+    <Compile Include="Protocol\Mtt1.cs" />
+    <Compile Include="Protocol\Mtt2.cs" />
+    <Compile Include="Protocol\Nft.cs" />
+    <Compile Include="Protocol\Pb1.cs" />
+    <Compile Include="Protocol\Pb2.cs" />
+    <Compile Include="Protocol\Pb3.cs" />
+    <Compile Include="Protocol\Pb4.cs" />
+    <Compile Include="Protocol\Pb5.cs" />
+    <Compile Include="Protocol\Pb6.cs" />
+    <Compile Include="Protocol\Pine.cs" />
+    <Compile Include="Protocol\Pine1.cs" />
+    <Compile Include="Protocol\Ppgl.cs" />
+    <Compile Include="Protocol\PreBase.cs" />
+    <Compile Include="Protocol\PreBase1.cs" />
+    <Compile Include="Protocol\Promotions.cs" />
+    <Compile Include="Protocol\Protowrap.cs" />
+    <Compile Include="Protocol\Pusoy.cs" />
+    <Compile Include="Protocol\Rank.cs" />
+    <Compile Include="Protocol\Rebate.cs" />
+    <Compile Include="Protocol\RiskManagement.cs" />
+    <Compile Include="Protocol\Shop.cs" />
+    <Compile Include="Protocol\Sng.cs" />
+    <Compile Include="Protocol\Tongits.cs" />
+    <Compile Include="Protocol\Tp.cs" />
+    <Compile Include="Protocol\UserRelation.cs" />
+    <Compile Include="Protocol\UserSetting.cs" />
+    <Compile Include="Protocol\Value.cs" />
+    <Compile Include="Protocol\Vip.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -71,5 +141,55 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Protocol\Base.cs.meta" />
+    <None Include="Protocol\Calltime.cs.meta" />
+    <None Include="Protocol\Career.cs.meta" />
+    <None Include="Protocol\Club1.cs.meta" />
+    <None Include="Protocol\Club2.cs.meta" />
+    <None Include="Protocol\Club3.cs.meta" />
+    <None Include="Protocol\ClubActivity.cs.meta" />
+    <None Include="Protocol\ClubBase.cs.meta" />
+    <None Include="Protocol\ClubHelper.cs.meta" />
+    <None Include="Protocol\Colorgame.cs.meta" />
+    <None Include="Protocol\CreateClubRoom.cs.meta" />
+    <None Include="Protocol\Evchop.cs.meta" />
+    <None Include="Protocol\Flow.cs.meta" />
+    <None Include="Protocol\Friend.cs.meta" />
+    <None Include="Protocol\HandMission.cs.meta" />
+    <None Include="Protocol\Item.cs.meta" />
+    <None Include="Protocol\Jackpot.cs.meta" />
+    <None Include="Protocol\League.cs.meta" />
+    <None Include="Protocol\Lobby.cs.meta" />
+    <None Include="Protocol\LuckyDraw.cs.meta" />
+    <None Include="Protocol\Mtt.cs.meta" />
+    <None Include="Protocol\Mtt1.cs.meta" />
+    <None Include="Protocol\Mtt2.cs.meta" />
+    <None Include="Protocol\Nft.cs.meta" />
+    <None Include="Protocol\Pb1.cs.meta" />
+    <None Include="Protocol\Pb2.cs.meta" />
+    <None Include="Protocol\Pb3.cs.meta" />
+    <None Include="Protocol\Pb4.cs.meta" />
+    <None Include="Protocol\Pb5.cs.meta" />
+    <None Include="Protocol\Pb6.cs.meta" />
+    <None Include="Protocol\Pine.cs.meta" />
+    <None Include="Protocol\Pine1.cs.meta" />
+    <None Include="Protocol\Ppgl.cs.meta" />
+    <None Include="Protocol\PreBase.cs.meta" />
+    <None Include="Protocol\PreBase1.cs.meta" />
+    <None Include="Protocol\Promotions.cs.meta" />
+    <None Include="Protocol\Protowrap.cs.meta" />
+    <None Include="Protocol\Pusoy.cs.meta" />
+    <None Include="Protocol\Rank.cs.meta" />
+    <None Include="Protocol\Rebate.cs.meta" />
+    <None Include="Protocol\RiskManagement.cs.meta" />
+    <None Include="Protocol\Shop.cs.meta" />
+    <None Include="Protocol\Sng.cs.meta" />
+    <None Include="Protocol\Tongits.cs.meta" />
+    <None Include="Protocol\Tp.cs.meta" />
+    <None Include="Protocol\UserRelation.cs.meta" />
+    <None Include="Protocol\UserSetting.cs.meta" />
+    <None Include="Protocol\Value.cs.meta" />
+    <None Include="Protocol\Vip.cs.meta" />
   </ItemGroup>
 </Project>
