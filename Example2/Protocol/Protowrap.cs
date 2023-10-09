@@ -24,19 +24,29 @@ namespace GameService.Protocol {
     static ProtowrapReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "Cg9wcm90b3dyYXAucHJvdG8idAoLUHJvdG9XcmFwR28SCwoDdmVyGAEgASgF",
-            "EgoKAm9wGAIgASgFEgsKA3NlcRgDIAEoBRIPCgdzdWNjZXNzGAQgASgIEhQK",
-            "B2NvbW1hbmQYBSABKAlIAIgBARIMCgRib2R5GAYgASgMQgoKCF9jb21tYW5k",
-            "QiBaBy9wYnBwZ2+qAhRHYW1lU2VydmljZS5Qcm90b2NvbGIGcHJvdG8z"));
+            "Cg9wcm90b3dyYXAucHJvdG8iggEKC1Byb3RvV3JhcEdvEgsKA3ZlchgBIAEo",
+            "BRIYCgJvcBgCIAEoDjIMLk1lc3NhZ2VUeXBlEgsKA3NlcRgDIAEoBRIPCgdz",
+            "dWNjZXNzGAQgASgIEhQKB2NvbW1hbmQYBSABKAlIAIgBARIMCgRib2R5GAYg",
+            "ASgMQgoKCF9jb21tYW5kKjkKC01lc3NhZ2VUeXBlEhMKD01lc3NhZ2VfUkVR",
+            "VUVTVBAAEhUKEU1lc3NhZ2VfQlJPQURDQVNUEAFCIFoHL3BicHBnb6oCFEdh",
+            "bWVTZXJ2aWNlLlByb3RvY29sYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::GameService.Protocol.MessageType), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::GameService.Protocol.ProtoWrapGo), global::GameService.Protocol.ProtoWrapGo.Parser, new[]{ "Ver", "Op", "Seq", "Success", "Command", "Body" }, new[]{ "Command" }, null, null, null)
           }));
     }
     #endregion
 
   }
+  #region Enums
+  public enum MessageType {
+    [pbr::OriginalName("Message_REQUEST")] MessageRequest = 0,
+    [pbr::OriginalName("Message_BROADCAST")] MessageBroadcast = 1,
+  }
+
+  #endregion
+
   #region Messages
   public sealed partial class ProtoWrapGo : pb::IMessage<ProtoWrapGo>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -104,13 +114,13 @@ namespace GameService.Protocol {
 
     /// <summary>Field number for the "op" field.</summary>
     public const int OpFieldNumber = 2;
-    private int op_;
+    private global::GameService.Protocol.MessageType op_ = global::GameService.Protocol.MessageType.MessageRequest;
     /// <summary>
     /// option/action
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Op {
+    public global::GameService.Protocol.MessageType Op {
       get { return op_; }
       set {
         op_ = value;
@@ -217,7 +227,7 @@ namespace GameService.Protocol {
     public override int GetHashCode() {
       int hash = 1;
       if (Ver != 0) hash ^= Ver.GetHashCode();
-      if (Op != 0) hash ^= Op.GetHashCode();
+      if (Op != global::GameService.Protocol.MessageType.MessageRequest) hash ^= Op.GetHashCode();
       if (Seq != 0) hash ^= Seq.GetHashCode();
       if (Success != false) hash ^= Success.GetHashCode();
       if (HasCommand) hash ^= Command.GetHashCode();
@@ -244,9 +254,9 @@ namespace GameService.Protocol {
         output.WriteRawTag(8);
         output.WriteInt32(Ver);
       }
-      if (Op != 0) {
+      if (Op != global::GameService.Protocol.MessageType.MessageRequest) {
         output.WriteRawTag(16);
-        output.WriteInt32(Op);
+        output.WriteEnum((int) Op);
       }
       if (Seq != 0) {
         output.WriteRawTag(24);
@@ -278,9 +288,9 @@ namespace GameService.Protocol {
         output.WriteRawTag(8);
         output.WriteInt32(Ver);
       }
-      if (Op != 0) {
+      if (Op != global::GameService.Protocol.MessageType.MessageRequest) {
         output.WriteRawTag(16);
-        output.WriteInt32(Op);
+        output.WriteEnum((int) Op);
       }
       if (Seq != 0) {
         output.WriteRawTag(24);
@@ -311,8 +321,8 @@ namespace GameService.Protocol {
       if (Ver != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Ver);
       }
-      if (Op != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Op);
+      if (Op != global::GameService.Protocol.MessageType.MessageRequest) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Op);
       }
       if (Seq != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Seq);
@@ -341,7 +351,7 @@ namespace GameService.Protocol {
       if (other.Ver != 0) {
         Ver = other.Ver;
       }
-      if (other.Op != 0) {
+      if (other.Op != global::GameService.Protocol.MessageType.MessageRequest) {
         Op = other.Op;
       }
       if (other.Seq != 0) {
@@ -376,7 +386,7 @@ namespace GameService.Protocol {
             break;
           }
           case 16: {
-            Op = input.ReadInt32();
+            Op = (global::GameService.Protocol.MessageType) input.ReadEnum();
             break;
           }
           case 24: {
@@ -415,7 +425,7 @@ namespace GameService.Protocol {
             break;
           }
           case 16: {
-            Op = input.ReadInt32();
+            Op = (global::GameService.Protocol.MessageType) input.ReadEnum();
             break;
           }
           case 24: {

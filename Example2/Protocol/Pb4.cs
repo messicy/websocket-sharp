@@ -243,49 +243,49 @@ namespace Texas.Protocol {
             "EikKDXJpdmVyX3NxdWVlemUYBCABKAsyDS5SaXZlclNxdWVlemVIAogBARIU",
             "CgxzZWNvbmRfYm9hcmQYBSADKAVCCAoGX3N0YWdlQgwKCl9jdXJfYmxpbmRC",
             "EAoOX3JpdmVyX3NxdWVlemUiHAoMUm91bmRPdmVyQlJDEgwKBHBvb2wYASAD",
-            "KAMivwIKC0hhbmRDYXJkUlNQEhIKBWNhcmQxGAEgASgFSACIAQESEgoFY2Fy",
-            "ZDIYAiABKAVIAYgBARISCgVjYXJkMxgDIAEoBUgCiAEBEhIKBWNhcmQ0GAQg",
-            "ASgFSAOIAQESEgoFY2FyZDUYBSABKAVIBIgBARIZCgxkZWZhdWx0X2NhcmQY",
-            "BiABKAVIBYgBARISCgVjYXJkNhgHIAEoBUgGiAEBEhoKDWNhbl92aWV3X2hh",
-            "bmQYCCABKAhIB4gBARIVCghpc19hbGxpbhgJIAEoCEgIiAEBQggKBl9jYXJk",
-            "MUIICgZfY2FyZDJCCAoGX2NhcmQzQggKBl9jYXJkNEIICgZfY2FyZDVCDwoN",
-            "X2RlZmF1bHRfY2FyZEIICgZfY2FyZDZCEAoOX2Nhbl92aWV3X2hhbmRCCwoJ",
-            "X2lzX2FsbGluIj8KEURlZmF1bHREaXNjYXJkUlNQEhkKDGRlZmF1bHRfY2Fy",
-            "ZBgBIAEoBUgAiAEBQg8KDV9kZWZhdWx0X2NhcmQiPQoZVHJhbnNmZXJCcm9h",
-            "ZGNhc3RUb0NsaWVudBIUCgdjb250ZW50GAEgASgJSACIAQFCCgoIX2NvbnRl",
-            "bnQiaAoOSHVudGVyQm9udXNCUkMSEAoDdWlkGAEgASgDSACIAQESEwoGc2Vh",
-            "dGlkGAIgASgFSAGIAQESEgoFYm9udXMYAyABKANIAogBAUIGCgRfdWlkQgkK",
-            "B19zZWF0aWRCCAoGX2JvbnVzIqEBCgpTaXREb3duQlJDEhMKBnNlYXRpZBgB",
-            "IAEoBUgAiAEBEhIKBWNoaXBzGAIgASgDSAGIAQESHgoFYnJpZWYYAyABKAsy",
-            "Ci5Vc2VyQnJpZWZIAogBARIgCgZzdGF0dXMYBCABKAsyCy5TZWF0U3RhdHVz",
-            "SAOIAQFCCQoHX3NlYXRpZEIICgZfY2hpcHNCCAoGX2JyaWVmQgkKB19zdGF0",
-            "dXMivAEKCFVzZXJWcGlwEhAKA3VpZBgBIAEoA0gAiAEBEh4KEW1pbl9oYW5k",
-            "c19wZXJfc2V0GAIgASgFSAGIAQESGQoMdnBpcF9wZXJfc2V0GAMgASgFSAKI",
-            "AQESHgoRaGFuZHNfbnVtX3Blcl9zZXQYBCABKAVIA4gBAUIGCgRfdWlkQhQK",
-            "El9taW5faGFuZHNfcGVyX3NldEIPCg1fdnBpcF9wZXJfc2V0QhQKEl9oYW5k",
-            "c19udW1fcGVyX3NldCJsCgxSb3VuZFZwaXBCUkMSEwoGcm9vbWlkGAEgASgF",
-            "SACIAQESHAoJdXNlcl92cGlwGAIgAygLMgkuVXNlclZwaXASEwoGZ2FtZWlk",
-            "GAMgASgJSAGIAQFCCQoHX3Jvb21pZEIJCgdfZ2FtZWlkIiwKDlN0b3BTcXVl",
-            "ZXplUkVREhEKBHR5cGUYASABKAVIAIgBAUIHCgVfdHlwZSJICg5TdG9wU3F1",
-            "ZWV6ZVJTUBIRCgRjb2RlGAEgASgFSACIAQESEQoEdHlwZRgCIAEoBUgBiAEB",
-            "QgcKBV9jb2RlQgcKBV90eXBlIkwKDlN0b3BTcXVlZXplQlJDEhEKBHR5cGUY",
-            "ASABKAVIAIgBARITCgZnYW1laWQYAiABKAlIAYgBAUIHCgVfdHlwZUIJCgdf",
-            "Z2FtZWlkIi8KE0RlbGV0ZUFwcEFjY291bnRSRVESEAoDdWlkGAEgASgDSACI",
-            "AQFCBgoEX3VpZCIxChNEZWxldGVBcHBBY2NvdW50UlNQEhEKBGNvZGUYASAB",
-            "KAVIAIgBAUIHCgVfY29kZSK7AgoPQm9tYlBvdFN0YXJ0QlJDEhMKBnJvb21p",
-            "ZBgBIAEoBUgAiAEBEiYKCXN0YXJ0X2JyYxgCIAEoCzIOLlJvdW5kU3RhcnRC",
-            "UkNIAYgBARIkCgloYW5kX2NhcmQYAyABKAsyDC5IYW5kQ2FyZFJTUEgCiAEB",
-            "EhsKB2FjdGlvbnMYBCADKAsyCi5BY3Rpb25CUkMSJgoKcm91bmRfb3ZlchgF",
-            "IAEoCzINLlJvdW5kT3ZlckJSQ0gDiAEBEhoKDWJvbWJwb3RfdGltZXMYBiAB",
-            "KAVIBIgBARIcCgViYWNrcxgHIAMoCzINLkNoaXBzQmFja0JSQ0IJCgdfcm9v",
-            "bWlkQgwKCl9zdGFydF9icmNCDAoKX2hhbmRfY2FyZEINCgtfcm91bmRfb3Zl",
-            "ckIQCg5fYm9tYnBvdF90aW1lcyIeChxBbm5pdmVyc2FyeVZlcmlmeU1haWxC",
-            "aW5kUkVRIj4KHEFubml2ZXJzYXJ5VmVyaWZ5TWFpbEJpbmRSU1ASEwoGc3Rh",
-            "dHVzGAEgASgFSACIAQFCCQoHX3N0YXR1cyI6ChxBbm5pdmVyc2FyeU1haWxC",
-            "aW5kUmV3YXJkUlNQEhEKBGNvZGUYASABKAVIAIgBAUIHCgVfY29kZSpWCgtC",
-            "b21iUG90VHlwZRIVChFOT05FX0JPTUJQT1RfVFlQRRAAEhYKEkhBTkRTX0JP",
-            "TUJQT1RfVFlQRRABEhgKFFNFQ09ORFNfQk9NQlBPVF9UWVBFEAJCGloHL3Bi",
-            "cHBnb6oCDlRleGFzLlByb3RvY29sYgZwcm90bzM="));
+            "KAMisAIKC0hhbmRDYXJkUlNQEg0KBWNhcmRzGAEgAygFEhIKBWNhcmQyGAIg",
+            "ASgFSACIAQESEgoFY2FyZDMYAyABKAVIAYgBARISCgVjYXJkNBgEIAEoBUgC",
+            "iAEBEhIKBWNhcmQ1GAUgASgFSAOIAQESGQoMZGVmYXVsdF9jYXJkGAYgASgF",
+            "SASIAQESEgoFY2FyZDYYByABKAVIBYgBARIaCg1jYW5fdmlld19oYW5kGAgg",
+            "ASgISAaIAQESFQoIaXNfYWxsaW4YCSABKAhIB4gBAUIICgZfY2FyZDJCCAoG",
+            "X2NhcmQzQggKBl9jYXJkNEIICgZfY2FyZDVCDwoNX2RlZmF1bHRfY2FyZEII",
+            "CgZfY2FyZDZCEAoOX2Nhbl92aWV3X2hhbmRCCwoJX2lzX2FsbGluIj8KEURl",
+            "ZmF1bHREaXNjYXJkUlNQEhkKDGRlZmF1bHRfY2FyZBgBIAEoBUgAiAEBQg8K",
+            "DV9kZWZhdWx0X2NhcmQiPQoZVHJhbnNmZXJCcm9hZGNhc3RUb0NsaWVudBIU",
+            "Cgdjb250ZW50GAEgASgJSACIAQFCCgoIX2NvbnRlbnQiaAoOSHVudGVyQm9u",
+            "dXNCUkMSEAoDdWlkGAEgASgDSACIAQESEwoGc2VhdGlkGAIgASgFSAGIAQES",
+            "EgoFYm9udXMYAyABKANIAogBAUIGCgRfdWlkQgkKB19zZWF0aWRCCAoGX2Jv",
+            "bnVzIqEBCgpTaXREb3duQlJDEhMKBnNlYXRpZBgBIAEoBUgAiAEBEhIKBWNo",
+            "aXBzGAIgASgDSAGIAQESHgoFYnJpZWYYAyABKAsyCi5Vc2VyQnJpZWZIAogB",
+            "ARIgCgZzdGF0dXMYBCABKAsyCy5TZWF0U3RhdHVzSAOIAQFCCQoHX3NlYXRp",
+            "ZEIICgZfY2hpcHNCCAoGX2JyaWVmQgkKB19zdGF0dXMivAEKCFVzZXJWcGlw",
+            "EhAKA3VpZBgBIAEoA0gAiAEBEh4KEW1pbl9oYW5kc19wZXJfc2V0GAIgASgF",
+            "SAGIAQESGQoMdnBpcF9wZXJfc2V0GAMgASgFSAKIAQESHgoRaGFuZHNfbnVt",
+            "X3Blcl9zZXQYBCABKAVIA4gBAUIGCgRfdWlkQhQKEl9taW5faGFuZHNfcGVy",
+            "X3NldEIPCg1fdnBpcF9wZXJfc2V0QhQKEl9oYW5kc19udW1fcGVyX3NldCJs",
+            "CgxSb3VuZFZwaXBCUkMSEwoGcm9vbWlkGAEgASgFSACIAQESHAoJdXNlcl92",
+            "cGlwGAIgAygLMgkuVXNlclZwaXASEwoGZ2FtZWlkGAMgASgJSAGIAQFCCQoH",
+            "X3Jvb21pZEIJCgdfZ2FtZWlkIiwKDlN0b3BTcXVlZXplUkVREhEKBHR5cGUY",
+            "ASABKAVIAIgBAUIHCgVfdHlwZSJICg5TdG9wU3F1ZWV6ZVJTUBIRCgRjb2Rl",
+            "GAEgASgFSACIAQESEQoEdHlwZRgCIAEoBUgBiAEBQgcKBV9jb2RlQgcKBV90",
+            "eXBlIkwKDlN0b3BTcXVlZXplQlJDEhEKBHR5cGUYASABKAVIAIgBARITCgZn",
+            "YW1laWQYAiABKAlIAYgBAUIHCgVfdHlwZUIJCgdfZ2FtZWlkIi8KE0RlbGV0",
+            "ZUFwcEFjY291bnRSRVESEAoDdWlkGAEgASgDSACIAQFCBgoEX3VpZCIxChNE",
+            "ZWxldGVBcHBBY2NvdW50UlNQEhEKBGNvZGUYASABKAVIAIgBAUIHCgVfY29k",
+            "ZSK7AgoPQm9tYlBvdFN0YXJ0QlJDEhMKBnJvb21pZBgBIAEoBUgAiAEBEiYK",
+            "CXN0YXJ0X2JyYxgCIAEoCzIOLlJvdW5kU3RhcnRCUkNIAYgBARIkCgloYW5k",
+            "X2NhcmQYAyABKAsyDC5IYW5kQ2FyZFJTUEgCiAEBEhsKB2FjdGlvbnMYBCAD",
+            "KAsyCi5BY3Rpb25CUkMSJgoKcm91bmRfb3ZlchgFIAEoCzINLlJvdW5kT3Zl",
+            "ckJSQ0gDiAEBEhoKDWJvbWJwb3RfdGltZXMYBiABKAVIBIgBARIcCgViYWNr",
+            "cxgHIAMoCzINLkNoaXBzQmFja0JSQ0IJCgdfcm9vbWlkQgwKCl9zdGFydF9i",
+            "cmNCDAoKX2hhbmRfY2FyZEINCgtfcm91bmRfb3ZlckIQCg5fYm9tYnBvdF90",
+            "aW1lcyIeChxBbm5pdmVyc2FyeVZlcmlmeU1haWxCaW5kUkVRIj4KHEFubml2",
+            "ZXJzYXJ5VmVyaWZ5TWFpbEJpbmRSU1ASEwoGc3RhdHVzGAEgASgFSACIAQFC",
+            "CQoHX3N0YXR1cyI6ChxBbm5pdmVyc2FyeU1haWxCaW5kUmV3YXJkUlNQEhEK",
+            "BGNvZGUYASABKAVIAIgBAUIHCgVfY29kZSpWCgtCb21iUG90VHlwZRIVChFO",
+            "T05FX0JPTUJQT1RfVFlQRRAAEhYKEkhBTkRTX0JPTUJQT1RfVFlQRRABEhgK",
+            "FFNFQ09ORFNfQk9NQlBPVF9UWVBFEAJCGloHL3BicHBnb6oCDlRleGFzLlBy",
+            "b3RvY29sYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Texas.Protocol.PreBaseReflection.Descriptor, global::Texas.Protocol.BaseReflection.Descriptor, global::Texas.Protocol.Pb1Reflection.Descriptor, global::Texas.Protocol.Pb3Reflection.Descriptor, global::Texas.Protocol.PineReflection.Descriptor, global::Texas.Protocol.EvchopReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Texas.Protocol.BombPotType), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -376,7 +376,7 @@ namespace Texas.Protocol {
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.ActionBRC), global::Texas.Protocol.ActionBRC.Parser, new[]{ "Seatid", "ActionType", "Chips", "HandChips" }, new[]{ "Seatid", "ActionType", "Chips", "HandChips" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.RoundStartBRC), global::Texas.Protocol.RoundStartBRC.Parser, new[]{ "Stage", "Board", "CurBlind", "RiverSqueeze", "SecondBoard" }, new[]{ "Stage", "CurBlind", "RiverSqueeze" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.RoundOverBRC), global::Texas.Protocol.RoundOverBRC.Parser, new[]{ "Pool" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.HandCardRSP), global::Texas.Protocol.HandCardRSP.Parser, new[]{ "Card1", "Card2", "Card3", "Card4", "Card5", "DefaultCard", "Card6", "CanViewHand", "IsAllin" }, new[]{ "Card1", "Card2", "Card3", "Card4", "Card5", "DefaultCard", "Card6", "CanViewHand", "IsAllin" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.HandCardRSP), global::Texas.Protocol.HandCardRSP.Parser, new[]{ "Cards", "Card2", "Card3", "Card4", "Card5", "DefaultCard", "Card6", "CanViewHand", "IsAllin" }, new[]{ "Card2", "Card3", "Card4", "Card5", "DefaultCard", "Card6", "CanViewHand", "IsAllin" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.DefaultDiscardRSP), global::Texas.Protocol.DefaultDiscardRSP.Parser, new[]{ "DefaultCard" }, new[]{ "DefaultCard" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.TransferBroadcastToClient), global::Texas.Protocol.TransferBroadcastToClient.Parser, new[]{ "Content" }, new[]{ "Content" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.HunterBonusBRC), global::Texas.Protocol.HunterBonusBRC.Parser, new[]{ "Uid", "Seatid", "Bonus" }, new[]{ "Uid", "Seatid", "Bonus" }, null, null, null),
@@ -25991,7 +25991,7 @@ namespace Texas.Protocol {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public HandCardRSP(HandCardRSP other) : this() {
       _hasBits0 = other._hasBits0;
-      card1_ = other.card1_;
+      cards_ = other.cards_.Clone();
       card2_ = other.card2_;
       card3_ = other.card3_;
       card4_ = other.card4_;
@@ -26009,31 +26009,15 @@ namespace Texas.Protocol {
       return new HandCardRSP(this);
     }
 
-    /// <summary>Field number for the "card1" field.</summary>
-    public const int Card1FieldNumber = 1;
-    private readonly static int Card1DefaultValue = 0;
-
-    private int card1_;
+    /// <summary>Field number for the "cards" field.</summary>
+    public const int CardsFieldNumber = 1;
+    private static readonly pb::FieldCodec<int> _repeated_cards_codec
+        = pb::FieldCodec.ForInt32(10);
+    private readonly pbc::RepeatedField<int> cards_ = new pbc::RepeatedField<int>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Card1 {
-      get { if ((_hasBits0 & 1) != 0) { return card1_; } else { return Card1DefaultValue; } }
-      set {
-        _hasBits0 |= 1;
-        card1_ = value;
-      }
-    }
-    /// <summary>Gets whether the "card1" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasCard1 {
-      get { return (_hasBits0 & 1) != 0; }
-    }
-    /// <summary>Clears the value of the "card1" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearCard1() {
-      _hasBits0 &= ~1;
+    public pbc::RepeatedField<int> Cards {
+      get { return cards_; }
     }
 
     /// <summary>Field number for the "card2" field.</summary>
@@ -26041,12 +26025,15 @@ namespace Texas.Protocol {
     private readonly static int Card2DefaultValue = 0;
 
     private int card2_;
+    /// <summary>
+    ///废弃
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Card2 {
-      get { if ((_hasBits0 & 2) != 0) { return card2_; } else { return Card2DefaultValue; } }
+      get { if ((_hasBits0 & 1) != 0) { return card2_; } else { return Card2DefaultValue; } }
       set {
-        _hasBits0 |= 2;
+        _hasBits0 |= 1;
         card2_ = value;
       }
     }
@@ -26054,13 +26041,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasCard2 {
-      get { return (_hasBits0 & 2) != 0; }
+      get { return (_hasBits0 & 1) != 0; }
     }
     /// <summary>Clears the value of the "card2" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearCard2() {
-      _hasBits0 &= ~2;
+      _hasBits0 &= ~1;
     }
 
     /// <summary>Field number for the "card3" field.</summary>
@@ -26068,12 +26055,15 @@ namespace Texas.Protocol {
     private readonly static int Card3DefaultValue = 0;
 
     private int card3_;
+    /// <summary>
+    ///废弃
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Card3 {
-      get { if ((_hasBits0 & 4) != 0) { return card3_; } else { return Card3DefaultValue; } }
+      get { if ((_hasBits0 & 2) != 0) { return card3_; } else { return Card3DefaultValue; } }
       set {
-        _hasBits0 |= 4;
+        _hasBits0 |= 2;
         card3_ = value;
       }
     }
@@ -26081,13 +26071,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasCard3 {
-      get { return (_hasBits0 & 4) != 0; }
+      get { return (_hasBits0 & 2) != 0; }
     }
     /// <summary>Clears the value of the "card3" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearCard3() {
-      _hasBits0 &= ~4;
+      _hasBits0 &= ~2;
     }
 
     /// <summary>Field number for the "card4" field.</summary>
@@ -26095,12 +26085,15 @@ namespace Texas.Protocol {
     private readonly static int Card4DefaultValue = 0;
 
     private int card4_;
+    /// <summary>
+    ///废弃
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Card4 {
-      get { if ((_hasBits0 & 8) != 0) { return card4_; } else { return Card4DefaultValue; } }
+      get { if ((_hasBits0 & 4) != 0) { return card4_; } else { return Card4DefaultValue; } }
       set {
-        _hasBits0 |= 8;
+        _hasBits0 |= 4;
         card4_ = value;
       }
     }
@@ -26108,13 +26101,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasCard4 {
-      get { return (_hasBits0 & 8) != 0; }
+      get { return (_hasBits0 & 4) != 0; }
     }
     /// <summary>Clears the value of the "card4" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearCard4() {
-      _hasBits0 &= ~8;
+      _hasBits0 &= ~4;
     }
 
     /// <summary>Field number for the "card5" field.</summary>
@@ -26122,12 +26115,15 @@ namespace Texas.Protocol {
     private readonly static int Card5DefaultValue = 0;
 
     private int card5_;
+    /// <summary>
+    ///废弃
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Card5 {
-      get { if ((_hasBits0 & 16) != 0) { return card5_; } else { return Card5DefaultValue; } }
+      get { if ((_hasBits0 & 8) != 0) { return card5_; } else { return Card5DefaultValue; } }
       set {
-        _hasBits0 |= 16;
+        _hasBits0 |= 8;
         card5_ = value;
       }
     }
@@ -26135,13 +26131,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasCard5 {
-      get { return (_hasBits0 & 16) != 0; }
+      get { return (_hasBits0 & 8) != 0; }
     }
     /// <summary>Clears the value of the "card5" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearCard5() {
-      _hasBits0 &= ~16;
+      _hasBits0 &= ~8;
     }
 
     /// <summary>Field number for the "default_card" field.</summary>
@@ -26155,9 +26151,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int DefaultCard {
-      get { if ((_hasBits0 & 32) != 0) { return defaultCard_; } else { return DefaultCardDefaultValue; } }
+      get { if ((_hasBits0 & 16) != 0) { return defaultCard_; } else { return DefaultCardDefaultValue; } }
       set {
-        _hasBits0 |= 32;
+        _hasBits0 |= 16;
         defaultCard_ = value;
       }
     }
@@ -26165,13 +26161,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasDefaultCard {
-      get { return (_hasBits0 & 32) != 0; }
+      get { return (_hasBits0 & 16) != 0; }
     }
     /// <summary>Clears the value of the "default_card" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearDefaultCard() {
-      _hasBits0 &= ~32;
+      _hasBits0 &= ~16;
     }
 
     /// <summary>Field number for the "card6" field.</summary>
@@ -26179,12 +26175,15 @@ namespace Texas.Protocol {
     private readonly static int Card6DefaultValue = 0;
 
     private int card6_;
+    /// <summary>
+    ///废弃
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Card6 {
-      get { if ((_hasBits0 & 64) != 0) { return card6_; } else { return Card6DefaultValue; } }
+      get { if ((_hasBits0 & 32) != 0) { return card6_; } else { return Card6DefaultValue; } }
       set {
-        _hasBits0 |= 64;
+        _hasBits0 |= 32;
         card6_ = value;
       }
     }
@@ -26192,13 +26191,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasCard6 {
-      get { return (_hasBits0 & 64) != 0; }
+      get { return (_hasBits0 & 32) != 0; }
     }
     /// <summary>Clears the value of the "card6" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearCard6() {
-      _hasBits0 &= ~64;
+      _hasBits0 &= ~32;
     }
 
     /// <summary>Field number for the "can_view_hand" field.</summary>
@@ -26212,9 +26211,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool CanViewHand {
-      get { if ((_hasBits0 & 128) != 0) { return canViewHand_; } else { return CanViewHandDefaultValue; } }
+      get { if ((_hasBits0 & 64) != 0) { return canViewHand_; } else { return CanViewHandDefaultValue; } }
       set {
-        _hasBits0 |= 128;
+        _hasBits0 |= 64;
         canViewHand_ = value;
       }
     }
@@ -26222,13 +26221,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasCanViewHand {
-      get { return (_hasBits0 & 128) != 0; }
+      get { return (_hasBits0 & 64) != 0; }
     }
     /// <summary>Clears the value of the "can_view_hand" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearCanViewHand() {
-      _hasBits0 &= ~128;
+      _hasBits0 &= ~64;
     }
 
     /// <summary>Field number for the "is_allin" field.</summary>
@@ -26239,9 +26238,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool IsAllin {
-      get { if ((_hasBits0 & 256) != 0) { return isAllin_; } else { return IsAllinDefaultValue; } }
+      get { if ((_hasBits0 & 128) != 0) { return isAllin_; } else { return IsAllinDefaultValue; } }
       set {
-        _hasBits0 |= 256;
+        _hasBits0 |= 128;
         isAllin_ = value;
       }
     }
@@ -26249,13 +26248,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasIsAllin {
-      get { return (_hasBits0 & 256) != 0; }
+      get { return (_hasBits0 & 128) != 0; }
     }
     /// <summary>Clears the value of the "is_allin" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearIsAllin() {
-      _hasBits0 &= ~256;
+      _hasBits0 &= ~128;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -26273,7 +26272,7 @@ namespace Texas.Protocol {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Card1 != other.Card1) return false;
+      if(!cards_.Equals(other.cards_)) return false;
       if (Card2 != other.Card2) return false;
       if (Card3 != other.Card3) return false;
       if (Card4 != other.Card4) return false;
@@ -26289,7 +26288,7 @@ namespace Texas.Protocol {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (HasCard1) hash ^= Card1.GetHashCode();
+      hash ^= cards_.GetHashCode();
       if (HasCard2) hash ^= Card2.GetHashCode();
       if (HasCard3) hash ^= Card3.GetHashCode();
       if (HasCard4) hash ^= Card4.GetHashCode();
@@ -26316,10 +26315,7 @@ namespace Texas.Protocol {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (HasCard1) {
-        output.WriteRawTag(8);
-        output.WriteInt32(Card1);
-      }
+      cards_.WriteTo(output, _repeated_cards_codec);
       if (HasCard2) {
         output.WriteRawTag(16);
         output.WriteInt32(Card2);
@@ -26362,10 +26358,7 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (HasCard1) {
-        output.WriteRawTag(8);
-        output.WriteInt32(Card1);
-      }
+      cards_.WriteTo(ref output, _repeated_cards_codec);
       if (HasCard2) {
         output.WriteRawTag(16);
         output.WriteInt32(Card2);
@@ -26408,9 +26401,7 @@ namespace Texas.Protocol {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (HasCard1) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Card1);
-      }
+      size += cards_.CalculateSize(_repeated_cards_codec);
       if (HasCard2) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Card2);
       }
@@ -26447,9 +26438,7 @@ namespace Texas.Protocol {
       if (other == null) {
         return;
       }
-      if (other.HasCard1) {
-        Card1 = other.Card1;
-      }
+      cards_.Add(other.cards_);
       if (other.HasCard2) {
         Card2 = other.Card2;
       }
@@ -26489,8 +26478,9 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
+          case 10:
           case 8: {
-            Card1 = input.ReadInt32();
+            cards_.AddEntriesFrom(input, _repeated_cards_codec);
             break;
           }
           case 16: {
@@ -26540,8 +26530,9 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
+          case 10:
           case 8: {
-            Card1 = input.ReadInt32();
+            cards_.AddEntriesFrom(ref input, _repeated_cards_codec);
             break;
           }
           case 16: {
