@@ -14,6 +14,86 @@ namespace Example2
     {
         protected override void OnMessage(MessageEventArgs e)
         {
+            if (e.IsBinary)
+            {
+                HandleProto(e);
+            }
+            else
+            {
+                HandleBroadcastTest(e);
+            }
+        }
+
+        int broadcastSequence = 0;
+        private void HandleBroadcastTest(MessageEventArgs e)
+        {
+            broadcastSequence++;
+            ProtoWrapGo protoWrapGo = new ProtoWrapGo();
+            protoWrapGo.Op = MessageType.MessageBroadcast;
+            protoWrapGo.Seq = broadcastSequence;
+            switch (e.Data)
+            {
+                case "1":
+                    protoWrapGo.Command = "RoundStartBRC";
+                    RoundStartBRC roundStartBRC = new RoundStartBRC();
+                    roundStartBRC.CurBlind = 3;
+                    protoWrapGo.Body = roundStartBRC.ToByteString();
+                    break;
+                case "2":
+                    protoWrapGo.Command = "ActionBRC";
+
+                    ActionBRC actionBRC = new ActionBRC();
+                    actionBRC.Seatid = 2;
+                    actionBRC.ActionType = ActionType.ActionCall;
+                    actionBRC.Chips = 100;
+                    actionBRC.HandChips = 460;
+                    protoWrapGo.Body = actionBRC.ToByteString();
+                    break;
+                case "3":
+                    protoWrapGo.Command = "ShowHandRSP";
+
+                    ShowHandInfo showHandInfo1 = new ShowHandInfo();
+                    showHandInfo1.Seatid = 2;
+                    showHandInfo1.Cards.Add(51);
+                    showHandInfo1.Cards.Add(52);
+                    ShowHandInfo showHandInfo2 = new ShowHandInfo();
+                    showHandInfo2.Seatid = 5;
+                    showHandInfo2.Cards.Add(3);
+                    showHandInfo2.Cards.Add(49);
+
+                    ShowHandRSP showhandBRC = new ShowHandRSP();
+                    showhandBRC.Info.Add(showHandInfo1);
+                    showhandBRC.Info.Add(showHandInfo2);
+                    protoWrapGo.Body = showhandBRC.ToByteString();
+                    break;
+                case "4":
+                    protoWrapGo.Command = "WinnerRSP";
+
+                    WinningInfo winInfo1 = new WinningInfo();
+                    winInfo1.Seatid = 2;
+                    winInfo1.Poolid = 1;
+                    winInfo1.Chips = 200;
+                    WinningInfo winInfo2 = new WinningInfo();
+                    winInfo2.Seatid = 5;
+                    winInfo2.Poolid = 2;
+                    winInfo2.Chips = 300;
+
+                    WinnerRSP winnerRSP = new WinnerRSP();
+                    winnerRSP.Winner.Add(winInfo1);
+                    winnerRSP.Winner.Add(winInfo2);
+                    protoWrapGo.Body = winnerRSP.ToByteString();
+                    break;
+                case "5":
+                    break;
+                default: break;
+            }
+            Console.WriteLine(protoWrapGo.Command);
+            var protoBytes = protoWrapGo.ToByteArray();
+            Sessions.Broadcast(protoBytes);
+        }
+
+        private void HandleProto(MessageEventArgs e)
+        {
             var protoData = ProtoWrapGo.Parser.ParseFrom(e.RawData);
 
             ProtoWrapGo protoWrapGo = new ProtoWrapGo();
