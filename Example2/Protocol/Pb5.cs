@@ -37,139 +37,140 @@ namespace Texas.Protocol {
             "DWNsaWVudF9jbHViaWQYAyABKAVIAogBARISCgVsZWF2ZRgEIAEoCEgDiAEB",
             "EhcKCmxlYXZlX3R5cGUYBSABKAVIBIgBAUIHCgVfZmxhZ0IPCg1fc2VhdF9y",
             "ZXNlcnZlQhAKDl9jbGllbnRfY2x1YmlkQggKBl9sZWF2ZUINCgtfbGVhdmVf",
-            "dHlwZSKzAQoPQWN0aW9uTm90aWZ5QlJDEhMKBnNlYXRpZBgBIAEoBUgAiAEB",
-            "EhwKD2NhbGxfbmVlZF9jaGlwcxgCIAEoA0gBiAEBEhcKCm1pbl9jaGlwaW4Y",
-            "AyABKANIAogBARIXCgptYXhfY2hpcGluGAQgASgDSAOIAQFCCQoHX3NlYXRp",
-            "ZEISChBfY2FsbF9uZWVkX2NoaXBzQg0KC19taW5fY2hpcGluQg0KC19tYXhf",
-            "Y2hpcGluIkIKFFF1aXRNdWx0aXBsZVRhYmxlUkVREg4KBnJvb21pZBgBIAMo",
-            "BRIRCgRmbGFnGAIgASgFSACIAQFCBwoFX2ZsYWciTgoUUXVpdE11bHRpcGxl",
-            "VGFibGVSU1ASEQoEY29kZRgBIAEoBUgAiAEBEhEKBGZsYWcYAiABKAVIAYgB",
-            "AUIHCgVfY29kZUIHCgVfZmxhZyIZChdRdWl0QWxsTXVsdGlwbGVUYWJsZVJF",
-            "USI1ChdRdWl0QWxsTXVsdGlwbGVUYWJsZVJTUBIRCgRjb2RlGAEgASgFSACI",
-            "AQFCBwoFX2NvZGUiGwoZUm91bmRIaW50TXVsdGlwbGVUYWJsZVJFUSLxAwoZ",
-            "Um91bmRIaW50TXVsdGlwbGVUYWJsZVJTUBIVCghyb29tdHlwZRgBIAEoDUgA",
-            "iAEBEhIKBWJsaW5kGAIgASgFSAGIAQESEQoEYW50ZRgDIAEoBUgCiAEBEhMK",
-            "BnJvb21pZBgEIAEoBUgDiAEBEhMKBmNsdWJpZBgFIAEoBUgEiAEBEhMKBnNl",
-            "YXRpZBgGIAEoBUgFiAEBEhYKCWxhc3RfdGltZRgHIAEoBUgGiAEBEhYKCXJv",
-            "b21fbmFtZRgIIAEoCUgHiAEBEhYKCWNsdWJfbmFtZRgJIAEoCUgIiAEBEhUK",
-            "CHNlYXRfbnVtGAogASgFSAmIAQESIQoJcm9vbV9tb2RlGAsgASgOMgkuUm9v",
-            "bU1vZGVICogBARIhCglnYW1lX21vZGUYDSABKA4yCS5HYW1lTW9kZUgLiAEB",
-            "EhMKBnBwc3JpZBgOIAEoBUgMiAEBQgsKCV9yb29tdHlwZUIICgZfYmxpbmRC",
-            "BwoFX2FudGVCCQoHX3Jvb21pZEIJCgdfY2x1YmlkQgkKB19zZWF0aWRCDAoK",
-            "X2xhc3RfdGltZUIMCgpfcm9vbV9uYW1lQgwKCl9jbHViX25hbWVCCwoJX3Nl",
-            "YXRfbnVtQgwKCl9yb29tX21vZGVCDAoKX2dhbWVfbW9kZUIJCgdfcHBzcmlk",
-            "IjQKEkZpbmlzaFJvdW5kSGludFJTUBITCgZyb29taWQYASABKAVIAIgBAUIJ",
-            "Cgdfcm9vbWlkIjwKGk11bHRpcGxlVGFibGVDaGFuZ2VSb29tUkVREhMKBnJv",
-            "b21pZBgBIAEoBUgAiAEBQgkKB19yb29taWQiWAoaTXVsdGlwbGVUYWJsZUNo",
-            "YW5nZVJvb21SU1ASEQoEY29kZRgBIAEoBUgAiAEBEhMKBnJvb21pZBgCIAEo",
-            "BUgBiAEBQgcKBV9jb2RlQgkKB19yb29taWQiMAoOR2V0Um9vbUluZm9SRVES",
-            "EwoGcm9vbWlkGAEgASgFSACIAQFCCQoHX3Jvb21pZCLOCgoOR2V0Um9vbUlu",
-            "Zm9SU1ASEQoEY29kZRgBIAEoBUgAiAEBEhMKBnJlYXNvbhgCIAEoCUgBiAEB",
-            "EicKDHRhYmxlX3N0YXR1cxgDIAEoCzIMLlRhYmxlU3RhdHVzSAKIAQESJQoL",
-            "cm9vbV9zdGF0dXMYBCABKAsyCy5Sb29tU3RhdHVzSAOIAQESKwoOcGxheWlu",
-            "Z19zdGF0dXMYBSABKAsyDi5QbGF5aW5nU3RhdHVzSASIAQESIQoJcm9vbV9p",
-            "bmZvGAYgASgLMgkuUm9vbUluZm9IBYgBARIhCglyb29tX3R5cGUYByABKA4y",
-            "CS5Sb29tVHlwZUgGiAEBEicKDHNuZ3Jvb21faW5mbxgIIAEoCzIMLlNuZ1Jv",
-            "b21JbmZvSAeIAQESJwoMbXR0cm9vbV9pbmZvGAkgASgLMgwuTXR0Um9vbUlu",
-            "Zm9ICIgBARITCgZyb29taWQYCiABKAVICYgBARIhCglyb29tX21vZGUYCyAB",
-            "KA4yCS5Sb29tTW9kZUgKiAEBEikKDXBpbmVyb29tX2luZm8YDCABKAsyDS5Q",
-            "aW5lUm9vbUluZm9IC4gBARIuChBwaW5lX3Jvb21fc3RhdHVzGA0gASgLMg8u",
-            "UGluZVJvb21TdGF0dXNIDIgBARIqCgpzdG9ybV9pbmZvGA4gASgLMhEuUFBj",
-            "aGlwc1N0b3JtSW5mb0gNiAEBEiYKDHRwX3Jvb21faW5mbxgPIAEoCzILLlRw",
-            "Um9vbUluZm9IDogBARIsCg90cF90YWJsZV9zdGF0dXMYECABKAsyDi5UcFRh",
-            "YmxlU3RhdHVzSA+IAQESLAoPcHVzb3lfcm9vbV9pbmZvGBEgASgLMg4uUHVz",
-            "b3lSb29tSW5mb0gQiAEBEjAKEXB1c295X3Jvb21fc3RhdHVzGBIgASgLMhAu",
-            "UHVzb3lSb29tU3RhdHVzSBGIAQESMAoRbHVja3lfZHJhd19jb25maWcYEyAB",
-            "KAsyEC5MdWNreURyYXdDb25maWdIEogBARIsCg9jb2xvcl9yb29tX2luZm8Y",
-            "FCABKAsyDi5Db2xvclJvb21JbmZvSBOIAQESMAoRY29sb3Jfcm9vbV9zdGF0",
-            "dXMYFSABKAsyEC5Db2xvclJvb21TdGF0dXNIFIgBARIwChF0b25naXRzX3Jv",
-            "b21faW5mbxgWIAEoCzIQLlRvbmdpdHNSb29tSW5mb0gViAEBEjQKE3Rvbmdp",
-            "dHNfcm9vbV9zdGF0dXMYFyABKAsyEi5Ub25naXRzUm9vbVN0YXR1c0gWiAEB",
-            "QgcKBV9jb2RlQgkKB19yZWFzb25CDwoNX3RhYmxlX3N0YXR1c0IOCgxfcm9v",
-            "bV9zdGF0dXNCEQoPX3BsYXlpbmdfc3RhdHVzQgwKCl9yb29tX2luZm9CDAoK",
-            "X3Jvb21fdHlwZUIPCg1fc25ncm9vbV9pbmZvQg8KDV9tdHRyb29tX2luZm9C",
-            "CQoHX3Jvb21pZEIMCgpfcm9vbV9tb2RlQhAKDl9waW5lcm9vbV9pbmZvQhMK",
-            "EV9waW5lX3Jvb21fc3RhdHVzQg0KC19zdG9ybV9pbmZvQg8KDV90cF9yb29t",
-            "X2luZm9CEgoQX3RwX3RhYmxlX3N0YXR1c0ISChBfcHVzb3lfcm9vbV9pbmZv",
-            "QhQKEl9wdXNveV9yb29tX3N0YXR1c0IUChJfbHVja3lfZHJhd19jb25maWdC",
-            "EgoQX2NvbG9yX3Jvb21faW5mb0IUChJfY29sb3Jfcm9vbV9zdGF0dXNCFAoS",
-            "X3RvbmdpdHNfcm9vbV9pbmZvQhYKFF90b25naXRzX3Jvb21fc3RhdHVzInYK",
-            "FFVzZXJWaXBJbmZvQ2hhbmdlQlJDEhAKA3VpZBgBIAEoA0gAiAEBEhYKCXZp",
-            "cF9sZXZlbBgCIAEoDUgBiAEBEhMKBnJvb21pZBgDIAEoBUgCiAEBQgYKBF91",
-            "aWRCDAoKX3ZpcF9sZXZlbEIJCgdfcm9vbWlkIpABChJGb3J1bU1lc3NhZ2VO",
-            "dW1SU1ASEgoFdG90YWwYASABKANIAIgBARIRCgRsaWtlGAIgASgDSAGIAQES",
-            "FAoHY29tbWVudBgDIAEoA0gCiAEBEhMKBnN5c3RlbRgEIAEoA0gDiAEBQggK",
-            "Bl90b3RhbEIHCgVfbGlrZUIKCghfY29tbWVudEIJCgdfc3lzdGVtIk4KElBs",
-            "YXlpbmdSb29tTGlzdFJFURIQCgN1aWQYASABKANIAIgBARITCgZjbHViaWQY",
-            "AiABKAVIAYgBAUIGCgRfdWlkQgkKB19jbHViaWQiWwoSUGxheWluZ1Jvb21M",
-            "aXN0UlNQEikKCXJvb21fbGlzdBgBIAMoCzIWLk11bHRpcGxlVGFibGVSb29t",
-            "SW5mbxIRCgRjb2RlGAIgASgFSACIAQFCBwoFX2NvZGUiOwoTU2hvd0RlYWxl",
-            "ckNob2ljZVJTUBIWCglsZWZ0X3RpbWUYASABKAVIAIgBAUIMCgpfbGVmdF90",
-            "aW1lIjUKD0RlYWxlckNob2ljZVJFURIVCghnYW1ldHlwZRgBIAEoBUgAiAEB",
-            "QgsKCV9nYW1ldHlwZSItCg9EZWFsZXJDaG9pY2VSU1ASEQoEY29kZRgBIAEo",
-            "BUgAiAEBQgcKBV9jb2RlIjUKD0RlYWxlckNob2ljZUJSQxIVCghnYW1ldHlw",
-            "ZRgBIAEoBUgAiAEBQgsKCV9nYW1ldHlwZSItChFPdGhlckxlYXZlUm9vbUJS",
-            "QxIQCgN1aWQYASABKANIAIgBAUIGCgRfdWlkIr0BCgxFbnRlclJvb21SRVES",
-            "DgoGcm9vbWlkGAEgASgJEhAKA3RpZBgCIAEoCUgAiAEBEgsKA3VpZBgDIAEo",
-            "CRITCgZjbHViaWQYBCABKAlIAYgBARIVCghsZWFndWVpZBgFIAEoCUgCiAEB",
-            "Eg8KAmlwGAYgASgJSAOIAQESEQoEdHlwZRgHIAEoBUgEiAEBQgYKBF90aWRC",
-            "CQoHX2NsdWJpZEILCglfbGVhZ3VlaWRCBQoDX2lwQgcKBV90eXBlIsgCChVQ",
-            "cmVFbnRlclBhc3N3ZFJvb21SRVESKgoEdHlwZRgBIAEoDjIXLlByZUVudGVy",
-            "UGFzc3dkUm9vbVR5cGVIAIgBARITCgZyb29taWQYAiABKAVIAYgBARIQCgN1",
-            "aWQYAyABKANIAogBARITCgZjbHViaWQYBCABKAVIA4gBARIVCghsZWFndWVp",
-            "ZBgFIAEoBUgEiAEBEhMKBnBhc3N3ZBgGIAEoCUgFiAEBEhsKDnN1cGVyX2xl",
-            "YWd1ZWlkGAcgASgFSAaIAQESGgoNY2VydGlmaWNhdGlvbhgIIAEoBUgHiAEB",
-            "QgcKBV90eXBlQgkKB19yb29taWRCBgoEX3VpZEIJCgdfY2x1YmlkQgsKCV9s",
-            "ZWFndWVpZEIJCgdfcGFzc3dkQhEKD19zdXBlcl9sZWFndWVpZEIQCg5fY2Vy",
-            "dGlmaWNhdGlvbiKoAgoVUHJlRW50ZXJQYXNzd2RSb29tUlNQEioKBHR5cGUY",
-            "ASABKA4yFy5QcmVFbnRlclBhc3N3ZFJvb21UeXBlSACIAQESEwoGcm9vbWlk",
-            "GAIgASgFSAGIAQESEAoDdWlkGAMgASgDSAKIAQESEwoGY2x1YmlkGAQgASgF",
-            "SAOIAQESFQoIbGVhZ3VlaWQYBSABKAVIBIgBARIRCgRjb2RlGAYgASgFSAWI",
-            "AQESFAoHY2hlY2tlZBgHIAEoCEgGiAEBEhMKBmtpY2tlZBgIIAEoCEgHiAEB",
-            "QgcKBV90eXBlQgkKB19yb29taWRCBgoEX3VpZEIJCgdfY2x1YmlkQgsKCV9s",
-            "ZWFndWVpZEIHCgVfY29kZUIKCghfY2hlY2tlZEIJCgdfa2lja2VkIuMECg9U",
-            "YWJsZVNldHRpbmdSRVESEgoFYmNsdWIYASABKAhIAIgBARISCgVib3BlbhgC",
-            "IAEoCEgBiAEBEiAKE29uZWJ0bl9tb2xlY3VsZV9udW0YAyABKAVIAogBARIj",
-            "ChZvbmVidG5fZGVub21pbmF0b3JfbnVtGAQgASgFSAOIAQESIAoTdHdvYnRu",
-            "X21vbGVjdWxlX251bRgFIAEoBUgEiAEBEiMKFnR3b2J0bl9kZW5vbWluYXRv",
-            "cl9udW0YBiABKAVIBYgBARIiChV0aHJlZWJ0bl9tb2xlY3VsZV9udW0YByAB",
-            "KAVIBogBARIlChh0aHJlZWJ0bl9kZW5vbWluYXRvcl9udW0YCCABKAVIB4gB",
-            "ARIXCgpvbmVidG5fbnVtGAkgASgFSAiIAQESFwoKdHdvYnRuX251bRgKIAEo",
-            "BUgJiAEBEhkKDHRocmVlYnRuX251bRgLIAEoBUgKiAEBEhUKCHJvb210eXBl",
-            "GAwgASgFSAuIAQFCCAoGX2JjbHViQggKBl9ib3BlbkIWChRfb25lYnRuX21v",
-            "bGVjdWxlX251bUIZChdfb25lYnRuX2Rlbm9taW5hdG9yX251bUIWChRfdHdv",
-            "YnRuX21vbGVjdWxlX251bUIZChdfdHdvYnRuX2Rlbm9taW5hdG9yX251bUIY",
-            "ChZfdGhyZWVidG5fbW9sZWN1bGVfbnVtQhsKGV90aHJlZWJ0bl9kZW5vbWlu",
-            "YXRvcl9udW1CDQoLX29uZWJ0bl9udW1CDQoLX3R3b2J0bl9udW1CDwoNX3Ro",
-            "cmVlYnRuX251bUILCglfcm9vbXR5cGUiLQoPVGFibGVTZXR0aW5nUlNQEhEK",
-            "BGNvZGUYASABKAVIAIgBAUIHCgVfY29kZSJfChFPdGhlckVudGVyUm9vbUJS",
-            "QxIdCgR1c2VyGAEgASgLMgouVXNlckJyaWVmSACIAQESFQoIZnJhbWVfaWQY",
-            "AiABKAlIAYgBAUIHCgVfdXNlckILCglfZnJhbWVfaWQihAEKDlJld2FyZEl0",
-            "ZW1JbmZvEg8KAmlkGAEgASgFSACIAQESEQoEdHlwZRgCIAEoBUgBiAEBEhYK",
-            "CWl0ZW1fbmFtZRgDIAEoCUgCiAEBEhAKA251bRgEIAEoBUgDiAEBQgUKA19p",
-            "ZEIHCgVfdHlwZUIMCgpfaXRlbV9uYW1lQgYKBF9udW0iEAoOUXVlcnlSZXdh",
-            "cmRSRVEiuAEKDlF1ZXJ5UmV3YXJkUlNQEhEKBGNvZGUYASABKAVIAIgBARIV",
-            "CghpdGVtX251bRgCIAEoBUgBiAEBEiIKCWl0ZW1faW5mbxgDIAMoCzIPLlJl",
-            "d2FyZEl0ZW1JbmZvEhgKC3Jld2FyZF90eXBlGAQgASgFSAKIAQESEAoDbnVt",
-            "GAUgASgFSAOIAQFCBwoFX2NvZGVCCwoJX2l0ZW1fbnVtQg4KDF9yZXdhcmRf",
-            "dHlwZUIGCgRfbnVtIigKDkZldGNoUmV3YXJkUkVREg8KAmlkGAEgASgFSACI",
-            "AQFCBQoDX2lkIiwKDkZldGNoUmV3YXJkUlNQEhEKBGNvZGUYASABKAVIAIgB",
-            "AUIHCgVfY29kZSJjChtTZXRBdXRvQ2hpcFJlcGxlbmlzaG1lbnRSRVESJgoZ",
-            "ZW5hYmxlX2NoaXBfcmVwbGVuaXNobWVudBgBIAEoCEgAiAEBQhwKGl9lbmFi",
-            "bGVfY2hpcF9yZXBsZW5pc2htZW50IiAKHkdldENoaXBSZXBsZW5pc2htZW50",
-            "U2V0dGluZ1JFUSJmCh5HZXRDaGlwUmVwbGVuaXNobWVudFNldHRpbmdSU1AS",
-            "JgoZZW5hYmxlX2NoaXBfcmVwbGVuaXNobWVudBgBIAEoCEgAiAEBQhwKGl9l",
-            "bmFibGVfY2hpcF9yZXBsZW5pc2htZW50KooBChZQcmVFbnRlclBhc3N3ZFJv",
-            "b21UeXBlEiMKH1BSRV9FTlRFUl9QQVNTV0RfUk9PTV9UWVBFX05PTkUQABIl",
-            "CiFQUkVfRU5URVJfUEFTU1dEX1JPT01fVFlQRV9TVEFUVVMQARIkCiBQUkVf",
-            "RU5URVJfUEFTU1dEX1JPT01fVFlQRV9DSEVDSxACQhpaBy9wYnBwZ2+qAg5U",
-            "ZXhhcy5Qcm90b2NvbGIGcHJvdG8z"));
+            "dHlwZSL3AQoPQWN0aW9uTm90aWZ5QlJDEhMKBnNlYXRpZBgBIAEoBUgAiAEB",
+            "EhwKB2FjdGlvbnMYAiADKA4yCy5BY3Rpb25UeXBlEhAKA2JldBgDIAEoA0gB",
+            "iAEBEhEKBGNhbGwYBCABKANIAogBARIWCgltaW5fcmFpc2UYBSABKANIA4gB",
+            "ARIWCgltYXhfcmFpc2UYBiABKANIBIgBARIWCglsZWZ0X3RpbWUYByABKANI",
+            "BYgBAUIJCgdfc2VhdGlkQgYKBF9iZXRCBwoFX2NhbGxCDAoKX21pbl9yYWlz",
+            "ZUIMCgpfbWF4X3JhaXNlQgwKCl9sZWZ0X3RpbWUiQgoUUXVpdE11bHRpcGxl",
+            "VGFibGVSRVESDgoGcm9vbWlkGAEgAygFEhEKBGZsYWcYAiABKAVIAIgBAUIH",
+            "CgVfZmxhZyJOChRRdWl0TXVsdGlwbGVUYWJsZVJTUBIRCgRjb2RlGAEgASgF",
+            "SACIAQESEQoEZmxhZxgCIAEoBUgBiAEBQgcKBV9jb2RlQgcKBV9mbGFnIhkK",
+            "F1F1aXRBbGxNdWx0aXBsZVRhYmxlUkVRIjUKF1F1aXRBbGxNdWx0aXBsZVRh",
+            "YmxlUlNQEhEKBGNvZGUYASABKAVIAIgBAUIHCgVfY29kZSIbChlSb3VuZEhp",
+            "bnRNdWx0aXBsZVRhYmxlUkVRIvEDChlSb3VuZEhpbnRNdWx0aXBsZVRhYmxl",
+            "UlNQEhUKCHJvb210eXBlGAEgASgNSACIAQESEgoFYmxpbmQYAiABKAVIAYgB",
+            "ARIRCgRhbnRlGAMgASgFSAKIAQESEwoGcm9vbWlkGAQgASgFSAOIAQESEwoG",
+            "Y2x1YmlkGAUgASgFSASIAQESEwoGc2VhdGlkGAYgASgFSAWIAQESFgoJbGFz",
+            "dF90aW1lGAcgASgFSAaIAQESFgoJcm9vbV9uYW1lGAggASgJSAeIAQESFgoJ",
+            "Y2x1Yl9uYW1lGAkgASgJSAiIAQESFQoIc2VhdF9udW0YCiABKAVICYgBARIh",
+            "Cglyb29tX21vZGUYCyABKA4yCS5Sb29tTW9kZUgKiAEBEiEKCWdhbWVfbW9k",
+            "ZRgNIAEoDjIJLkdhbWVNb2RlSAuIAQESEwoGcHBzcmlkGA4gASgFSAyIAQFC",
+            "CwoJX3Jvb210eXBlQggKBl9ibGluZEIHCgVfYW50ZUIJCgdfcm9vbWlkQgkK",
+            "B19jbHViaWRCCQoHX3NlYXRpZEIMCgpfbGFzdF90aW1lQgwKCl9yb29tX25h",
+            "bWVCDAoKX2NsdWJfbmFtZUILCglfc2VhdF9udW1CDAoKX3Jvb21fbW9kZUIM",
+            "CgpfZ2FtZV9tb2RlQgkKB19wcHNyaWQiNAoSRmluaXNoUm91bmRIaW50UlNQ",
+            "EhMKBnJvb21pZBgBIAEoBUgAiAEBQgkKB19yb29taWQiPAoaTXVsdGlwbGVU",
+            "YWJsZUNoYW5nZVJvb21SRVESEwoGcm9vbWlkGAEgASgFSACIAQFCCQoHX3Jv",
+            "b21pZCJYChpNdWx0aXBsZVRhYmxlQ2hhbmdlUm9vbVJTUBIRCgRjb2RlGAEg",
+            "ASgFSACIAQESEwoGcm9vbWlkGAIgASgFSAGIAQFCBwoFX2NvZGVCCQoHX3Jv",
+            "b21pZCIwCg5HZXRSb29tSW5mb1JFURITCgZyb29taWQYASABKAVIAIgBAUIJ",
+            "Cgdfcm9vbWlkIs4KCg5HZXRSb29tSW5mb1JTUBIRCgRjb2RlGAEgASgFSACI",
+            "AQESEwoGcmVhc29uGAIgASgJSAGIAQESJwoMdGFibGVfc3RhdHVzGAMgASgL",
+            "MgwuVGFibGVTdGF0dXNIAogBARIlCgtyb29tX3N0YXR1cxgEIAEoCzILLlJv",
+            "b21TdGF0dXNIA4gBARIrCg5wbGF5aW5nX3N0YXR1cxgFIAEoCzIOLlBsYXlp",
+            "bmdTdGF0dXNIBIgBARIhCglyb29tX2luZm8YBiABKAsyCS5Sb29tSW5mb0gF",
+            "iAEBEiEKCXJvb21fdHlwZRgHIAEoDjIJLlJvb21UeXBlSAaIAQESJwoMc25n",
+            "cm9vbV9pbmZvGAggASgLMgwuU25nUm9vbUluZm9IB4gBARInCgxtdHRyb29t",
+            "X2luZm8YCSABKAsyDC5NdHRSb29tSW5mb0gIiAEBEhMKBnJvb21pZBgKIAEo",
+            "BUgJiAEBEiEKCXJvb21fbW9kZRgLIAEoDjIJLlJvb21Nb2RlSAqIAQESKQoN",
+            "cGluZXJvb21faW5mbxgMIAEoCzINLlBpbmVSb29tSW5mb0gLiAEBEi4KEHBp",
+            "bmVfcm9vbV9zdGF0dXMYDSABKAsyDy5QaW5lUm9vbVN0YXR1c0gMiAEBEioK",
+            "CnN0b3JtX2luZm8YDiABKAsyES5QUGNoaXBzU3Rvcm1JbmZvSA2IAQESJgoM",
+            "dHBfcm9vbV9pbmZvGA8gASgLMgsuVHBSb29tSW5mb0gOiAEBEiwKD3RwX3Rh",
+            "YmxlX3N0YXR1cxgQIAEoCzIOLlRwVGFibGVTdGF0dXNID4gBARIsCg9wdXNv",
+            "eV9yb29tX2luZm8YESABKAsyDi5QdXNveVJvb21JbmZvSBCIAQESMAoRcHVz",
+            "b3lfcm9vbV9zdGF0dXMYEiABKAsyEC5QdXNveVJvb21TdGF0dXNIEYgBARIw",
+            "ChFsdWNreV9kcmF3X2NvbmZpZxgTIAEoCzIQLkx1Y2t5RHJhd0NvbmZpZ0gS",
+            "iAEBEiwKD2NvbG9yX3Jvb21faW5mbxgUIAEoCzIOLkNvbG9yUm9vbUluZm9I",
+            "E4gBARIwChFjb2xvcl9yb29tX3N0YXR1cxgVIAEoCzIQLkNvbG9yUm9vbVN0",
+            "YXR1c0gUiAEBEjAKEXRvbmdpdHNfcm9vbV9pbmZvGBYgASgLMhAuVG9uZ2l0",
+            "c1Jvb21JbmZvSBWIAQESNAoTdG9uZ2l0c19yb29tX3N0YXR1cxgXIAEoCzIS",
+            "LlRvbmdpdHNSb29tU3RhdHVzSBaIAQFCBwoFX2NvZGVCCQoHX3JlYXNvbkIP",
+            "Cg1fdGFibGVfc3RhdHVzQg4KDF9yb29tX3N0YXR1c0IRCg9fcGxheWluZ19z",
+            "dGF0dXNCDAoKX3Jvb21faW5mb0IMCgpfcm9vbV90eXBlQg8KDV9zbmdyb29t",
+            "X2luZm9CDwoNX210dHJvb21faW5mb0IJCgdfcm9vbWlkQgwKCl9yb29tX21v",
+            "ZGVCEAoOX3BpbmVyb29tX2luZm9CEwoRX3BpbmVfcm9vbV9zdGF0dXNCDQoL",
+            "X3N0b3JtX2luZm9CDwoNX3RwX3Jvb21faW5mb0ISChBfdHBfdGFibGVfc3Rh",
+            "dHVzQhIKEF9wdXNveV9yb29tX2luZm9CFAoSX3B1c295X3Jvb21fc3RhdHVz",
+            "QhQKEl9sdWNreV9kcmF3X2NvbmZpZ0ISChBfY29sb3Jfcm9vbV9pbmZvQhQK",
+            "El9jb2xvcl9yb29tX3N0YXR1c0IUChJfdG9uZ2l0c19yb29tX2luZm9CFgoU",
+            "X3RvbmdpdHNfcm9vbV9zdGF0dXMidgoUVXNlclZpcEluZm9DaGFuZ2VCUkMS",
+            "EAoDdWlkGAEgASgDSACIAQESFgoJdmlwX2xldmVsGAIgASgNSAGIAQESEwoG",
+            "cm9vbWlkGAMgASgFSAKIAQFCBgoEX3VpZEIMCgpfdmlwX2xldmVsQgkKB19y",
+            "b29taWQikAEKEkZvcnVtTWVzc2FnZU51bVJTUBISCgV0b3RhbBgBIAEoA0gA",
+            "iAEBEhEKBGxpa2UYAiABKANIAYgBARIUCgdjb21tZW50GAMgASgDSAKIAQES",
+            "EwoGc3lzdGVtGAQgASgDSAOIAQFCCAoGX3RvdGFsQgcKBV9saWtlQgoKCF9j",
+            "b21tZW50QgkKB19zeXN0ZW0iTgoSUGxheWluZ1Jvb21MaXN0UkVREhAKA3Vp",
+            "ZBgBIAEoA0gAiAEBEhMKBmNsdWJpZBgCIAEoBUgBiAEBQgYKBF91aWRCCQoH",
+            "X2NsdWJpZCJbChJQbGF5aW5nUm9vbUxpc3RSU1ASKQoJcm9vbV9saXN0GAEg",
+            "AygLMhYuTXVsdGlwbGVUYWJsZVJvb21JbmZvEhEKBGNvZGUYAiABKAVIAIgB",
+            "AUIHCgVfY29kZSI7ChNTaG93RGVhbGVyQ2hvaWNlUlNQEhYKCWxlZnRfdGlt",
+            "ZRgBIAEoBUgAiAEBQgwKCl9sZWZ0X3RpbWUiNQoPRGVhbGVyQ2hvaWNlUkVR",
+            "EhUKCGdhbWV0eXBlGAEgASgFSACIAQFCCwoJX2dhbWV0eXBlIi0KD0RlYWxl",
+            "ckNob2ljZVJTUBIRCgRjb2RlGAEgASgFSACIAQFCBwoFX2NvZGUiNQoPRGVh",
+            "bGVyQ2hvaWNlQlJDEhUKCGdhbWV0eXBlGAEgASgFSACIAQFCCwoJX2dhbWV0",
+            "eXBlIi0KEU90aGVyTGVhdmVSb29tQlJDEhAKA3VpZBgBIAEoA0gAiAEBQgYK",
+            "BF91aWQivQEKDEVudGVyUm9vbVJFURIOCgZyb29taWQYASABKAkSEAoDdGlk",
+            "GAIgASgJSACIAQESCwoDdWlkGAMgASgJEhMKBmNsdWJpZBgEIAEoCUgBiAEB",
+            "EhUKCGxlYWd1ZWlkGAUgASgJSAKIAQESDwoCaXAYBiABKAlIA4gBARIRCgR0",
+            "eXBlGAcgASgFSASIAQFCBgoEX3RpZEIJCgdfY2x1YmlkQgsKCV9sZWFndWVp",
+            "ZEIFCgNfaXBCBwoFX3R5cGUiyAIKFVByZUVudGVyUGFzc3dkUm9vbVJFURIq",
+            "CgR0eXBlGAEgASgOMhcuUHJlRW50ZXJQYXNzd2RSb29tVHlwZUgAiAEBEhMK",
+            "BnJvb21pZBgCIAEoBUgBiAEBEhAKA3VpZBgDIAEoA0gCiAEBEhMKBmNsdWJp",
+            "ZBgEIAEoBUgDiAEBEhUKCGxlYWd1ZWlkGAUgASgFSASIAQESEwoGcGFzc3dk",
+            "GAYgASgJSAWIAQESGwoOc3VwZXJfbGVhZ3VlaWQYByABKAVIBogBARIaCg1j",
+            "ZXJ0aWZpY2F0aW9uGAggASgFSAeIAQFCBwoFX3R5cGVCCQoHX3Jvb21pZEIG",
+            "CgRfdWlkQgkKB19jbHViaWRCCwoJX2xlYWd1ZWlkQgkKB19wYXNzd2RCEQoP",
+            "X3N1cGVyX2xlYWd1ZWlkQhAKDl9jZXJ0aWZpY2F0aW9uIqgCChVQcmVFbnRl",
+            "clBhc3N3ZFJvb21SU1ASKgoEdHlwZRgBIAEoDjIXLlByZUVudGVyUGFzc3dk",
+            "Um9vbVR5cGVIAIgBARITCgZyb29taWQYAiABKAVIAYgBARIQCgN1aWQYAyAB",
+            "KANIAogBARITCgZjbHViaWQYBCABKAVIA4gBARIVCghsZWFndWVpZBgFIAEo",
+            "BUgEiAEBEhEKBGNvZGUYBiABKAVIBYgBARIUCgdjaGVja2VkGAcgASgISAaI",
+            "AQESEwoGa2lja2VkGAggASgISAeIAQFCBwoFX3R5cGVCCQoHX3Jvb21pZEIG",
+            "CgRfdWlkQgkKB19jbHViaWRCCwoJX2xlYWd1ZWlkQgcKBV9jb2RlQgoKCF9j",
+            "aGVja2VkQgkKB19raWNrZWQi4wQKD1RhYmxlU2V0dGluZ1JFURISCgViY2x1",
+            "YhgBIAEoCEgAiAEBEhIKBWJvcGVuGAIgASgISAGIAQESIAoTb25lYnRuX21v",
+            "bGVjdWxlX251bRgDIAEoBUgCiAEBEiMKFm9uZWJ0bl9kZW5vbWluYXRvcl9u",
+            "dW0YBCABKAVIA4gBARIgChN0d29idG5fbW9sZWN1bGVfbnVtGAUgASgFSASI",
+            "AQESIwoWdHdvYnRuX2Rlbm9taW5hdG9yX251bRgGIAEoBUgFiAEBEiIKFXRo",
+            "cmVlYnRuX21vbGVjdWxlX251bRgHIAEoBUgGiAEBEiUKGHRocmVlYnRuX2Rl",
+            "bm9taW5hdG9yX251bRgIIAEoBUgHiAEBEhcKCm9uZWJ0bl9udW0YCSABKAVI",
+            "CIgBARIXCgp0d29idG5fbnVtGAogASgFSAmIAQESGQoMdGhyZWVidG5fbnVt",
+            "GAsgASgFSAqIAQESFQoIcm9vbXR5cGUYDCABKAVIC4gBAUIICgZfYmNsdWJC",
+            "CAoGX2JvcGVuQhYKFF9vbmVidG5fbW9sZWN1bGVfbnVtQhkKF19vbmVidG5f",
+            "ZGVub21pbmF0b3JfbnVtQhYKFF90d29idG5fbW9sZWN1bGVfbnVtQhkKF190",
+            "d29idG5fZGVub21pbmF0b3JfbnVtQhgKFl90aHJlZWJ0bl9tb2xlY3VsZV9u",
+            "dW1CGwoZX3RocmVlYnRuX2Rlbm9taW5hdG9yX251bUINCgtfb25lYnRuX251",
+            "bUINCgtfdHdvYnRuX251bUIPCg1fdGhyZWVidG5fbnVtQgsKCV9yb29tdHlw",
+            "ZSItCg9UYWJsZVNldHRpbmdSU1ASEQoEY29kZRgBIAEoBUgAiAEBQgcKBV9j",
+            "b2RlIl8KEU90aGVyRW50ZXJSb29tQlJDEh0KBHVzZXIYASABKAsyCi5Vc2Vy",
+            "QnJpZWZIAIgBARIVCghmcmFtZV9pZBgCIAEoCUgBiAEBQgcKBV91c2VyQgsK",
+            "CV9mcmFtZV9pZCKEAQoOUmV3YXJkSXRlbUluZm8SDwoCaWQYASABKAVIAIgB",
+            "ARIRCgR0eXBlGAIgASgFSAGIAQESFgoJaXRlbV9uYW1lGAMgASgJSAKIAQES",
+            "EAoDbnVtGAQgASgFSAOIAQFCBQoDX2lkQgcKBV90eXBlQgwKCl9pdGVtX25h",
+            "bWVCBgoEX251bSIQCg5RdWVyeVJld2FyZFJFUSK4AQoOUXVlcnlSZXdhcmRS",
+            "U1ASEQoEY29kZRgBIAEoBUgAiAEBEhUKCGl0ZW1fbnVtGAIgASgFSAGIAQES",
+            "IgoJaXRlbV9pbmZvGAMgAygLMg8uUmV3YXJkSXRlbUluZm8SGAoLcmV3YXJk",
+            "X3R5cGUYBCABKAVIAogBARIQCgNudW0YBSABKAVIA4gBAUIHCgVfY29kZUIL",
+            "CglfaXRlbV9udW1CDgoMX3Jld2FyZF90eXBlQgYKBF9udW0iKAoORmV0Y2hS",
+            "ZXdhcmRSRVESDwoCaWQYASABKAVIAIgBAUIFCgNfaWQiLAoORmV0Y2hSZXdh",
+            "cmRSU1ASEQoEY29kZRgBIAEoBUgAiAEBQgcKBV9jb2RlImMKG1NldEF1dG9D",
+            "aGlwUmVwbGVuaXNobWVudFJFURImChllbmFibGVfY2hpcF9yZXBsZW5pc2ht",
+            "ZW50GAEgASgISACIAQFCHAoaX2VuYWJsZV9jaGlwX3JlcGxlbmlzaG1lbnQi",
+            "IAoeR2V0Q2hpcFJlcGxlbmlzaG1lbnRTZXR0aW5nUkVRImYKHkdldENoaXBS",
+            "ZXBsZW5pc2htZW50U2V0dGluZ1JTUBImChllbmFibGVfY2hpcF9yZXBsZW5p",
+            "c2htZW50GAEgASgISACIAQFCHAoaX2VuYWJsZV9jaGlwX3JlcGxlbmlzaG1l",
+            "bnQqigEKFlByZUVudGVyUGFzc3dkUm9vbVR5cGUSIwofUFJFX0VOVEVSX1BB",
+            "U1NXRF9ST09NX1RZUEVfTk9ORRAAEiUKIVBSRV9FTlRFUl9QQVNTV0RfUk9P",
+            "TV9UWVBFX1NUQVRVUxABEiQKIFBSRV9FTlRFUl9QQVNTV0RfUk9PTV9UWVBF",
+            "X0NIRUNLEAJCGloHL3BicHBnb6oCDlRleGFzLlByb3RvY29sYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Texas.Protocol.PreBaseReflection.Descriptor, global::Texas.Protocol.BaseReflection.Descriptor, global::Texas.Protocol.Pb1Reflection.Descriptor, global::Texas.Protocol.PineReflection.Descriptor, global::Texas.Protocol.TpReflection.Descriptor, global::Texas.Protocol.PusoyReflection.Descriptor, global::Texas.Protocol.LuckyDrawReflection.Descriptor, global::Texas.Protocol.ColorgameReflection.Descriptor, global::Texas.Protocol.TongitsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Texas.Protocol.PreEnterPasswdRoomType), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.LeaveRoomRSP), global::Texas.Protocol.LeaveRoomRSP.Parser, new[]{ "Code", "Reason", "Flag", "Clubid", "Leagueid", "ClientClubid", "Leave" }, new[]{ "Code", "Reason", "Flag", "Clubid", "Leagueid", "ClientClubid", "Leave" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.LeaveRoomREQ), global::Texas.Protocol.LeaveRoomREQ.Parser, new[]{ "Flag", "SeatReserve", "ClientClubid", "Leave", "LeaveType" }, new[]{ "Flag", "SeatReserve", "ClientClubid", "Leave", "LeaveType" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.ActionNotifyBRC), global::Texas.Protocol.ActionNotifyBRC.Parser, new[]{ "Seatid", "CallNeedChips", "MinChipin", "MaxChipin" }, new[]{ "Seatid", "CallNeedChips", "MinChipin", "MaxChipin" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.ActionNotifyBRC), global::Texas.Protocol.ActionNotifyBRC.Parser, new[]{ "Seatid", "Actions", "Bet", "Call", "MinRaise", "MaxRaise", "LeftTime" }, new[]{ "Seatid", "Bet", "Call", "MinRaise", "MaxRaise", "LeftTime" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.QuitMultipleTableREQ), global::Texas.Protocol.QuitMultipleTableREQ.Parser, new[]{ "Roomid", "Flag" }, new[]{ "Flag" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.QuitMultipleTableRSP), global::Texas.Protocol.QuitMultipleTableRSP.Parser, new[]{ "Code", "Flag" }, new[]{ "Code", "Flag" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.QuitAllMultipleTableREQ), global::Texas.Protocol.QuitAllMultipleTableREQ.Parser, null, null, null, null, null),
@@ -1220,9 +1221,12 @@ namespace Texas.Protocol {
     public ActionNotifyBRC(ActionNotifyBRC other) : this() {
       _hasBits0 = other._hasBits0;
       seatid_ = other.seatid_;
-      callNeedChips_ = other.callNeedChips_;
-      minChipin_ = other.minChipin_;
-      maxChipin_ = other.maxChipin_;
+      actions_ = other.actions_.Clone();
+      bet_ = other.bet_;
+      call_ = other.call_;
+      minRaise_ = other.minRaise_;
+      maxRaise_ = other.maxRaise_;
+      leftTime_ = other.leftTime_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1259,94 +1263,168 @@ namespace Texas.Protocol {
       _hasBits0 &= ~1;
     }
 
-    /// <summary>Field number for the "call_need_chips" field.</summary>
-    public const int CallNeedChipsFieldNumber = 2;
-    private readonly static long CallNeedChipsDefaultValue = 0L;
-
-    private long callNeedChips_;
+    /// <summary>Field number for the "actions" field.</summary>
+    public const int ActionsFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::Texas.Protocol.ActionType> _repeated_actions_codec
+        = pb::FieldCodec.ForEnum(18, x => (int) x, x => (global::Texas.Protocol.ActionType) x);
+    private readonly pbc::RepeatedField<global::Texas.Protocol.ActionType> actions_ = new pbc::RepeatedField<global::Texas.Protocol.ActionType>();
     /// <summary>
-    ///跟注需要的筹码，有可能比手上的筹码多
+    ///可操作类型
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public long CallNeedChips {
-      get { if ((_hasBits0 & 2) != 0) { return callNeedChips_; } else { return CallNeedChipsDefaultValue; } }
+    public pbc::RepeatedField<global::Texas.Protocol.ActionType> Actions {
+      get { return actions_; }
+    }
+
+    /// <summary>Field number for the "bet" field.</summary>
+    public const int BetFieldNumber = 3;
+    private readonly static long BetDefaultValue = 0L;
+
+    private long bet_;
+    /// <summary>
+    ///本次行动最小下注量
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long Bet {
+      get { if ((_hasBits0 & 2) != 0) { return bet_; } else { return BetDefaultValue; } }
       set {
         _hasBits0 |= 2;
-        callNeedChips_ = value;
+        bet_ = value;
       }
     }
-    /// <summary>Gets whether the "call_need_chips" field is set</summary>
+    /// <summary>Gets whether the "bet" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasCallNeedChips {
+    public bool HasBet {
       get { return (_hasBits0 & 2) != 0; }
     }
-    /// <summary>Clears the value of the "call_need_chips" field</summary>
+    /// <summary>Clears the value of the "bet" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearCallNeedChips() {
+    public void ClearBet() {
       _hasBits0 &= ~2;
     }
 
-    /// <summary>Field number for the "min_chipin" field.</summary>
-    public const int MinChipinFieldNumber = 3;
-    private readonly static long MinChipinDefaultValue = 0L;
+    /// <summary>Field number for the "call" field.</summary>
+    public const int CallFieldNumber = 4;
+    private readonly static long CallDefaultValue = 0L;
 
-    private long minChipin_;
+    private long call_;
     /// <summary>
-    ///加注需要的最小筹码量，有可能比手上的筹码多，遇到无效加注的情况，玩家不能raise，min_chipin为0
+    ///call的下注量
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public long MinChipin {
-      get { if ((_hasBits0 & 4) != 0) { return minChipin_; } else { return MinChipinDefaultValue; } }
+    public long Call {
+      get { if ((_hasBits0 & 4) != 0) { return call_; } else { return CallDefaultValue; } }
       set {
         _hasBits0 |= 4;
-        minChipin_ = value;
+        call_ = value;
       }
     }
-    /// <summary>Gets whether the "min_chipin" field is set</summary>
+    /// <summary>Gets whether the "call" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasMinChipin {
+    public bool HasCall {
       get { return (_hasBits0 & 4) != 0; }
     }
-    /// <summary>Clears the value of the "min_chipin" field</summary>
+    /// <summary>Clears the value of the "call" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearMinChipin() {
+    public void ClearCall() {
       _hasBits0 &= ~4;
     }
 
-    /// <summary>Field number for the "max_chipin" field.</summary>
-    public const int MaxChipinFieldNumber = 4;
-    private readonly static long MaxChipinDefaultValue = 0L;
+    /// <summary>Field number for the "min_raise" field.</summary>
+    public const int MinRaiseFieldNumber = 5;
+    private readonly static long MinRaiseDefaultValue = 0L;
 
-    private long maxChipin_;
+    private long minRaise_;
     /// <summary>
-    ///可以下的最大筹码量
+    ///最小加注量
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public long MaxChipin {
-      get { if ((_hasBits0 & 8) != 0) { return maxChipin_; } else { return MaxChipinDefaultValue; } }
+    public long MinRaise {
+      get { if ((_hasBits0 & 8) != 0) { return minRaise_; } else { return MinRaiseDefaultValue; } }
       set {
         _hasBits0 |= 8;
-        maxChipin_ = value;
+        minRaise_ = value;
       }
     }
-    /// <summary>Gets whether the "max_chipin" field is set</summary>
+    /// <summary>Gets whether the "min_raise" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasMaxChipin {
+    public bool HasMinRaise {
       get { return (_hasBits0 & 8) != 0; }
     }
-    /// <summary>Clears the value of the "max_chipin" field</summary>
+    /// <summary>Clears the value of the "min_raise" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearMaxChipin() {
+    public void ClearMinRaise() {
       _hasBits0 &= ~8;
+    }
+
+    /// <summary>Field number for the "max_raise" field.</summary>
+    public const int MaxRaiseFieldNumber = 6;
+    private readonly static long MaxRaiseDefaultValue = 0L;
+
+    private long maxRaise_;
+    /// <summary>
+    ///最大加注量
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long MaxRaise {
+      get { if ((_hasBits0 & 16) != 0) { return maxRaise_; } else { return MaxRaiseDefaultValue; } }
+      set {
+        _hasBits0 |= 16;
+        maxRaise_ = value;
+      }
+    }
+    /// <summary>Gets whether the "max_raise" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasMaxRaise {
+      get { return (_hasBits0 & 16) != 0; }
+    }
+    /// <summary>Clears the value of the "max_raise" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearMaxRaise() {
+      _hasBits0 &= ~16;
+    }
+
+    /// <summary>Field number for the "left_time" field.</summary>
+    public const int LeftTimeFieldNumber = 7;
+    private readonly static long LeftTimeDefaultValue = 0L;
+
+    private long leftTime_;
+    /// <summary>
+    ///剩余思考时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long LeftTime {
+      get { if ((_hasBits0 & 32) != 0) { return leftTime_; } else { return LeftTimeDefaultValue; } }
+      set {
+        _hasBits0 |= 32;
+        leftTime_ = value;
+      }
+    }
+    /// <summary>Gets whether the "left_time" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasLeftTime {
+      get { return (_hasBits0 & 32) != 0; }
+    }
+    /// <summary>Clears the value of the "left_time" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearLeftTime() {
+      _hasBits0 &= ~32;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1365,9 +1443,12 @@ namespace Texas.Protocol {
         return true;
       }
       if (Seatid != other.Seatid) return false;
-      if (CallNeedChips != other.CallNeedChips) return false;
-      if (MinChipin != other.MinChipin) return false;
-      if (MaxChipin != other.MaxChipin) return false;
+      if(!actions_.Equals(other.actions_)) return false;
+      if (Bet != other.Bet) return false;
+      if (Call != other.Call) return false;
+      if (MinRaise != other.MinRaise) return false;
+      if (MaxRaise != other.MaxRaise) return false;
+      if (LeftTime != other.LeftTime) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1376,9 +1457,12 @@ namespace Texas.Protocol {
     public override int GetHashCode() {
       int hash = 1;
       if (HasSeatid) hash ^= Seatid.GetHashCode();
-      if (HasCallNeedChips) hash ^= CallNeedChips.GetHashCode();
-      if (HasMinChipin) hash ^= MinChipin.GetHashCode();
-      if (HasMaxChipin) hash ^= MaxChipin.GetHashCode();
+      hash ^= actions_.GetHashCode();
+      if (HasBet) hash ^= Bet.GetHashCode();
+      if (HasCall) hash ^= Call.GetHashCode();
+      if (HasMinRaise) hash ^= MinRaise.GetHashCode();
+      if (HasMaxRaise) hash ^= MaxRaise.GetHashCode();
+      if (HasLeftTime) hash ^= LeftTime.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1401,17 +1485,26 @@ namespace Texas.Protocol {
         output.WriteRawTag(8);
         output.WriteInt32(Seatid);
       }
-      if (HasCallNeedChips) {
-        output.WriteRawTag(16);
-        output.WriteInt64(CallNeedChips);
-      }
-      if (HasMinChipin) {
+      actions_.WriteTo(output, _repeated_actions_codec);
+      if (HasBet) {
         output.WriteRawTag(24);
-        output.WriteInt64(MinChipin);
+        output.WriteInt64(Bet);
       }
-      if (HasMaxChipin) {
+      if (HasCall) {
         output.WriteRawTag(32);
-        output.WriteInt64(MaxChipin);
+        output.WriteInt64(Call);
+      }
+      if (HasMinRaise) {
+        output.WriteRawTag(40);
+        output.WriteInt64(MinRaise);
+      }
+      if (HasMaxRaise) {
+        output.WriteRawTag(48);
+        output.WriteInt64(MaxRaise);
+      }
+      if (HasLeftTime) {
+        output.WriteRawTag(56);
+        output.WriteInt64(LeftTime);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1427,17 +1520,26 @@ namespace Texas.Protocol {
         output.WriteRawTag(8);
         output.WriteInt32(Seatid);
       }
-      if (HasCallNeedChips) {
-        output.WriteRawTag(16);
-        output.WriteInt64(CallNeedChips);
-      }
-      if (HasMinChipin) {
+      actions_.WriteTo(ref output, _repeated_actions_codec);
+      if (HasBet) {
         output.WriteRawTag(24);
-        output.WriteInt64(MinChipin);
+        output.WriteInt64(Bet);
       }
-      if (HasMaxChipin) {
+      if (HasCall) {
         output.WriteRawTag(32);
-        output.WriteInt64(MaxChipin);
+        output.WriteInt64(Call);
+      }
+      if (HasMinRaise) {
+        output.WriteRawTag(40);
+        output.WriteInt64(MinRaise);
+      }
+      if (HasMaxRaise) {
+        output.WriteRawTag(48);
+        output.WriteInt64(MaxRaise);
+      }
+      if (HasLeftTime) {
+        output.WriteRawTag(56);
+        output.WriteInt64(LeftTime);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -1452,14 +1554,21 @@ namespace Texas.Protocol {
       if (HasSeatid) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Seatid);
       }
-      if (HasCallNeedChips) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(CallNeedChips);
+      size += actions_.CalculateSize(_repeated_actions_codec);
+      if (HasBet) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Bet);
       }
-      if (HasMinChipin) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(MinChipin);
+      if (HasCall) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Call);
       }
-      if (HasMaxChipin) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(MaxChipin);
+      if (HasMinRaise) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(MinRaise);
+      }
+      if (HasMaxRaise) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(MaxRaise);
+      }
+      if (HasLeftTime) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(LeftTime);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1476,14 +1585,21 @@ namespace Texas.Protocol {
       if (other.HasSeatid) {
         Seatid = other.Seatid;
       }
-      if (other.HasCallNeedChips) {
-        CallNeedChips = other.CallNeedChips;
+      actions_.Add(other.actions_);
+      if (other.HasBet) {
+        Bet = other.Bet;
       }
-      if (other.HasMinChipin) {
-        MinChipin = other.MinChipin;
+      if (other.HasCall) {
+        Call = other.Call;
       }
-      if (other.HasMaxChipin) {
-        MaxChipin = other.MaxChipin;
+      if (other.HasMinRaise) {
+        MinRaise = other.MinRaise;
+      }
+      if (other.HasMaxRaise) {
+        MaxRaise = other.MaxRaise;
+      }
+      if (other.HasLeftTime) {
+        LeftTime = other.LeftTime;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1504,16 +1620,29 @@ namespace Texas.Protocol {
             Seatid = input.ReadInt32();
             break;
           }
+          case 18:
           case 16: {
-            CallNeedChips = input.ReadInt64();
+            actions_.AddEntriesFrom(input, _repeated_actions_codec);
             break;
           }
           case 24: {
-            MinChipin = input.ReadInt64();
+            Bet = input.ReadInt64();
             break;
           }
           case 32: {
-            MaxChipin = input.ReadInt64();
+            Call = input.ReadInt64();
+            break;
+          }
+          case 40: {
+            MinRaise = input.ReadInt64();
+            break;
+          }
+          case 48: {
+            MaxRaise = input.ReadInt64();
+            break;
+          }
+          case 56: {
+            LeftTime = input.ReadInt64();
             break;
           }
         }
@@ -1535,16 +1664,29 @@ namespace Texas.Protocol {
             Seatid = input.ReadInt32();
             break;
           }
+          case 18:
           case 16: {
-            CallNeedChips = input.ReadInt64();
+            actions_.AddEntriesFrom(ref input, _repeated_actions_codec);
             break;
           }
           case 24: {
-            MinChipin = input.ReadInt64();
+            Bet = input.ReadInt64();
             break;
           }
           case 32: {
-            MaxChipin = input.ReadInt64();
+            Call = input.ReadInt64();
+            break;
+          }
+          case 40: {
+            MinRaise = input.ReadInt64();
+            break;
+          }
+          case 48: {
+            MaxRaise = input.ReadInt64();
+            break;
+          }
+          case 56: {
+            LeftTime = input.ReadInt64();
             break;
           }
         }

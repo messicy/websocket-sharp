@@ -84,6 +84,16 @@ namespace Example2
                     protoWrapGo.Body = winnerRSP.ToByteString();
                     break;
                 case "5":
+                    protoWrapGo.Command = "ActionNotifyBRC";
+
+                    ActionNotifyBRC actionNotifyBRC = new ActionNotifyBRC();
+                    actionNotifyBRC.Seatid = 5;
+                    actionNotifyBRC.Actions.Add(ActionType.ActionFold);
+                    actionNotifyBRC.Actions.Add(ActionType.ActionRaise);
+                    actionNotifyBRC.Actions.Add(ActionType.ActionCall);
+                    actionNotifyBRC.Call = 128;
+                    actionNotifyBRC.LeftTime = 10000;
+                    protoWrapGo.Body = actionNotifyBRC.ToByteString();
                     break;
                 default: break;
             }
@@ -158,6 +168,16 @@ namespace Example2
                     LeaveRoomRSP leaveRoomRSP = new LeaveRoomRSP();
                     protoWrapGo.Command = "LeaveRoomRSP";
                     protoWrapGo.Body = leaveRoomRSP.ToByteString();
+                    break;
+                case "ActionREQ":
+                    protoWrapGo.Command = "ActionBRC";
+
+                    ActionBRC actionBRC = new ActionBRC();
+                    actionBRC.Seatid = 5;
+                    actionBRC.ActionType = ActionType.ActionFold;
+                    actionBRC.Chips = 55;
+                    actionBRC.HandChips = 66;
+                    protoWrapGo.Body = actionBRC.ToByteString();
                     break;
             }
             Console.WriteLine(protoWrapGo.Command);
