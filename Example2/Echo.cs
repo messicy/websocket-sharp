@@ -125,7 +125,7 @@ namespace Example2
                     UserBrief p1 = new UserBrief();
                     p1.Uid = 123;
                     p1.Name = "mmm";
-                    p1.IconUrl = "001";
+                    p1.IconUrl = "1";
                     SeatStatus ss1 = new SeatStatus();
                     ss1.Seatid = 2;
                     ss1.Player = p1;
@@ -136,7 +136,7 @@ namespace Example2
                     UserBrief p2 = new UserBrief();
                     p2.Uid = 2345;
                     p2.Name = "kkk";
-                    p2.IconUrl = "001";
+                    p2.IconUrl = "3";
                     SeatStatus ss2 = new SeatStatus();
                     ss2.Seatid = 5;
                     ss2.Player = p2;
