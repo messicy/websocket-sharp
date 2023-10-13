@@ -95,6 +95,15 @@ namespace Example2
                     actionNotifyBRC.LeftTime = 10000;
                     protoWrapGo.Body = actionNotifyBRC.ToByteString();
                     break;
+                case "6":
+                    protoWrapGo.Command = "DealerInfoRSP";
+
+                    DealerInfoRSP dealerInfoRSP = new DealerInfoRSP();
+                    dealerInfoRSP.Dealer = 6;
+                    dealerInfoRSP.SmallBlind = 5;
+                    dealerInfoRSP.Gameid = "2222";
+                    protoWrapGo.Body = dealerInfoRSP.ToByteString();
+                    break;
                 default: break;
             }
             Console.WriteLine(protoWrapGo.Command);
@@ -137,6 +146,8 @@ namespace Example2
 
                     TableStatus table = new TableStatus();
                     table.Pool.Add(300);
+                    table.Pool.Add(200);
+                    table.Pool.Add(111);
                     table.Gameid = "test table";
                     table.CurBlind = 2000;
                     table.Seat.Add(ss1);
