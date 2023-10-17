@@ -213,7 +213,7 @@ namespace Texas.Protocol {
             "QgYKBF90aWRCDwoNX3Bhc3N3ZF9saW1pdEIJCgdfcGFzc3dkQgsKCV9sZWFn",
             "dWVpZEIRCg9fc3VwZXJfbGVhZ3VlaWRCCQoHX3Bwc3RpZEIJCgdfcHBzcmlk",
             "QgoKCF9taW5fYmV0Qg0KC19taWRkbGVfYmV0QgsKCV9oaWdoX2JldCLYCgoN",
-            "UGxheWluZ1N0YXR1cxINCgVjYXJkcxgBIAMoBRISCgVjYXJkMhgCIAEoBUgA",
+            "UGxheWluZ1N0YXR1cxINCgVjYXJkcxgBIAMoCRISCgVjYXJkMhgCIAEoBUgA",
             "iAEBEhoKDWFjdGlvbl9zZWF0aWQYAyABKAVIAYgBARIcCg9jYWxsX25lZWRf",
             "Y2hpcHMYBCABKANIAogBARIXCgptaW5fY2hpcGluGAUgASgDSAOIAQESFwoK",
             "bWF4X2NoaXBpbhgGIAEoA0gEiAEBEhgKC2FjdGlvbl90aW1lGAcgASgFSAWI",
@@ -13951,12 +13951,12 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "cards" field.</summary>
     public const int CardsFieldNumber = 1;
-    private static readonly pb::FieldCodec<int> _repeated_cards_codec
-        = pb::FieldCodec.ForInt32(10);
-    private readonly pbc::RepeatedField<int> cards_ = new pbc::RepeatedField<int>();
+    private static readonly pb::FieldCodec<string> _repeated_cards_codec
+        = pb::FieldCodec.ForString(10);
+    private readonly pbc::RepeatedField<string> cards_ = new pbc::RepeatedField<string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<int> Cards {
+    public pbc::RepeatedField<string> Cards {
       get { return cards_; }
     }
 
@@ -15357,8 +15357,7 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10:
-          case 8: {
+          case 10: {
             cards_.AddEntriesFrom(input, _repeated_cards_codec);
             break;
           }
@@ -15496,8 +15495,7 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10:
-          case 8: {
+          case 10: {
             cards_.AddEntriesFrom(ref input, _repeated_cards_codec);
             break;
           }

@@ -239,11 +239,11 @@ namespace Texas.Protocol {
             "cHMYAyABKANIAogBARIXCgpoYW5kX2NoaXBzGAQgASgDSAOIAQFCCQoHX3Nl",
             "YXRpZEIOCgxfYWN0aW9uX3R5cGVCCAoGX2NoaXBzQg0KC19oYW5kX2NoaXBz",
             "IsIBCg1Sb3VuZFN0YXJ0QlJDEh8KBXN0YWdlGAEgASgOMgsuUm91bmRTdGFn",
-            "ZUgAiAEBEg0KBWJvYXJkGAIgAygFEhYKCWN1cl9ibGluZBgDIAEoA0gBiAEB",
+            "ZUgAiAEBEg0KBWJvYXJkGAIgAygJEhYKCWN1cl9ibGluZBgDIAEoA0gBiAEB",
             "EikKDXJpdmVyX3NxdWVlemUYBCABKAsyDS5SaXZlclNxdWVlemVIAogBARIU",
-            "CgxzZWNvbmRfYm9hcmQYBSADKAVCCAoGX3N0YWdlQgwKCl9jdXJfYmxpbmRC",
+            "CgxzZWNvbmRfYm9hcmQYBSADKAlCCAoGX3N0YWdlQgwKCl9jdXJfYmxpbmRC",
             "EAoOX3JpdmVyX3NxdWVlemUiHAoMUm91bmRPdmVyQlJDEgwKBHBvb2wYASAD",
-            "KAMisAIKC0hhbmRDYXJkUlNQEg0KBWNhcmRzGAEgAygFEhIKBWNhcmQyGAIg",
+            "KAMisAIKC0hhbmRDYXJkUlNQEg0KBWNhcmRzGAEgAygJEhIKBWNhcmQyGAIg",
             "ASgFSACIAQESEgoFY2FyZDMYAyABKAVIAYgBARISCgVjYXJkNBgEIAEoBUgC",
             "iAEBEhIKBWNhcmQ1GAUgASgFSAOIAQESGQoMZGVmYXVsdF9jYXJkGAYgASgF",
             "SASIAQESEgoFY2FyZDYYByABKAVIBYgBARIaCg1jYW5fdmlld19oYW5kGAgg",
@@ -25485,15 +25485,15 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "board" field.</summary>
     public const int BoardFieldNumber = 2;
-    private static readonly pb::FieldCodec<int> _repeated_board_codec
-        = pb::FieldCodec.ForInt32(18);
-    private readonly pbc::RepeatedField<int> board_ = new pbc::RepeatedField<int>();
+    private static readonly pb::FieldCodec<string> _repeated_board_codec
+        = pb::FieldCodec.ForString(18);
+    private readonly pbc::RepeatedField<string> board_ = new pbc::RepeatedField<string>();
     /// <summary>
     ///公共牌
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<int> Board {
+    public pbc::RepeatedField<string> Board {
       get { return board_; }
     }
 
@@ -25538,15 +25538,15 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "second_board" field.</summary>
     public const int SecondBoardFieldNumber = 5;
-    private static readonly pb::FieldCodec<int> _repeated_secondBoard_codec
-        = pb::FieldCodec.ForInt32(42);
-    private readonly pbc::RepeatedField<int> secondBoard_ = new pbc::RepeatedField<int>();
+    private static readonly pb::FieldCodec<string> _repeated_secondBoard_codec
+        = pb::FieldCodec.ForString(42);
+    private readonly pbc::RepeatedField<string> secondBoard_ = new pbc::RepeatedField<string>();
     /// <summary>
     ///第二層公共牌
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<int> SecondBoard {
+    public pbc::RepeatedField<string> SecondBoard {
       get { return secondBoard_; }
     }
 
@@ -25704,8 +25704,7 @@ namespace Texas.Protocol {
             Stage = (global::Texas.Protocol.RoundStage) input.ReadEnum();
             break;
           }
-          case 18:
-          case 16: {
+          case 18: {
             board_.AddEntriesFrom(input, _repeated_board_codec);
             break;
           }
@@ -25720,8 +25719,7 @@ namespace Texas.Protocol {
             input.ReadMessage(RiverSqueeze);
             break;
           }
-          case 42:
-          case 40: {
+          case 42: {
             secondBoard_.AddEntriesFrom(input, _repeated_secondBoard_codec);
             break;
           }
@@ -25744,8 +25742,7 @@ namespace Texas.Protocol {
             Stage = (global::Texas.Protocol.RoundStage) input.ReadEnum();
             break;
           }
-          case 18:
-          case 16: {
+          case 18: {
             board_.AddEntriesFrom(ref input, _repeated_board_codec);
             break;
           }
@@ -25760,8 +25757,7 @@ namespace Texas.Protocol {
             input.ReadMessage(RiverSqueeze);
             break;
           }
-          case 42:
-          case 40: {
+          case 42: {
             secondBoard_.AddEntriesFrom(ref input, _repeated_secondBoard_codec);
             break;
           }
@@ -26011,12 +26007,12 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "cards" field.</summary>
     public const int CardsFieldNumber = 1;
-    private static readonly pb::FieldCodec<int> _repeated_cards_codec
-        = pb::FieldCodec.ForInt32(10);
-    private readonly pbc::RepeatedField<int> cards_ = new pbc::RepeatedField<int>();
+    private static readonly pb::FieldCodec<string> _repeated_cards_codec
+        = pb::FieldCodec.ForString(10);
+    private readonly pbc::RepeatedField<string> cards_ = new pbc::RepeatedField<string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<int> Cards {
+    public pbc::RepeatedField<string> Cards {
       get { return cards_; }
     }
 
@@ -26478,8 +26474,7 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10:
-          case 8: {
+          case 10: {
             cards_.AddEntriesFrom(input, _repeated_cards_codec);
             break;
           }
@@ -26530,8 +26525,7 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10:
-          case 8: {
+          case 10: {
             cards_.AddEntriesFrom(ref input, _repeated_cards_codec);
             break;
           }

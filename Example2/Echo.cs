@@ -54,12 +54,12 @@ namespace Example2
 
                     ShowHandInfo showHandInfo1 = new ShowHandInfo();
                     showHandInfo1.Seatid = 2;
-                    showHandInfo1.Cards.Add(51);
-                    showHandInfo1.Cards.Add(52);
+                    showHandInfo1.Cards.Add("8s");
+                    showHandInfo1.Cards.Add("3d");
                     ShowHandInfo showHandInfo2 = new ShowHandInfo();
                     showHandInfo2.Seatid = 5;
-                    showHandInfo2.Cards.Add(3);
-                    showHandInfo2.Cards.Add(49);
+                    showHandInfo2.Cards.Add("4c");
+                    showHandInfo2.Cards.Add("7s");
 
                     ShowHandRSP showhandBRC = new ShowHandRSP();
                     showhandBRC.Info.Add(showHandInfo1);
@@ -113,6 +113,7 @@ namespace Example2
 
         private void HandleProto(MessageEventArgs e)
         {
+            int simulation = -1;
             var protoData = ProtoWrapGo.Parser.ParseFrom(e.RawData);
 
             ProtoWrapGo protoWrapGo = new ProtoWrapGo();
@@ -130,7 +131,7 @@ namespace Example2
                     ss1.Seatid = 2;
                     ss1.Player = p1;
                     ss1.HandChips = 560;
-                    ss1.DestopChips = 780;
+                    //ss1.DestopChips = 780;
                     ss1.HasCard = true;
 
                     UserBrief p2 = new UserBrief();
@@ -141,7 +142,7 @@ namespace Example2
                     ss2.Seatid = 5;
                     ss2.Player = p2;
                     ss2.HandChips = 325;
-                    ss2.DestopChips = 885;
+                    //ss2.DestopChips = 885;
                     ss2.HasCard = true;
 
                     UserBrief p3 = new UserBrief();
@@ -152,7 +153,7 @@ namespace Example2
                     ss3.Seatid = 7;
                     ss3.Player = p3;
                     ss3.HandChips = 456;
-                    ss3.DestopChips = 251;
+                    //ss3.DestopChips = 251;
                     ss3.HasCard = true;
 
                     TableStatus table = new TableStatus();
@@ -169,21 +170,22 @@ namespace Example2
                     roomInfo.Blind = 600;
                     roomInfo.Ante = 300;
 
-                    PlayingStatus ps = new PlayingStatus();
-                    ps.Cards.Add(1);
-                    ps.Cards.Add(3);
-                    ps.Cards.Add(49);
-                    ps.ActionSeatid = 2;
-                    ps.ActionTime = 5000;
+                    //PlayingStatus ps = new PlayingStatus();
+                    //ps.Cards.Add("6s");
+                    //ps.Cards.Add("Td");
+                    //ps.Cards.Add("As");
+                    //ps.ActionSeatid = 2;
+                    //ps.ActionTime = 5000;
 
                     EnterRoomRSP enterRoomRSP = new EnterRoomRSP();
                     enterRoomRSP.Roomid = 100;
                     enterRoomRSP.TableStatus = table;
-                    enterRoomRSP.PlayingStatus = ps;
+                    //enterRoomRSP.PlayingStatus = ps;
                     enterRoomRSP.RoomInfo = roomInfo;
 
                     protoWrapGo.Command = "EnterRoomRSP";
                     protoWrapGo.Body = enterRoomRSP.ToByteString();
+                    simulation = 1;
                     break;
                 case "LeaveRoomREQ":
                     LeaveRoomRSP leaveRoomRSP = new LeaveRoomRSP();
@@ -199,18 +201,26 @@ namespace Example2
                     actionBRC.Chips = 55;
                     actionBRC.HandChips = 66;
                     protoWrapGo.Body = actionBRC.ToByteString();
+                    simulation = 2;
                     break;
             }
             Console.WriteLine(protoWrapGo.Command);
             var protoBytes = protoWrapGo.ToByteArray();
             Send(protoBytes);
 
-            StartSimulation();
+            if (simulation == 1)
+            {
+                StartSimulation1();
+            }
+            else if (simulation == 2)
+            {
+                StartSimulation2();
+            }
         }
 
-        private void StartSimulation()
+        private void StartSimulation1()
         {
-            Thread.Sleep(10 * 1000);
+            Thread.Sleep(500);
             broadcastSequence++;
             ProtoWrapGo protoWrapGo = new ProtoWrapGo();
             protoWrapGo.Op = MessageType.MessageBroadcast;
@@ -218,12 +228,65 @@ namespace Example2
 
             protoWrapGo.Command = "HandCardRSP";
             HandCardRSP handcardBRC = new HandCardRSP();
-            handcardBRC.Cards.Add(1);
-            handcardBRC.Cards.Add(3);
+            handcardBRC.Cards.Add("Ac");
+            handcardBRC.Cards.Add("5h");
             protoWrapGo.Body = handcardBRC.ToByteString();
             var protoBytes = protoWrapGo.ToByteArray();
             Console.WriteLine(protoWrapGo.Command);
             Sessions.Broadcast(protoBytes);
+
+            Thread.Sleep(3 * 1000);
+            protoWrapGo.Command = "ActionNotifyBRC";
+            ActionNotifyBRC actionNotifyBRC = new ActionNotifyBRC();
+            actionNotifyBRC.Seatid = 2;
+            actionNotifyBRC.LeftTime = 10000;
+            protoWrapGo.Body = actionNotifyBRC.ToByteString();
+            protoBytes = protoWrapGo.ToByteArray();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoBytes);
+
+            Thread.Sleep(3 * 1000);
+            protoWrapGo.Command = "ActionBRC";
+            ActionBRC actionBRC = new ActionBRC();
+            actionBRC.Seatid = 2;
+            actionBRC.ActionType = ActionType.ActionBet;
+            actionBRC.Chips = 100;
+            actionBRC.HandChips = 460;
+            protoWrapGo.Body = actionBRC.ToByteString();
+            protoBytes = protoWrapGo.ToByteArray();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoBytes);
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "ActionNotifyBRC";
+            actionNotifyBRC = new ActionNotifyBRC();
+            actionNotifyBRC.Seatid = 5;
+            actionNotifyBRC.Actions.Add(ActionType.ActionFold);
+            actionNotifyBRC.Actions.Add(ActionType.ActionRaise);
+            actionNotifyBRC.Actions.Add(ActionType.ActionCall);
+            actionNotifyBRC.Call = 100;
+            actionNotifyBRC.LeftTime = 10000;
+            protoWrapGo.Body = actionNotifyBRC.ToByteString();
+            protoBytes = protoWrapGo.ToByteArray();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoBytes);
+
+            //Thread.Sleep(3 * 1000);
+            //protoWrapGo.Command = "ActionBRC";
+            //actionBRC = new ActionBRC();
+            //actionBRC.Seatid = 5;
+            //actionBRC.ActionType = ActionType.ActionCall;
+            //actionBRC.Chips = 100;
+            //actionBRC.HandChips = 460;
+            //protoWrapGo.Body = actionBRC.ToByteString();
+            //protoBytes = protoWrapGo.ToByteArray();
+            //Console.WriteLine(protoWrapGo.Command);
+            //Sessions.Broadcast(protoBytes);
+        }
+
+        private void StartSimulation2()
+        {
+            Console.WriteLine("StartSimulation2");
         }
     }
 }

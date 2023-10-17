@@ -199,7 +199,7 @@ namespace Texas.Protocol {
             "eRIXCgpyZXFfc2VhdGlkGAEgASgFSACIAQESFwoKYWNrX3NlYXRpZBgCIAEo",
             "BUgBiAEBQg0KC19yZXFfc2VhdGlkQg0KC19hY2tfc2VhdGlkIp0CCg1UcFBs",
             "YXllckhhbmRzEhAKA3VpZBgBIAEoA0gAiAEBEhEKBG5hbWUYAiABKAlIAYgB",
-            "ARINCgVjYXJkcxgDIAMoDRITCgZwcm9maXQYBCABKANIAogBARIVCghwb3Np",
+            "ARINCgVjYXJkcxgDIAMoCRITCgZwcm9maXQYBCABKANIAogBARIVCghwb3Np",
             "dGlvbhgFIAEoBUgDiAEBEhQKB2JJc1Nob3cYBiABKAhIBIgBARIXCgppQmVn",
             "aW5DaGlwGAcgASgDSAWIAQESKQoLcGxheV9zdGF0dXMYCCABKA4yDy5Vc2Vy",
             "UGxheVN0YXR1c0gGiAEBQgYKBF91aWRCBwoFX25hbWVCCQoHX3Byb2ZpdEIL",
@@ -13598,12 +13598,12 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "cards" field.</summary>
     public const int CardsFieldNumber = 3;
-    private static readonly pb::FieldCodec<uint> _repeated_cards_codec
-        = pb::FieldCodec.ForUInt32(26);
-    private readonly pbc::RepeatedField<uint> cards_ = new pbc::RepeatedField<uint>();
+    private static readonly pb::FieldCodec<string> _repeated_cards_codec
+        = pb::FieldCodec.ForString(26);
+    private readonly pbc::RepeatedField<string> cards_ = new pbc::RepeatedField<string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<uint> Cards {
+    public pbc::RepeatedField<string> Cards {
       get { return cards_; }
     }
 
@@ -13964,8 +13964,7 @@ namespace Texas.Protocol {
             Name = input.ReadString();
             break;
           }
-          case 26:
-          case 24: {
+          case 26: {
             cards_.AddEntriesFrom(input, _repeated_cards_codec);
             break;
           }
@@ -14012,8 +14011,7 @@ namespace Texas.Protocol {
             Name = input.ReadString();
             break;
           }
-          case 26:
-          case 24: {
+          case 26: {
             cards_.AddEntriesFrom(ref input, _repeated_cards_codec);
             break;
           }

@@ -60,7 +60,7 @@ namespace Texas.Protocol {
             "d2VyX3VpZBgBIAEoA0gAiAEBEhgKC3Nob3dlcl9uYW1lGAIgASgJSAGIAQES",
             "EwoGZ2FtZWlkGAMgASgJSAKIAQFCDQoLX3Nob3dlcl91aWRCDgoMX3Nob3dl",
             "cl9uYW1lQgkKB19nYW1laWQiPQoMU2hvd0hhbmRJbmZvEhMKBnNlYXRpZBgB",
-            "IAEoBUgAiAEBEg0KBWNhcmRzGAIgAygFQgkKB19zZWF0aWQicwoLU2hvd0hh",
+            "IAEoBUgAiAEBEg0KBWNhcmRzGAIgAygJQgkKB19zZWF0aWQicwoLU2hvd0hh",
             "bmRSU1ASGwoEaW5mbxgBIAMoCzINLlNob3dIYW5kSW5mbxIVCg13aW5uZXJf",
             "c2VhdGlkGAIgAygFEhwKD3dpbl9yYXRlX2VuYWJsZRgDIAEoCEgAiAEBQhIK",
             "EF93aW5fcmF0ZV9lbmFibGUidQoJU3RhcnRJbmZvEhMKBnNlYXRpZBgBIAEo",
@@ -3189,12 +3189,12 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "cards" field.</summary>
     public const int CardsFieldNumber = 2;
-    private static readonly pb::FieldCodec<int> _repeated_cards_codec
-        = pb::FieldCodec.ForInt32(18);
-    private readonly pbc::RepeatedField<int> cards_ = new pbc::RepeatedField<int>();
+    private static readonly pb::FieldCodec<string> _repeated_cards_codec
+        = pb::FieldCodec.ForString(18);
+    private readonly pbc::RepeatedField<string> cards_ = new pbc::RepeatedField<string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<int> Cards {
+    public pbc::RepeatedField<string> Cards {
       get { return cards_; }
     }
 
@@ -3311,8 +3311,7 @@ namespace Texas.Protocol {
             Seatid = input.ReadInt32();
             break;
           }
-          case 18:
-          case 16: {
+          case 18: {
             cards_.AddEntriesFrom(input, _repeated_cards_codec);
             break;
           }
@@ -3335,8 +3334,7 @@ namespace Texas.Protocol {
             Seatid = input.ReadInt32();
             break;
           }
-          case 18:
-          case 16: {
+          case 18: {
             cards_.AddEntriesFrom(ref input, _repeated_cards_codec);
             break;
           }

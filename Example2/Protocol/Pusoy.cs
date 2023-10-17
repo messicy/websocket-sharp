@@ -122,18 +122,18 @@ namespace Texas.Protocol {
             "CgRjb2RlGAEgASgFSACIAQESEwoGcmVhc29uGAIgASgJSAGIAQESJwoKcHVz",
             "b3lfaW5mbxgDIAEoCzIOLlB1c295Um9vbUluZm9IAogBAUIHCgVfY29kZUIJ",
             "CgdfcmVhc29uQg0KC19wdXNveV9pbmZvIiUKFFB1c295U3luY0hhbmRDYXJk",
-            "UkVREg0KBWNhcmRzGAEgAygFIkEKFFB1c295U3luY0hhbmRDYXJkUlNQEhEK",
-            "BGNvZGUYASABKAVIAIgBARINCgVjYXJkcxgCIAMoBUIHCgVfY29kZSKEAQoS",
+            "UkVREg0KBWNhcmRzGAEgAygJIkEKFFB1c295U3luY0hhbmRDYXJkUlNQEhEK",
+            "BGNvZGUYASABKAVIAIgBARINCgVjYXJkcxgCIAMoCUIHCgVfY29kZSKEAQoS",
             "U3dhcEhhbmRDYXJkUG9zUkVREhEKBGZyb20YASABKAVIAIgBARIPCgJ0bxgC",
             "IAEoBUgBiAEBEiEKFHN3YXBfbWlkZGxlX2FuZF9iYWNrGAMgASgISAKIAQFC",
             "BwoFX2Zyb21CBQoDX3RvQhcKFV9zd2FwX21pZGRsZV9hbmRfYmFjayKvAQoS",
             "U3dhcEhhbmRDYXJkUG9zUlNQEhEKBGNvZGUYASABKAVIAIgBARIRCgRmcm9t",
             "GAIgASgFSAGIAQESDwoCdG8YAyABKAVIAogBARIhChRzd2FwX21pZGRsZV9h",
-            "bmRfYmFjaxgEIAEoCEgDiAEBEg0KBWNhcmRzGAUgAygFQgcKBV9jb2RlQgcK",
+            "bmRfYmFjaxgEIAEoCEgDiAEBEg0KBWNhcmRzGAUgAygJQgcKBV9jb2RlQgcK",
             "BV9mcm9tQgUKA190b0IXChVfc3dhcF9taWRkbGVfYW5kX2JhY2siaAoSU3dh",
             "cEhhbmRDYXJkUG9zQlJDEhEKBGZyb20YASABKAVIAIgBARIPCgJ0bxgCIAEo",
             "BUgBiAEBEhMKBnNlYXRpZBgDIAEoBUgCiAEBQgcKBV9mcm9tQgUKA190b0IJ",
-            "Cgdfc2VhdGlkIiEKEFB1c295SGFuZENhcmRSU1ASDQoFY2FyZHMYASADKAUi",
+            "Cgdfc2VhdGlkIiEKEFB1c295SGFuZENhcmRSU1ASDQoFY2FyZHMYASADKAki",
             "8wEKD1B1c295U2l0RG93blJFURITCgZzZWF0aWQYASABKAVIAIgBARIPCgJw",
             "YxgCIAEoCEgBiAEBEg8KAmlwGAMgASgJSAKIAQESFAoHZ3BzX2xvbhgEIAEo",
             "BUgDiAEBEhQKB2dwc19sYXQYBSABKAVIBIgBARIUCgdjaGFubmVsGAYgASgJ",
@@ -180,9 +180,9 @@ namespace Texas.Protocol {
             "QggKBl9sZWF2ZSJNChFQdXNveUxlYXZlR2FtZUJSQxITCgZzZWF0aWQYASAB",
             "KAVIAIgBARIQCgN1aWQYAiABKANIAYgBAUIJCgdfc2VhdGlkQgYKBF91aWQi",
             "RwoaUHVzb3lTZXRBcnJhbmdlbWVudERvbmVSRVESEQoEZG9uZRgBIAEoCEgA",
-            "iAEBEg0KBWNhcmRzGAIgAygFQgcKBV9kb25lImMKGlB1c295U2V0QXJyYW5n",
+            "iAEBEg0KBWNhcmRzGAIgAygJQgcKBV9kb25lImMKGlB1c295U2V0QXJyYW5n",
             "ZW1lbnREb25lUlNQEhEKBGNvZGUYASABKAVIAIgBARIRCgRkb25lGAIgASgI",
-            "SAGIAQESDQoFY2FyZHMYAyADKAVCBwoFX2NvZGVCBwoFX2RvbmUicgoaUHVz",
+            "SAGIAQESDQoFY2FyZHMYAyADKAlCBwoFX2NvZGVCBwoFX2RvbmUicgoaUHVz",
             "b3lTZXRBcnJhbmdlbWVudERvbmVCUkMSEwoGc2VhdGlkGAEgASgFSACIAQES",
             "EAoDdWlkGAIgASgDSAGIAQESEQoEZG9uZRgDIAEoCEgCiAEBQgkKB19zZWF0",
             "aWRCBgoEX3VpZEIHCgVfZG9uZSI0ChRQdXNveVNldEdhbWVSZWFkeVJFURIS",
@@ -212,7 +212,7 @@ namespace Texas.Protocol {
             "ZWRJbmZvEhMKBnNlYXRpZBgBIAEoBUgAiAEBEhIKBXNjb3JlGAIgASgDSAGI",
             "AQFCCQoHX3NlYXRpZEIICgZfc2NvcmUi7QgKGVB1c295U2ltcGxpZmllZEdh",
             "bWVSZXN1bHQSEAoDdWlkGAEgASgDSACIAQESEwoGc2VhdGlkGAIgASgFSAGI",
-            "AQESEgoFY2hpcHMYAyABKANIAogBARINCgVjYXJkcxgEIAMoBRIlCgxmcm9u",
+            "AQESEgoFY2hpcHMYAyABKANIAogBARINCgVjYXJkcxgEIAMoCRIlCgxmcm9u",
             "dF9zY29yZXMYBSADKAsyDy5QdXNveVNjb3JlSW5mbxIjCgptaWRfc2NvcmVz",
             "GAYgAygLMg8uUHVzb3lTY29yZUluZm8SJAoLYmFja19zY29yZXMYByADKAsy",
             "Dy5QdXNveVNjb3JlSW5mbxIXCgpiYWNrX3Njb3JlGAggASgDSAOIAQESFgoJ",
@@ -6280,15 +6280,15 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "cards" field.</summary>
     public const int CardsFieldNumber = 1;
-    private static readonly pb::FieldCodec<int> _repeated_cards_codec
-        = pb::FieldCodec.ForInt32(10);
-    private readonly pbc::RepeatedField<int> cards_ = new pbc::RepeatedField<int>();
+    private static readonly pb::FieldCodec<string> _repeated_cards_codec
+        = pb::FieldCodec.ForString(10);
+    private readonly pbc::RepeatedField<string> cards_ = new pbc::RepeatedField<string>();
     /// <summary>
     ///手牌號碼  一定要13張
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<int> Cards {
+    public pbc::RepeatedField<string> Cards {
       get { return cards_; }
     }
 
@@ -6385,8 +6385,7 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10:
-          case 8: {
+          case 10: {
             cards_.AddEntriesFrom(input, _repeated_cards_codec);
             break;
           }
@@ -6405,8 +6404,7 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10:
-          case 8: {
+          case 10: {
             cards_.AddEntriesFrom(ref input, _repeated_cards_codec);
             break;
           }
@@ -6496,15 +6494,15 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "cards" field.</summary>
     public const int CardsFieldNumber = 2;
-    private static readonly pb::FieldCodec<int> _repeated_cards_codec
-        = pb::FieldCodec.ForInt32(18);
-    private readonly pbc::RepeatedField<int> cards_ = new pbc::RepeatedField<int>();
+    private static readonly pb::FieldCodec<string> _repeated_cards_codec
+        = pb::FieldCodec.ForString(18);
+    private readonly pbc::RepeatedField<string> cards_ = new pbc::RepeatedField<string>();
     /// <summary>
     ///手牌號碼  一定是13張
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<int> Cards {
+    public pbc::RepeatedField<string> Cards {
       get { return cards_; }
     }
 
@@ -6621,8 +6619,7 @@ namespace Texas.Protocol {
             Code = input.ReadInt32();
             break;
           }
-          case 18:
-          case 16: {
+          case 18: {
             cards_.AddEntriesFrom(input, _repeated_cards_codec);
             break;
           }
@@ -6645,8 +6642,7 @@ namespace Texas.Protocol {
             Code = input.ReadInt32();
             break;
           }
-          case 18:
-          case 16: {
+          case 18: {
             cards_.AddEntriesFrom(ref input, _repeated_cards_codec);
             break;
           }
@@ -7133,12 +7129,12 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "cards" field.</summary>
     public const int CardsFieldNumber = 5;
-    private static readonly pb::FieldCodec<int> _repeated_cards_codec
-        = pb::FieldCodec.ForInt32(42);
-    private readonly pbc::RepeatedField<int> cards_ = new pbc::RepeatedField<int>();
+    private static readonly pb::FieldCodec<string> _repeated_cards_codec
+        = pb::FieldCodec.ForString(42);
+    private readonly pbc::RepeatedField<string> cards_ = new pbc::RepeatedField<string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<int> Cards {
+    public pbc::RepeatedField<string> Cards {
       get { return cards_; }
     }
 
@@ -7315,8 +7311,7 @@ namespace Texas.Protocol {
             SwapMiddleAndBack = input.ReadBool();
             break;
           }
-          case 42:
-          case 40: {
+          case 42: {
             cards_.AddEntriesFrom(input, _repeated_cards_codec);
             break;
           }
@@ -7351,8 +7346,7 @@ namespace Texas.Protocol {
             SwapMiddleAndBack = input.ReadBool();
             break;
           }
-          case 42:
-          case 40: {
+          case 42: {
             cards_.AddEntriesFrom(ref input, _repeated_cards_codec);
             break;
           }
@@ -7725,15 +7719,15 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "cards" field.</summary>
     public const int CardsFieldNumber = 1;
-    private static readonly pb::FieldCodec<int> _repeated_cards_codec
-        = pb::FieldCodec.ForInt32(10);
-    private readonly pbc::RepeatedField<int> cards_ = new pbc::RepeatedField<int>();
+    private static readonly pb::FieldCodec<string> _repeated_cards_codec
+        = pb::FieldCodec.ForString(10);
+    private readonly pbc::RepeatedField<string> cards_ = new pbc::RepeatedField<string>();
     /// <summary>
     ///手牌 0~12
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<int> Cards {
+    public pbc::RepeatedField<string> Cards {
       get { return cards_; }
     }
 
@@ -7830,8 +7824,7 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10:
-          case 8: {
+          case 10: {
             cards_.AddEntriesFrom(input, _repeated_cards_codec);
             break;
           }
@@ -7850,8 +7843,7 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10:
-          case 8: {
+          case 10: {
             cards_.AddEntriesFrom(ref input, _repeated_cards_codec);
             break;
           }
@@ -12093,12 +12085,12 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "cards" field.</summary>
     public const int CardsFieldNumber = 2;
-    private static readonly pb::FieldCodec<int> _repeated_cards_codec
-        = pb::FieldCodec.ForInt32(18);
-    private readonly pbc::RepeatedField<int> cards_ = new pbc::RepeatedField<int>();
+    private static readonly pb::FieldCodec<string> _repeated_cards_codec
+        = pb::FieldCodec.ForString(18);
+    private readonly pbc::RepeatedField<string> cards_ = new pbc::RepeatedField<string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<int> Cards {
+    public pbc::RepeatedField<string> Cards {
       get { return cards_; }
     }
 
@@ -12215,8 +12207,7 @@ namespace Texas.Protocol {
             Done = input.ReadBool();
             break;
           }
-          case 18:
-          case 16: {
+          case 18: {
             cards_.AddEntriesFrom(input, _repeated_cards_codec);
             break;
           }
@@ -12239,8 +12230,7 @@ namespace Texas.Protocol {
             Done = input.ReadBool();
             break;
           }
-          case 18:
-          case 16: {
+          case 18: {
             cards_.AddEntriesFrom(ref input, _repeated_cards_codec);
             break;
           }
@@ -12359,15 +12349,15 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "cards" field.</summary>
     public const int CardsFieldNumber = 3;
-    private static readonly pb::FieldCodec<int> _repeated_cards_codec
-        = pb::FieldCodec.ForInt32(26);
-    private readonly pbc::RepeatedField<int> cards_ = new pbc::RepeatedField<int>();
+    private static readonly pb::FieldCodec<string> _repeated_cards_codec
+        = pb::FieldCodec.ForString(26);
+    private readonly pbc::RepeatedField<string> cards_ = new pbc::RepeatedField<string>();
     /// <summary>
     ///返回伺服器排序過後的手牌
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<int> Cards {
+    public pbc::RepeatedField<string> Cards {
       get { return cards_; }
     }
 
@@ -12504,8 +12494,7 @@ namespace Texas.Protocol {
             Done = input.ReadBool();
             break;
           }
-          case 26:
-          case 24: {
+          case 26: {
             cards_.AddEntriesFrom(input, _repeated_cards_codec);
             break;
           }
@@ -12532,8 +12521,7 @@ namespace Texas.Protocol {
             Done = input.ReadBool();
             break;
           }
-          case 26:
-          case 24: {
+          case 26: {
             cards_.AddEntriesFrom(ref input, _repeated_cards_codec);
             break;
           }
@@ -15337,12 +15325,12 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "cards" field.</summary>
     public const int CardsFieldNumber = 4;
-    private static readonly pb::FieldCodec<int> _repeated_cards_codec
-        = pb::FieldCodec.ForInt32(34);
-    private readonly pbc::RepeatedField<int> cards_ = new pbc::RepeatedField<int>();
+    private static readonly pb::FieldCodec<string> _repeated_cards_codec
+        = pb::FieldCodec.ForString(34);
+    private readonly pbc::RepeatedField<string> cards_ = new pbc::RepeatedField<string>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<int> Cards {
+    public pbc::RepeatedField<string> Cards {
       get { return cards_; }
     }
 
@@ -16350,8 +16338,7 @@ namespace Texas.Protocol {
             Chips = input.ReadInt64();
             break;
           }
-          case 34:
-          case 32: {
+          case 34: {
             cards_.AddEntriesFrom(input, _repeated_cards_codec);
             break;
           }
@@ -16473,8 +16460,7 @@ namespace Texas.Protocol {
             Chips = input.ReadInt64();
             break;
           }
-          case 34:
-          case 32: {
+          case 34: {
             cards_.AddEntriesFrom(ref input, _repeated_cards_codec);
             break;
           }
