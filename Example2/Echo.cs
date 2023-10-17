@@ -142,27 +142,37 @@ namespace Example2
                     ss2.Player = p2;
                     ss2.HandChips = 325;
                     ss2.DestopChips = 885;
-                    ss2.HasCard = false;
+                    ss2.HasCard = true;
+
+                    UserBrief p3 = new UserBrief();
+                    p3.Uid = 5623;
+                    p3.Name = "sss";
+                    p3.IconUrl = "4";
+                    SeatStatus ss3 = new SeatStatus();
+                    ss3.Seatid = 7;
+                    ss3.Player = p3;
+                    ss3.HandChips = 456;
+                    ss3.DestopChips = 251;
+                    ss3.HasCard = true;
 
                     TableStatus table = new TableStatus();
                     table.Pool.Add(300);
-                    table.Pool.Add(200);
-                    table.Pool.Add(111);
-                    table.Gameid = "test table";
+                    table.Gameid = "111-3564-568";
                     table.CurBlind = 2000;
                     table.Seat.Add(ss1);
                     table.Seat.Add(ss2);
+                    table.Seat.Add(ss3);
                     table.DIdx = 5;
 
                     RoomInfo roomInfo = new RoomInfo();
                     roomInfo.ActionTime = 10000;
-                    roomInfo.Blind = 400;
+                    roomInfo.Blind = 600;
                     roomInfo.Ante = 300;
 
                     PlayingStatus ps = new PlayingStatus();
                     ps.Cards.Add(1);
                     ps.Cards.Add(3);
-                    ps.Cards.Add(50);
+                    ps.Cards.Add(49);
                     ps.ActionSeatid = 2;
                     ps.ActionTime = 5000;
 
@@ -194,6 +204,26 @@ namespace Example2
             Console.WriteLine(protoWrapGo.Command);
             var protoBytes = protoWrapGo.ToByteArray();
             Send(protoBytes);
+
+            StartSimulation();
+        }
+
+        private void StartSimulation()
+        {
+            Thread.Sleep(10 * 1000);
+            broadcastSequence++;
+            ProtoWrapGo protoWrapGo = new ProtoWrapGo();
+            protoWrapGo.Op = MessageType.MessageBroadcast;
+            protoWrapGo.Seq = broadcastSequence;
+
+            protoWrapGo.Command = "HandCardRSP";
+            HandCardRSP handcardBRC = new HandCardRSP();
+            handcardBRC.Cards.Add(1);
+            handcardBRC.Cards.Add(3);
+            protoWrapGo.Body = handcardBRC.ToByteString();
+            var protoBytes = protoWrapGo.ToByteArray();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoBytes);
         }
     }
 }
