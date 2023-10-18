@@ -12,6 +12,7 @@ namespace Example2
 {
     public class Echo : WebSocketBehavior
     {
+        private int actionTime = 10000;
         protected override void OnMessage(MessageEventArgs e)
         {
             if (e.IsBinary)
@@ -92,7 +93,7 @@ namespace Example2
                     actionNotifyBRC.Actions.Add(ActionType.ActionRaise);
                     actionNotifyBRC.Actions.Add(ActionType.ActionCall);
                     actionNotifyBRC.Call = 128;
-                    actionNotifyBRC.LeftTime = 10000;
+                    actionNotifyBRC.LeftTime = actionTime;
                     protoWrapGo.Body = actionNotifyBRC.ToByteString();
                     break;
                 case "6":
@@ -166,7 +167,7 @@ namespace Example2
                     table.DIdx = 5;
 
                     RoomInfo roomInfo = new RoomInfo();
-                    roomInfo.ActionTime = 10000;
+                    roomInfo.ActionTime = actionTime;
                     roomInfo.Blind = 600;
                     roomInfo.Ante = 300;
 
@@ -193,15 +194,19 @@ namespace Example2
                     protoWrapGo.Body = leaveRoomRSP.ToByteString();
                     break;
                 case "ActionREQ":
-                    protoWrapGo.Command = "ActionBRC";
+                    var actionREQ = ActionREQ.Parser.ParseFrom(protoData.Body);
+                    if (actionREQ.ActionType == ActionType.ActionCheck)
+                    {
+                        simulation = 2;
+                    }
+                    else if (actionREQ.ActionType == ActionType.ActionFold)
+                    {
+                        simulation = 3;
+                    }
 
-                    ActionBRC actionBRC = new ActionBRC();
-                    actionBRC.Seatid = 5;
-                    actionBRC.ActionType = ActionType.ActionFold;
-                    actionBRC.Chips = 55;
-                    actionBRC.HandChips = 66;
-                    protoWrapGo.Body = actionBRC.ToByteString();
-                    simulation = 2;
+                    var temp = new ActionREQ();
+                    protoWrapGo.Command = "ActionRSP";
+                    protoWrapGo.Body = temp.ToByteString();
                     break;
             }
             Console.WriteLine(protoWrapGo.Command);
@@ -215,6 +220,10 @@ namespace Example2
             else if (simulation == 2)
             {
                 StartSimulation2();
+            }
+            else if (simulation == 3)
+            {
+                StartSimulation3();
             }
         }
 
@@ -235,27 +244,95 @@ namespace Example2
             Console.WriteLine(protoWrapGo.Command);
             Sessions.Broadcast(protoBytes);
 
-            Thread.Sleep(3 * 1000);
+            Thread.Sleep(500);
             protoWrapGo.Command = "ActionNotifyBRC";
-            ActionNotifyBRC actionNotifyBRC = new ActionNotifyBRC();
-            actionNotifyBRC.Seatid = 2;
-            actionNotifyBRC.LeftTime = 10000;
+            var actionNotifyBRC = new ActionNotifyBRC();
+            actionNotifyBRC.Seatid = 5;
+            actionNotifyBRC.Actions.Add(ActionType.ActionFold);
+            actionNotifyBRC.Actions.Add(ActionType.ActionBet);
+            actionNotifyBRC.Actions.Add(ActionType.ActionCheck);
+            actionNotifyBRC.LeftTime = actionTime;
             protoWrapGo.Body = actionNotifyBRC.ToByteString();
             protoBytes = protoWrapGo.ToByteArray();
             Console.WriteLine(protoWrapGo.Command);
             Sessions.Broadcast(protoBytes);
+        }
+
+        private void StartSimulation2()
+        {
+            Console.WriteLine("StartSimulation2");
+            broadcastSequence++;
+            ProtoWrapGo protoWrapGo = new ProtoWrapGo();
+            protoWrapGo.Op = MessageType.MessageBroadcast;
+            protoWrapGo.Seq = broadcastSequence;
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "ActionBRC";
+            ActionBRC actionBRC = new ActionBRC();
+            actionBRC.Seatid = 5;
+            actionBRC.ActionType = ActionType.ActionCheck;
+            protoWrapGo.Body = actionBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "RoundOverBRC";
+            RoundOverBRC roundOverBRC = new RoundOverBRC();
+            roundOverBRC.Pool.Add(300);
+            protoWrapGo.Body = roundOverBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "RoundStartBRC";
+            RoundStartBRC roundStartBRC = new RoundStartBRC();
+            roundStartBRC.Stage = RoundStage.RoundFlop;
+            roundStartBRC.Board.Add("Tc");
+            roundStartBRC.Board.Add("As");
+            roundStartBRC.Board.Add("4h");
+            protoWrapGo.Body = roundStartBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "ActionNotifyBRC";
+            ActionNotifyBRC actionNotifyBRC = new ActionNotifyBRC();
+            actionNotifyBRC.Seatid = 7;
+            actionNotifyBRC.LeftTime = actionTime;
+            protoWrapGo.Body = actionNotifyBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
 
             Thread.Sleep(3 * 1000);
             protoWrapGo.Command = "ActionBRC";
-            ActionBRC actionBRC = new ActionBRC();
-            actionBRC.Seatid = 2;
+            actionBRC = new ActionBRC();
+            actionBRC.Seatid = 7;
             actionBRC.ActionType = ActionType.ActionBet;
             actionBRC.Chips = 100;
             actionBRC.HandChips = 460;
             protoWrapGo.Body = actionBRC.ToByteString();
-            protoBytes = protoWrapGo.ToByteArray();
             Console.WriteLine(protoWrapGo.Command);
-            Sessions.Broadcast(protoBytes);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "ActionNotifyBRC";
+            actionNotifyBRC = new ActionNotifyBRC();
+            actionNotifyBRC.Seatid = 2;
+            actionNotifyBRC.LeftTime = actionTime;
+            protoWrapGo.Body = actionNotifyBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(3 * 1000);
+            protoWrapGo.Command = "ActionBRC";
+            actionBRC = new ActionBRC();
+            actionBRC.Seatid = 2;
+            actionBRC.ActionType = ActionType.ActionCall;
+            actionBRC.Chips = 100;
+            actionBRC.HandChips = 460;
+            protoWrapGo.Body = actionBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
 
             Thread.Sleep(500);
             protoWrapGo.Command = "ActionNotifyBRC";
@@ -265,28 +342,192 @@ namespace Example2
             actionNotifyBRC.Actions.Add(ActionType.ActionRaise);
             actionNotifyBRC.Actions.Add(ActionType.ActionCall);
             actionNotifyBRC.Call = 100;
-            actionNotifyBRC.LeftTime = 10000;
+            actionNotifyBRC.LeftTime = actionTime;
             protoWrapGo.Body = actionNotifyBRC.ToByteString();
-            protoBytes = protoWrapGo.ToByteArray();
             Console.WriteLine(protoWrapGo.Command);
-            Sessions.Broadcast(protoBytes);
-
-            //Thread.Sleep(3 * 1000);
-            //protoWrapGo.Command = "ActionBRC";
-            //actionBRC = new ActionBRC();
-            //actionBRC.Seatid = 5;
-            //actionBRC.ActionType = ActionType.ActionCall;
-            //actionBRC.Chips = 100;
-            //actionBRC.HandChips = 460;
-            //protoWrapGo.Body = actionBRC.ToByteString();
-            //protoBytes = protoWrapGo.ToByteArray();
-            //Console.WriteLine(protoWrapGo.Command);
-            //Sessions.Broadcast(protoBytes);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
         }
 
-        private void StartSimulation2()
+        private void StartSimulation3()
         {
-            Console.WriteLine("StartSimulation2");
+            Thread.Sleep(500);
+            broadcastSequence++;
+            ProtoWrapGo protoWrapGo = new ProtoWrapGo();
+            protoWrapGo.Op = MessageType.MessageBroadcast;
+            protoWrapGo.Seq = broadcastSequence;
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "ActionBRC";
+            ActionBRC actionBRC = new ActionBRC();
+            actionBRC.Seatid = 5;
+            actionBRC.ActionType = ActionType.ActionFold;
+            protoWrapGo.Body = actionBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "RoundOverBRC";
+            RoundOverBRC roundOverBRC = new RoundOverBRC();
+            roundOverBRC.Pool.Add(500);
+            protoWrapGo.Body = roundOverBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "RoundStartBRC";
+            RoundStartBRC roundStartBRC = new RoundStartBRC();
+            roundStartBRC.Stage = RoundStage.RoundTurn;
+            roundStartBRC.Board.Add("Tc");
+            roundStartBRC.Board.Add("As");
+            roundStartBRC.Board.Add("4h");
+            roundStartBRC.Board.Add("9s");
+            protoWrapGo.Body = roundStartBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "ActionNotifyBRC";
+            var actionNotifyBRC = new ActionNotifyBRC();
+            actionNotifyBRC.Seatid = 7;
+            actionNotifyBRC.LeftTime = actionTime;
+            protoWrapGo.Body = actionNotifyBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(3 * 1000);
+            protoWrapGo.Command = "ActionBRC";
+            actionBRC = new ActionBRC();
+            actionBRC.Seatid = 7;
+            actionBRC.ActionType = ActionType.ActionBet;
+            actionBRC.Chips = 200;
+            actionBRC.HandChips = 260;
+            protoWrapGo.Body = actionBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "ActionNotifyBRC";
+            actionNotifyBRC = new ActionNotifyBRC();
+            actionNotifyBRC.Seatid = 2;
+            actionNotifyBRC.LeftTime = actionTime;
+            protoWrapGo.Body = actionNotifyBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(3 * 1000);
+            protoWrapGo.Command = "ActionBRC";
+            actionBRC = new ActionBRC();
+            actionBRC.Seatid = 2;
+            actionBRC.ActionType = ActionType.ActionCall;
+            actionBRC.Chips = 200;
+            actionBRC.HandChips = 260;
+            protoWrapGo.Body = actionBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "RoundOverBRC";
+            roundOverBRC = new RoundOverBRC();
+            roundOverBRC.Pool.Add(700);
+            protoWrapGo.Body = roundOverBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "RoundStartBRC";
+            roundStartBRC = new RoundStartBRC();
+            roundStartBRC.Stage = RoundStage.RoundRiver;
+            roundStartBRC.Board.Add("Tc");
+            roundStartBRC.Board.Add("As");
+            roundStartBRC.Board.Add("4h");
+            roundStartBRC.Board.Add("9s");
+            roundStartBRC.Board.Add("Ts");
+            protoWrapGo.Body = roundStartBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "ActionNotifyBRC";
+            actionNotifyBRC = new ActionNotifyBRC();
+            actionNotifyBRC.Seatid = 7;
+            actionNotifyBRC.LeftTime = actionTime;
+            protoWrapGo.Body = actionNotifyBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(3 * 1000);
+            protoWrapGo.Command = "ActionBRC";
+            actionBRC = new ActionBRC();
+            actionBRC.Seatid = 7;
+            actionBRC.ActionType = ActionType.ActionAllin;
+            actionBRC.Chips = 260;
+            actionBRC.HandChips = 0;
+            protoWrapGo.Body = actionBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "ActionNotifyBRC";
+            actionNotifyBRC = new ActionNotifyBRC();
+            actionNotifyBRC.Seatid = 2;
+            actionNotifyBRC.LeftTime = actionTime;
+            protoWrapGo.Body = actionNotifyBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(3 * 1000);
+            protoWrapGo.Command = "ActionBRC";
+            actionBRC = new ActionBRC();
+            actionBRC.Seatid = 2;
+            actionBRC.ActionType = ActionType.ActionAllin;
+            actionBRC.Chips = 260;
+            actionBRC.HandChips = 0;
+            protoWrapGo.Body = actionBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "RoundOverBRC";
+            roundOverBRC = new RoundOverBRC();
+            roundOverBRC.Pool.Add(700);
+            roundOverBRC.Pool.Add(300);
+            protoWrapGo.Body = roundOverBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "ShowHandRSP";
+            ShowHandInfo showHandInfo1 = new ShowHandInfo();
+            showHandInfo1.Seatid = 2;
+            showHandInfo1.Cards.Add("8s");
+            showHandInfo1.Cards.Add("3d");
+            ShowHandInfo showHandInfo2 = new ShowHandInfo();
+            showHandInfo2.Seatid = 7;
+            showHandInfo2.Cards.Add("4c");
+            showHandInfo2.Cards.Add("7s");
+            ShowHandRSP showhandBRC = new ShowHandRSP();
+            showhandBRC.Info.Add(showHandInfo1);
+            showhandBRC.Info.Add(showHandInfo2);
+            protoWrapGo.Body = showhandBRC.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
+
+            Thread.Sleep(500);
+            protoWrapGo.Command = "WinnerRSP";
+            WinningInfo winInfo1 = new WinningInfo();
+            winInfo1.Seatid = 2;
+            winInfo1.Poolid = 0;
+            winInfo1.Chips = 700;
+            WinningInfo winInfo2 = new WinningInfo();
+            winInfo2.Seatid = 7;
+            winInfo2.Poolid = 1;
+            winInfo2.Chips = 300;
+            WinnerRSP winnerRSP = new WinnerRSP();
+            winnerRSP.Winner.Add(winInfo1);
+            winnerRSP.Winner.Add(winInfo2);
+            protoWrapGo.Body = winnerRSP.ToByteString();
+            Console.WriteLine(protoWrapGo.Command);
+            Sessions.Broadcast(protoWrapGo.ToByteArray());
         }
     }
 }
