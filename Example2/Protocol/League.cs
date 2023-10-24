@@ -23,14 +23,14 @@ public static partial class LeagueReflection {
     byte[] descriptorData = global::System.Convert.FromBase64String(
         string.Concat(
           "CgxsZWFndWUucHJvdG8aCmJhc2UucHJvdG8aDnByZV9iYXNlLnByb3RvIkYK",
-          "DUpvaW5MZWFndWVSRVESDgoGY2x1YmlkGAEgASgFEhAKCGxlYWd1ZWlkGAIg",
+          "DUpvaW5MZWFndWVSRVESDgoGY2x1YmlkGAEgASgJEhAKCGxlYWd1ZWlkGAIg",
           "ASgFEhMKC2NvbnRhY3Rfd2F5GAMgASgJIh0KDUpvaW5MZWFndWVSU1ASDAoE",
           "Y29kZRgBIAEoBSJIChZIYW5kbGVKb2luTGVhZ3VlTXNnUkVREg4KBmNsdWJp",
-          "ZBgBIAEoBRIMCgRjb2RlGAIgASgFEhAKCGxlYWd1ZWlkGAMgASgFIkgKFkhh",
+          "ZBgBIAEoCRIMCgRjb2RlGAIgASgFEhAKCGxlYWd1ZWlkGAMgASgFIkgKFkhh",
           "bmRsZUpvaW5MZWFndWVNc2dSU1ASEAoIbGVhZ3VlaWQYASABKAUSDAoEY29k",
-          "ZRgCIAEoBRIOCgZjbHViaWQYAyABKAUiJQoRSm9pbkxlYWd1ZUxpc3RSRVES",
+          "ZRgCIAEoBRIOCgZjbHViaWQYAyABKAkiJQoRSm9pbkxlYWd1ZUxpc3RSRVES",
           "EAoIbGVhZ3VlaWQYASABKAUiVQoRSm9pbkxlYWd1ZU1zZ0luZm8SDgoGY2x1",
-          "YmlkGAEgASgFEhAKCGNsdWJuYW1lGAIgASgJEgwKBHRpbWUYAyABKAMSEAoI",
+          "YmlkGAEgASgJEhAKCGNsdWJuYW1lGAIgASgJEgwKBHRpbWUYAyABKAMSEAoI",
           "Y2x1Ymljb24YBCABKAkiRwoRSm9pbkxlYWd1ZUxpc3RSU1ASEAoIbGVhZ3Vl",
           "aWQYASABKAUSIAoEaW5mbxgCIAMoCzISLkpvaW5MZWFndWVNc2dJbmZvIiUK",
           "EUpvaW5MZWFndWVMaXN0QlJDEhAKCGxlYWd1ZWlkGAEgASgFIkoKD0NyZWF0",
@@ -68,12 +68,12 @@ public static partial class LeagueReflection {
           "CCIjCg9MZWFndWVNZW1iZXJSRVESEAoIbGVhZ3VlaWQYASABKAUiVQoPTGVh",
           "Z3VlTWVtYmVyUlNQEhAKCGxlYWd1ZWlkGAEgASgFEh8KBGluZm8YAyADKAsy",
           "ES5MZWFndWVNZW1iZXJJbmZvEg8KB2F1dG9iYW4YBCABKAgivwEKFkxlYWd1",
-          "ZU1lbWJlclNoYXJrSW5kZXgSDgoGY2x1YmlkGAEgASgFEhAKCGNsdWJuYW1l",
+          "ZU1lbWJlclNoYXJrSW5kZXgSDgoGY2x1YmlkGAEgASgJEhAKCGNsdWJuYW1l",
           "GAIgASgJEhAKCGNsdWJpY29uGAMgASgJEhAKCGxlYWd1ZWlkGAQgASgFEhIK",
           "CmxlYWd1ZW5hbWUYBSABKAkSFgoOc3VwZXJfbGVhZ3VlaWQYBiABKAUSDgoG",
           "cHBzcmlkGAcgASgFEhMKC3NoYXJrX2luZGV4GAggASgFEg4KBnBwc3RpZBgJ",
           "IAEoBSKaAQoZTGVhZ3VlTWVtYmVyU2hhcmtJbmRleFJFURIOCgZjbHViaWQY",
-          "ASABKAUSEAoIbGVhZ3VlaWQYAiABKAUSFgoOc3VwZXJfbGVhZ3VlaWQYAyAB",
+          "ASABKAkSEAoIbGVhZ3VlaWQYAiABKAUSFgoOc3VwZXJfbGVhZ3VlaWQYAyAB",
           "KAUSDgoGcHBzcmlkGAQgASgFEhMKC3N0YXJ0X2luZGV4GAUgASgFEg4KBmFt",
           "b3VudBgGIAEoBRIOCgZwcHN0aWQYByABKAUiegoZTGVhZ3VlTWVtYmVyU2hh",
           "cmtJbmRleFJTUBIRCgl0b3RhbF9udW0YASABKAUSEwoLc3RhcnRfaW5kZXgY",
@@ -110,12 +110,12 @@ public static partial class LeagueReflection {
           "FmRlZmljaXRfd2FybmluZ19lbmFibGUYAiABKAgSJAoEaW5mbxgDIAMoCzIW",
           "LlN1cGVyTGVhZ3VlTWVtYmVySW5mbyLSAQoQTGVhZ3VlQXV0b0JhblJFURIQ",
           "CghsZWFndWVpZBgBIAEoBRIMCgR0eXBlGAIgASgFEg4KBmVuYWJsZRgDIAEo",
-          "CBIOCgZjbHViaWQYBCABKAUSEAoIdGltZXR5cGUYBSABKAUSDQoFbGltaXQY",
+          "CBIOCgZjbHViaWQYBCABKAkSEAoIdGltZXR5cGUYBSABKAUSDQoFbGltaXQY",
           "BiABKAMSFwoPbGltaXRfbHVja3lkcmF3GAcgASgIEhcKD2xpbWl0X2NvbG9y",
           "Z2FtZRgIIAEoCBIVCg1saW1pdF9qYWNrcG90GAkgASgIEhQKDGxpbWl0X2V2",
           "Y2hvcBgKIAEoCCLQAQoQTGVhZ3VlQXV0b0JhblJTUBIQCghsZWFndWVpZBgB",
           "IAEoBRIMCgR0eXBlGAIgASgFEgwKBGNvZGUYAyABKAUSDgoGY2x1YmlkGAQg",
-          "ASgFEhAKCHRpbWV0eXBlGAUgASgFEg0KBWxpbWl0GAYgASgDEhcKD2xpbWl0",
+          "ASgJEhAKCHRpbWV0eXBlGAUgASgFEg0KBWxpbWl0GAYgASgDEhcKD2xpbWl0",
           "X2x1Y2t5ZHJhdxgHIAEoCBIXCg9saW1pdF9jb2xvcmdhbWUYCCABKAgSFQoN",
           "bGltaXRfamFja3BvdBgJIAEoCBIUCgxsaW1pdF9ldmNob3AYCiABKAgiNwoV",
           "UFBTUkRlZmljaXRXYXJuaW5nUkVREg4KBnBwc3JpZBgBIAEoBRIOCgZlbmFi",
@@ -134,10 +134,10 @@ public static partial class LeagueReflection {
           "CBIXCg9saW1pdF9jb2xvcmdhbWUYBiABKAgSFQoNbGltaXRfamFja3BvdBgH",
           "IAEoCBIUCgxsaW1pdF9ldmNob3AYCCABKAgiMAogU3VwZXJMZWFndWVNZW1i",
           "ZXJXYXJuaW5nTGltaXRSU1ASDAoEY29kZRgBIAEoBSKKAQoNTGVhZ3VlRGF0",
-          "YVJFURIQCghsZWFndWVpZBgBIAEoBRIOCgZjbHViaWQYAiABKAUSGwoTbGFz",
+          "YVJFURIQCghsZWFndWVpZBgBIAEoBRIOCgZjbHViaWQYAiABKAkSGwoTbGFz",
           "dF93ZWVrX2JlZ2luX2RheRgDIAEoBRIbChN0aGlzX3dlZWtfYmVnaW5fZGF5",
-          "GAQgASgFEhAKCHRpbWV6b25lGAUgASgFEgsKA3VpZBgGIAEoAyLXBAoOTGVh",
-          "Z3VlRGF0YUluZm8SDgoGY2x1YmlkGAEgASgFEhAKCGNsdWJuYW1lGAIgASgJ",
+          "GAQgASgFEhAKCHRpbWV6b25lGAUgASgFEgsKA3VpZBgGIAEoCSLXBAoOTGVh",
+          "Z3VlRGF0YUluZm8SDgoGY2x1YmlkGAEgASgJEhAKCGNsdWJuYW1lGAIgASgJ",
           "EhAKCGNsdWJpY29uGAMgASgJEhMKC2FsbF9lYXJuaW5nGAQgASgDEhMKC2Fs",
           "bF9qYWNrcG90GAUgASgDEhUKDWFsbF9pbnN1cmFuY2UYBiABKAMSGQoRbGFz",
           "dF93ZWVrX2Vhcm5pbmcYByABKAMSGQoRbGFzdF93ZWVrX2phY2twb3QYCCAB",
@@ -155,15 +155,15 @@ public static partial class LeagueReflection {
           "Y2hhcmdlGAMgASgDEhUKDWphY2twb3RfY2hpcHMYBCABKAMSFgoOdGhpc193",
           "ZWVrX2RhdGUYBSABKAkSFgoObGFzdF93ZWVrX2RhdGUYBiABKAkSDAoEY29k",
           "ZRgHIAEoBSIRCg9Kb2luV2FpdExpc3RSRVEigwEKD0pvaW5XYWl0TGlzdFJT",
-          "UBIOCgZyb29taWQYASABKAUSDgoGY2x1YmlkGAIgASgFEg4KBnJlc3VsdBgD",
+          "UBIOCgZyb29taWQYASABKAkSDgoGY2x1YmlkGAIgASgJEg4KBnJlc3VsdBgD",
           "IAEoBRIOCgZyZWFzb24YBCABKAkSGgoSdnBpcF9saW1pdF9wZXJfc2V0GAUg",
           "ASgFEhQKDHZwaXBfcGVyX3NldBgGIAEoBSISChBMZWF2ZVdhaXRMaXN0UkVR",
-          "IjIKEExlYXZlV2FpdExpc3RSU1ASDgoGcm9vbWlkGAEgASgFEg4KBnJlc3Vs",
+          "IjIKEExlYXZlV2FpdExpc3RSU1ASDgoGcm9vbWlkGAEgASgJEg4KBnJlc3Vs",
           "dBgCIAEoBSKRAQoMV2FpdExpc3RVc2VyEg4KBnVzZXJpZBgBIAEoAxIRCgl1",
           "c2VyX25hbWUYAiABKAkSEQoJY2x1Yl9uYW1lGAMgASgJEhEKCXVzZXJfaWNv",
           "bhgEIAEoCRIOCgZjbHViaWQYBSABKAUSEAoIbGVhZ3VlaWQYBiABKAUSFgoO",
           "dXNlcl92aXBfbGV2ZWwYByABKAUiPwoPV2FpdExpc3RJbmZvQlJDEhwKBXVz",
-          "ZXJzGAEgAygLMg0uV2FpdExpc3RVc2VyEg4KBnJvb21pZBgCIAEoBSKhAgoQ",
+          "ZXJzGAEgAygLMg0uV2FpdExpc3RVc2VyEg4KBnJvb21pZBgCIAEoCSKhAgoQ",
           "V2FpdExpc3RTZWF0SW5mbxIQCghyb29tdHlwZRgBIAEoDRINCgVibGluZBgC",
           "IAEoBRIMCgRhbnRlGAMgASgFEg4KBnJvb21pZBgEIAEoBRIOCgZjbHViaWQY",
           "BSABKAUSDgoGc2VhdGlkGAYgASgFEhEKCWxhc3RfdGltZRgHIAEoBRIMCgRu",
@@ -173,32 +173,32 @@ public static partial class LeagueReflection {
           "ZRIOCgZwcHNyaWQYDiABKAUiFQoTV2FpdExpc3RTZWF0SW5mb1JFUSI7ChNX",
           "YWl0TGlzdFNlYXRJbmZvUlNQEiQKCWluZm9fbGlzdBgBIAMoCzIRLldhaXRM",
           "aXN0U2VhdEluZm8iIgoQUmVmdXNlU2l0RG93blJFURIOCgZyb29taWQYASAB",
-          "KAUiOgoTU2V0Um9vbUF1dGhvcml0eVJFURIQCghsZWFndWVpZBgBIAEoBRIR",
+          "KAkiOgoTU2V0Um9vbUF1dGhvcml0eVJFURIQCghsZWFndWVpZBgBIAEoBRIR",
           "CglhdXRob3JpdHkYAiABKAUiSAoTU2V0Um9vbUF1dGhvcml0eVJTUBIQCghs",
           "ZWFndWVpZBgBIAEoBRIRCglhdXRob3JpdHkYAiABKAUSDAoEY29kZRgDIAEo",
           "BSI3ChBSb29tQXV0aG9yaXR5QlJDEhAKCGxlYWd1ZWlkGAEgASgFEhEKCWF1",
           "dGhvcml0eRgCIAEoBSIkChBEaXNiYW5kTGVhZ3VlUkVREhAKCGxlYWd1ZWlk",
           "GAEgASgFIjIKEERpc2JhbmRMZWFndWVSU1ASEAoIbGVhZ3VlaWQYASABKAUS",
           "DAoEY29kZRgCIAEoBSIxCg1RdWl0TGVhZ3VlUkVREhAKCGxlYWd1ZWlkGAEg",
-          "ASgFEg4KBmNsdWJpZBgCIAEoBSI/Cg1RdWl0TGVhZ3VlUlNQEhAKCGxlYWd1",
-          "ZWlkGAEgASgFEg4KBmNsdWJpZBgCIAEoBRIMCgRjb2RlGAMgASgFIjQKEERl",
+          "ASgFEg4KBmNsdWJpZBgCIAEoCSI/Cg1RdWl0TGVhZ3VlUlNQEhAKCGxlYWd1",
+          "ZWlkGAEgASgFEg4KBmNsdWJpZBgCIAEoCRIMCgRjb2RlGAMgASgFIjQKEERl",
           "bExlYWd1ZUNsdWJSRVESEAoIbGVhZ3VlaWQYASABKAUSDgoGY2x1YmlkGAIg",
-          "ASgFIlsKEERlbExlYWd1ZUNsdWJSU1ASEAoIbGVhZ3VlaWQYASABKAUSDgoG",
-          "Y2x1YmlkGAIgASgFEgwKBGNvZGUYAyABKAUSFwoPbGVmdF9wYXVzZV90aW1l",
+          "ASgJIlsKEERlbExlYWd1ZUNsdWJSU1ASEAoIbGVhZ3VlaWQYASABKAUSDgoG",
+          "Y2x1YmlkGAIgASgJEgwKBGNvZGUYAyABKAUSFwoPbGVmdF9wYXVzZV90aW1l",
           "GAQgASgFIkEKD0xlYWd1ZVVwZGF0ZUJSQxIQCghsZWFndWVpZBgBIAEoBRIM",
-          "CgR0eXBlGAIgASgFEg4KBmNsdWJpZBgDIAEoBSIhCg1MZWFndWVOYW1lUkVR",
+          "CgR0eXBlGAIgASgFEg4KBmNsdWJpZBgDIAEoCSIhCg1MZWFndWVOYW1lUkVR",
           "EhAKCGxlYWd1ZWlkGAEgASgFIj0KDUxlYWd1ZU5hbWVSU1ASEAoIbGVhZ3Vl",
           "aWQYASABKAUSDAoEbmFtZRgCIAEoCRIMCgRjb2RlGAMgASgFIiMKEUxlYWd1",
-          "ZUNsdWJDb25kUkVREg4KBmNsdWJpZBgBIAEoBSIxChFMZWFndWVDbHViQ29u",
+          "ZUNsdWJDb25kUkVREg4KBmNsdWJpZBgBIAEoCSIxChFMZWFndWVDbHViQ29u",
           "ZFJTUBIOCgZjbHViaWQYASABKAUSDAoEY29kZRgCIAEoBSJIChVBbGFybUxl",
           "YWd1ZUF1dG9CYW5SU1ASDgoGY2x1YmlkGAEgASgFEhEKCWNsdWJfbmFtZRgC",
           "IAEoCRIMCgR0eXBlGAMgASgFIlIKFkFsYXJtRGVmaWNpdFdhcm5pbmdSU1AS",
           "EgoKbGVhZ3VldHlwZRgBIAEoBRIQCghsZWFndWVpZBgCIAEoBRISCgpsZWFn",
           "dWVuYW1lGAMgASgJIoMBChdMZWFndWVMaW1pdENsdWJCbGluZFJFURIQCghs",
-          "ZWFndWVpZBgBIAEoBRIOCgZjbHViaWQYAiABKAUSIQoMbGltaXRfZGV0YWls",
+          "ZWFndWVpZBgBIAEoBRIOCgZjbHViaWQYAiABKAkSIQoMbGltaXRfZGV0YWls",
           "GAMgASgLMgsuQmxpbmRMaW1pdBIjCgpsaW1pdF9pbmZvGAQgAygLMg8uQmxp",
           "bmRMaW1pdEluZm8ikQEKF0xlYWd1ZUxpbWl0Q2x1YkJsaW5kUlNQEgwKBGNv",
-          "ZGUYASABKAUSEAoIbGVhZ3VlaWQYAiABKAUSDgoGY2x1YmlkGAMgASgFEiEK",
+          "ZGUYASABKAUSEAoIbGVhZ3VlaWQYAiABKAUSDgoGY2x1YmlkGAMgASgJEiEK",
           "DGxpbWl0X2RldGFpbBgEIAEoCzILLkJsaW5kTGltaXQSIwoKbGltaXRfaW5m",
           "bxgFIAMoCzIPLkJsaW5kTGltaXRJbmZvIm8KHlN1cGVyTGVhZ3VlTGltaXRM",
           "ZWFndWVCbGluZFJFURIWCg5zdXBlcl9sZWFndWVpZBgBIAEoBRIQCghsZWFn",
@@ -433,29 +433,28 @@ public sealed partial class JoinLeagueREQ : pb::IMessage<JoinLeagueREQ>
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 1;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 1) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 1;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 1) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~1;
+    clubid_ = null;
   }
 
   /// <summary>Field number for the "leagueid" field.</summary>
@@ -466,9 +465,9 @@ public sealed partial class JoinLeagueREQ : pb::IMessage<JoinLeagueREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Leagueid {
-    get { if ((_hasBits0 & 2) != 0) { return leagueid_; } else { return LeagueidDefaultValue; } }
+    get { if ((_hasBits0 & 1) != 0) { return leagueid_; } else { return LeagueidDefaultValue; } }
     set {
-      _hasBits0 |= 2;
+      _hasBits0 |= 1;
       leagueid_ = value;
     }
   }
@@ -476,13 +475,13 @@ public sealed partial class JoinLeagueREQ : pb::IMessage<JoinLeagueREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLeagueid {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return (_hasBits0 & 1) != 0; }
   }
   /// <summary>Clears the value of the "leagueid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLeagueid() {
-    _hasBits0 &= ~2;
+    _hasBits0 &= ~1;
   }
 
   /// <summary>Field number for the "contact_way" field.</summary>
@@ -561,8 +560,8 @@ public sealed partial class JoinLeagueREQ : pb::IMessage<JoinLeagueREQ>
     output.WriteRawMessage(this);
   #else
     if (HasClubid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(10);
+      output.WriteString(Clubid);
     }
     if (HasLeagueid) {
       output.WriteRawTag(16);
@@ -583,8 +582,8 @@ public sealed partial class JoinLeagueREQ : pb::IMessage<JoinLeagueREQ>
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     if (HasClubid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(10);
+      output.WriteString(Clubid);
     }
     if (HasLeagueid) {
       output.WriteRawTag(16);
@@ -605,7 +604,7 @@ public sealed partial class JoinLeagueREQ : pb::IMessage<JoinLeagueREQ>
   public int CalculateSize() {
     int size = 0;
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (HasLeagueid) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Leagueid);
@@ -649,8 +648,8 @@ public sealed partial class JoinLeagueREQ : pb::IMessage<JoinLeagueREQ>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
           break;
-        case 8: {
-          Clubid = input.ReadInt32();
+        case 10: {
+          Clubid = input.ReadString();
           break;
         }
         case 16: {
@@ -676,8 +675,8 @@ public sealed partial class JoinLeagueREQ : pb::IMessage<JoinLeagueREQ>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
           break;
-        case 8: {
-          Clubid = input.ReadInt32();
+        case 10: {
+          Clubid = input.ReadString();
           break;
         }
         case 16: {
@@ -964,29 +963,28 @@ public sealed partial class HandleJoinLeagueMsgREQ : pb::IMessage<HandleJoinLeag
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 1;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 1) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 1;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 1) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~1;
+    clubid_ = null;
   }
 
   /// <summary>Field number for the "code" field.</summary>
@@ -1000,9 +998,9 @@ public sealed partial class HandleJoinLeagueMsgREQ : pb::IMessage<HandleJoinLeag
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Code {
-    get { if ((_hasBits0 & 2) != 0) { return code_; } else { return CodeDefaultValue; } }
+    get { if ((_hasBits0 & 1) != 0) { return code_; } else { return CodeDefaultValue; } }
     set {
-      _hasBits0 |= 2;
+      _hasBits0 |= 1;
       code_ = value;
     }
   }
@@ -1010,13 +1008,13 @@ public sealed partial class HandleJoinLeagueMsgREQ : pb::IMessage<HandleJoinLeag
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasCode {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return (_hasBits0 & 1) != 0; }
   }
   /// <summary>Clears the value of the "code" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearCode() {
-    _hasBits0 &= ~2;
+    _hasBits0 &= ~1;
   }
 
   /// <summary>Field number for the "leagueid" field.</summary>
@@ -1027,9 +1025,9 @@ public sealed partial class HandleJoinLeagueMsgREQ : pb::IMessage<HandleJoinLeag
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Leagueid {
-    get { if ((_hasBits0 & 4) != 0) { return leagueid_; } else { return LeagueidDefaultValue; } }
+    get { if ((_hasBits0 & 2) != 0) { return leagueid_; } else { return LeagueidDefaultValue; } }
     set {
-      _hasBits0 |= 4;
+      _hasBits0 |= 2;
       leagueid_ = value;
     }
   }
@@ -1037,13 +1035,13 @@ public sealed partial class HandleJoinLeagueMsgREQ : pb::IMessage<HandleJoinLeag
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLeagueid {
-    get { return (_hasBits0 & 4) != 0; }
+    get { return (_hasBits0 & 2) != 0; }
   }
   /// <summary>Clears the value of the "leagueid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLeagueid() {
-    _hasBits0 &= ~4;
+    _hasBits0 &= ~2;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1093,8 +1091,8 @@ public sealed partial class HandleJoinLeagueMsgREQ : pb::IMessage<HandleJoinLeag
     output.WriteRawMessage(this);
   #else
     if (HasClubid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(10);
+      output.WriteString(Clubid);
     }
     if (HasCode) {
       output.WriteRawTag(16);
@@ -1115,8 +1113,8 @@ public sealed partial class HandleJoinLeagueMsgREQ : pb::IMessage<HandleJoinLeag
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     if (HasClubid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(10);
+      output.WriteString(Clubid);
     }
     if (HasCode) {
       output.WriteRawTag(16);
@@ -1137,7 +1135,7 @@ public sealed partial class HandleJoinLeagueMsgREQ : pb::IMessage<HandleJoinLeag
   public int CalculateSize() {
     int size = 0;
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (HasCode) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Code);
@@ -1181,8 +1179,8 @@ public sealed partial class HandleJoinLeagueMsgREQ : pb::IMessage<HandleJoinLeag
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
           break;
-        case 8: {
-          Clubid = input.ReadInt32();
+        case 10: {
+          Clubid = input.ReadString();
           break;
         }
         case 16: {
@@ -1208,8 +1206,8 @@ public sealed partial class HandleJoinLeagueMsgREQ : pb::IMessage<HandleJoinLeag
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
           break;
-        case 8: {
-          Clubid = input.ReadInt32();
+        case 10: {
+          Clubid = input.ReadString();
           break;
         }
         case 16: {
@@ -1335,29 +1333,28 @@ public sealed partial class HandleJoinLeagueMsgRSP : pb::IMessage<HandleJoinLeag
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 3;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 4) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 4;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 4) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~4;
+    clubid_ = null;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1415,8 +1412,8 @@ public sealed partial class HandleJoinLeagueMsgRSP : pb::IMessage<HandleJoinLeag
       output.WriteInt32(Code);
     }
     if (HasClubid) {
-      output.WriteRawTag(24);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(26);
+      output.WriteString(Clubid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -1437,8 +1434,8 @@ public sealed partial class HandleJoinLeagueMsgRSP : pb::IMessage<HandleJoinLeag
       output.WriteInt32(Code);
     }
     if (HasClubid) {
-      output.WriteRawTag(24);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(26);
+      output.WriteString(Clubid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -1457,7 +1454,7 @@ public sealed partial class HandleJoinLeagueMsgRSP : pb::IMessage<HandleJoinLeag
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Code);
     }
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -1503,8 +1500,8 @@ public sealed partial class HandleJoinLeagueMsgRSP : pb::IMessage<HandleJoinLeag
           Code = input.ReadInt32();
           break;
         }
-        case 24: {
-          Clubid = input.ReadInt32();
+        case 26: {
+          Clubid = input.ReadString();
           break;
         }
       }
@@ -1530,8 +1527,8 @@ public sealed partial class HandleJoinLeagueMsgRSP : pb::IMessage<HandleJoinLeag
           Code = input.ReadInt32();
           break;
         }
-        case 24: {
-          Clubid = input.ReadInt32();
+        case 26: {
+          Clubid = input.ReadString();
           break;
         }
       }
@@ -1798,29 +1795,28 @@ public sealed partial class JoinLeagueMsgInfo : pb::IMessage<JoinLeagueMsgInfo>
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 1;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 1) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 1;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 1) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~1;
+    clubid_ = null;
   }
 
   /// <summary>Field number for the "clubname" field.</summary>
@@ -1857,9 +1853,9 @@ public sealed partial class JoinLeagueMsgInfo : pb::IMessage<JoinLeagueMsgInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long Time {
-    get { if ((_hasBits0 & 2) != 0) { return time_; } else { return TimeDefaultValue; } }
+    get { if ((_hasBits0 & 1) != 0) { return time_; } else { return TimeDefaultValue; } }
     set {
-      _hasBits0 |= 2;
+      _hasBits0 |= 1;
       time_ = value;
     }
   }
@@ -1867,13 +1863,13 @@ public sealed partial class JoinLeagueMsgInfo : pb::IMessage<JoinLeagueMsgInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasTime {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return (_hasBits0 & 1) != 0; }
   }
   /// <summary>Clears the value of the "time" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearTime() {
-    _hasBits0 &= ~2;
+    _hasBits0 &= ~1;
   }
 
   /// <summary>Field number for the "clubicon" field.</summary>
@@ -1951,8 +1947,8 @@ public sealed partial class JoinLeagueMsgInfo : pb::IMessage<JoinLeagueMsgInfo>
     output.WriteRawMessage(this);
   #else
     if (HasClubid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(10);
+      output.WriteString(Clubid);
     }
     if (HasClubname) {
       output.WriteRawTag(18);
@@ -1977,8 +1973,8 @@ public sealed partial class JoinLeagueMsgInfo : pb::IMessage<JoinLeagueMsgInfo>
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     if (HasClubid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(10);
+      output.WriteString(Clubid);
     }
     if (HasClubname) {
       output.WriteRawTag(18);
@@ -2003,7 +1999,7 @@ public sealed partial class JoinLeagueMsgInfo : pb::IMessage<JoinLeagueMsgInfo>
   public int CalculateSize() {
     int size = 0;
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (HasClubname) {
       size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubname);
@@ -2053,8 +2049,8 @@ public sealed partial class JoinLeagueMsgInfo : pb::IMessage<JoinLeagueMsgInfo>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
           break;
-        case 8: {
-          Clubid = input.ReadInt32();
+        case 10: {
+          Clubid = input.ReadString();
           break;
         }
         case 18: {
@@ -2084,8 +2080,8 @@ public sealed partial class JoinLeagueMsgInfo : pb::IMessage<JoinLeagueMsgInfo>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
           break;
-        case 8: {
-          Clubid = input.ReadInt32();
+        case 10: {
+          Clubid = input.ReadString();
           break;
         }
         case 18: {
@@ -6614,29 +6610,28 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 1;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 1) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 1;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 1) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~1;
+    clubid_ = null;
   }
 
   /// <summary>Field number for the "clubname" field.</summary>
@@ -6699,9 +6694,9 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Leagueid {
-    get { if ((_hasBits0 & 2) != 0) { return leagueid_; } else { return LeagueidDefaultValue; } }
+    get { if ((_hasBits0 & 1) != 0) { return leagueid_; } else { return LeagueidDefaultValue; } }
     set {
-      _hasBits0 |= 2;
+      _hasBits0 |= 1;
       leagueid_ = value;
     }
   }
@@ -6709,13 +6704,13 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLeagueid {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return (_hasBits0 & 1) != 0; }
   }
   /// <summary>Clears the value of the "leagueid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLeagueid() {
-    _hasBits0 &= ~2;
+    _hasBits0 &= ~1;
   }
 
   /// <summary>Field number for the "leaguename" field.</summary>
@@ -6752,9 +6747,9 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int SuperLeagueid {
-    get { if ((_hasBits0 & 4) != 0) { return superLeagueid_; } else { return SuperLeagueidDefaultValue; } }
+    get { if ((_hasBits0 & 2) != 0) { return superLeagueid_; } else { return SuperLeagueidDefaultValue; } }
     set {
-      _hasBits0 |= 4;
+      _hasBits0 |= 2;
       superLeagueid_ = value;
     }
   }
@@ -6762,13 +6757,13 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasSuperLeagueid {
-    get { return (_hasBits0 & 4) != 0; }
+    get { return (_hasBits0 & 2) != 0; }
   }
   /// <summary>Clears the value of the "super_leagueid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearSuperLeagueid() {
-    _hasBits0 &= ~4;
+    _hasBits0 &= ~2;
   }
 
   /// <summary>Field number for the "ppsrid" field.</summary>
@@ -6779,9 +6774,9 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Ppsrid {
-    get { if ((_hasBits0 & 8) != 0) { return ppsrid_; } else { return PpsridDefaultValue; } }
+    get { if ((_hasBits0 & 4) != 0) { return ppsrid_; } else { return PpsridDefaultValue; } }
     set {
-      _hasBits0 |= 8;
+      _hasBits0 |= 4;
       ppsrid_ = value;
     }
   }
@@ -6789,13 +6784,13 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasPpsrid {
-    get { return (_hasBits0 & 8) != 0; }
+    get { return (_hasBits0 & 4) != 0; }
   }
   /// <summary>Clears the value of the "ppsrid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearPpsrid() {
-    _hasBits0 &= ~8;
+    _hasBits0 &= ~4;
   }
 
   /// <summary>Field number for the "shark_index" field.</summary>
@@ -6806,9 +6801,9 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int SharkIndex {
-    get { if ((_hasBits0 & 16) != 0) { return sharkIndex_; } else { return SharkIndexDefaultValue; } }
+    get { if ((_hasBits0 & 8) != 0) { return sharkIndex_; } else { return SharkIndexDefaultValue; } }
     set {
-      _hasBits0 |= 16;
+      _hasBits0 |= 8;
       sharkIndex_ = value;
     }
   }
@@ -6816,13 +6811,13 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasSharkIndex {
-    get { return (_hasBits0 & 16) != 0; }
+    get { return (_hasBits0 & 8) != 0; }
   }
   /// <summary>Clears the value of the "shark_index" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearSharkIndex() {
-    _hasBits0 &= ~16;
+    _hasBits0 &= ~8;
   }
 
   /// <summary>Field number for the "ppstid" field.</summary>
@@ -6833,9 +6828,9 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Ppstid {
-    get { if ((_hasBits0 & 32) != 0) { return ppstid_; } else { return PpstidDefaultValue; } }
+    get { if ((_hasBits0 & 16) != 0) { return ppstid_; } else { return PpstidDefaultValue; } }
     set {
-      _hasBits0 |= 32;
+      _hasBits0 |= 16;
       ppstid_ = value;
     }
   }
@@ -6843,13 +6838,13 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasPpstid {
-    get { return (_hasBits0 & 32) != 0; }
+    get { return (_hasBits0 & 16) != 0; }
   }
   /// <summary>Clears the value of the "ppstid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearPpstid() {
-    _hasBits0 &= ~32;
+    _hasBits0 &= ~16;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6911,8 +6906,8 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
     output.WriteRawMessage(this);
   #else
     if (HasClubid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(10);
+      output.WriteString(Clubid);
     }
     if (HasClubname) {
       output.WriteRawTag(18);
@@ -6957,8 +6952,8 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     if (HasClubid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(10);
+      output.WriteString(Clubid);
     }
     if (HasClubname) {
       output.WriteRawTag(18);
@@ -7003,7 +6998,7 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
   public int CalculateSize() {
     int size = 0;
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (HasClubname) {
       size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubname);
@@ -7083,8 +7078,8 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
           break;
-        case 8: {
-          Clubid = input.ReadInt32();
+        case 10: {
+          Clubid = input.ReadString();
           break;
         }
         case 18: {
@@ -7134,8 +7129,8 @@ public sealed partial class LeagueMemberSharkIndex : pb::IMessage<LeagueMemberSh
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
           break;
-        case 8: {
-          Clubid = input.ReadInt32();
+        case 10: {
+          Clubid = input.ReadString();
           break;
         }
         case 18: {
@@ -7231,29 +7226,28 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 1;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 1) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 1;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 1) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~1;
+    clubid_ = null;
   }
 
   /// <summary>Field number for the "leagueid" field.</summary>
@@ -7264,9 +7258,9 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Leagueid {
-    get { if ((_hasBits0 & 2) != 0) { return leagueid_; } else { return LeagueidDefaultValue; } }
+    get { if ((_hasBits0 & 1) != 0) { return leagueid_; } else { return LeagueidDefaultValue; } }
     set {
-      _hasBits0 |= 2;
+      _hasBits0 |= 1;
       leagueid_ = value;
     }
   }
@@ -7274,13 +7268,13 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLeagueid {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return (_hasBits0 & 1) != 0; }
   }
   /// <summary>Clears the value of the "leagueid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLeagueid() {
-    _hasBits0 &= ~2;
+    _hasBits0 &= ~1;
   }
 
   /// <summary>Field number for the "super_leagueid" field.</summary>
@@ -7291,9 +7285,9 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int SuperLeagueid {
-    get { if ((_hasBits0 & 4) != 0) { return superLeagueid_; } else { return SuperLeagueidDefaultValue; } }
+    get { if ((_hasBits0 & 2) != 0) { return superLeagueid_; } else { return SuperLeagueidDefaultValue; } }
     set {
-      _hasBits0 |= 4;
+      _hasBits0 |= 2;
       superLeagueid_ = value;
     }
   }
@@ -7301,13 +7295,13 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasSuperLeagueid {
-    get { return (_hasBits0 & 4) != 0; }
+    get { return (_hasBits0 & 2) != 0; }
   }
   /// <summary>Clears the value of the "super_leagueid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearSuperLeagueid() {
-    _hasBits0 &= ~4;
+    _hasBits0 &= ~2;
   }
 
   /// <summary>Field number for the "ppsrid" field.</summary>
@@ -7318,9 +7312,9 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Ppsrid {
-    get { if ((_hasBits0 & 8) != 0) { return ppsrid_; } else { return PpsridDefaultValue; } }
+    get { if ((_hasBits0 & 4) != 0) { return ppsrid_; } else { return PpsridDefaultValue; } }
     set {
-      _hasBits0 |= 8;
+      _hasBits0 |= 4;
       ppsrid_ = value;
     }
   }
@@ -7328,13 +7322,13 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasPpsrid {
-    get { return (_hasBits0 & 8) != 0; }
+    get { return (_hasBits0 & 4) != 0; }
   }
   /// <summary>Clears the value of the "ppsrid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearPpsrid() {
-    _hasBits0 &= ~8;
+    _hasBits0 &= ~4;
   }
 
   /// <summary>Field number for the "start_index" field.</summary>
@@ -7345,9 +7339,9 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int StartIndex {
-    get { if ((_hasBits0 & 16) != 0) { return startIndex_; } else { return StartIndexDefaultValue; } }
+    get { if ((_hasBits0 & 8) != 0) { return startIndex_; } else { return StartIndexDefaultValue; } }
     set {
-      _hasBits0 |= 16;
+      _hasBits0 |= 8;
       startIndex_ = value;
     }
   }
@@ -7355,13 +7349,13 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasStartIndex {
-    get { return (_hasBits0 & 16) != 0; }
+    get { return (_hasBits0 & 8) != 0; }
   }
   /// <summary>Clears the value of the "start_index" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearStartIndex() {
-    _hasBits0 &= ~16;
+    _hasBits0 &= ~8;
   }
 
   /// <summary>Field number for the "amount" field.</summary>
@@ -7375,9 +7369,9 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Amount {
-    get { if ((_hasBits0 & 32) != 0) { return amount_; } else { return AmountDefaultValue; } }
+    get { if ((_hasBits0 & 16) != 0) { return amount_; } else { return AmountDefaultValue; } }
     set {
-      _hasBits0 |= 32;
+      _hasBits0 |= 16;
       amount_ = value;
     }
   }
@@ -7385,13 +7379,13 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasAmount {
-    get { return (_hasBits0 & 32) != 0; }
+    get { return (_hasBits0 & 16) != 0; }
   }
   /// <summary>Clears the value of the "amount" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearAmount() {
-    _hasBits0 &= ~32;
+    _hasBits0 &= ~16;
   }
 
   /// <summary>Field number for the "ppstid" field.</summary>
@@ -7402,9 +7396,9 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Ppstid {
-    get { if ((_hasBits0 & 64) != 0) { return ppstid_; } else { return PpstidDefaultValue; } }
+    get { if ((_hasBits0 & 32) != 0) { return ppstid_; } else { return PpstidDefaultValue; } }
     set {
-      _hasBits0 |= 64;
+      _hasBits0 |= 32;
       ppstid_ = value;
     }
   }
@@ -7412,13 +7406,13 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasPpstid {
-    get { return (_hasBits0 & 64) != 0; }
+    get { return (_hasBits0 & 32) != 0; }
   }
   /// <summary>Clears the value of the "ppstid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearPpstid() {
-    _hasBits0 &= ~64;
+    _hasBits0 &= ~32;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7476,8 +7470,8 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
     output.WriteRawMessage(this);
   #else
     if (HasClubid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(10);
+      output.WriteString(Clubid);
     }
     if (HasLeagueid) {
       output.WriteRawTag(16);
@@ -7514,8 +7508,8 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     if (HasClubid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(10);
+      output.WriteString(Clubid);
     }
     if (HasLeagueid) {
       output.WriteRawTag(16);
@@ -7552,7 +7546,7 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
   public int CalculateSize() {
     int size = 0;
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (HasLeagueid) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Leagueid);
@@ -7620,8 +7614,8 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
           break;
-        case 8: {
-          Clubid = input.ReadInt32();
+        case 10: {
+          Clubid = input.ReadString();
           break;
         }
         case 16: {
@@ -7663,8 +7657,8 @@ public sealed partial class LeagueMemberSharkIndexREQ : pb::IMessage<LeagueMembe
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
           break;
-        case 8: {
-          Clubid = input.ReadInt32();
+        case 10: {
+          Clubid = input.ReadString();
           break;
         }
         case 16: {
@@ -11505,32 +11499,31 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 4;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   /// <summary>
   /// type:1 need
   /// </summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 8) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 8;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 8) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~8;
+    clubid_ = null;
   }
 
   /// <summary>Field number for the "timetype" field.</summary>
@@ -11544,9 +11537,9 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Timetype {
-    get { if ((_hasBits0 & 16) != 0) { return timetype_; } else { return TimetypeDefaultValue; } }
+    get { if ((_hasBits0 & 8) != 0) { return timetype_; } else { return TimetypeDefaultValue; } }
     set {
-      _hasBits0 |= 16;
+      _hasBits0 |= 8;
       timetype_ = value;
     }
   }
@@ -11554,13 +11547,13 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasTimetype {
-    get { return (_hasBits0 & 16) != 0; }
+    get { return (_hasBits0 & 8) != 0; }
   }
   /// <summary>Clears the value of the "timetype" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearTimetype() {
-    _hasBits0 &= ~16;
+    _hasBits0 &= ~8;
   }
 
   /// <summary>Field number for the "limit" field.</summary>
@@ -11574,9 +11567,9 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long Limit {
-    get { if ((_hasBits0 & 32) != 0) { return limit_; } else { return LimitDefaultValue; } }
+    get { if ((_hasBits0 & 16) != 0) { return limit_; } else { return LimitDefaultValue; } }
     set {
-      _hasBits0 |= 32;
+      _hasBits0 |= 16;
       limit_ = value;
     }
   }
@@ -11584,13 +11577,13 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLimit {
-    get { return (_hasBits0 & 32) != 0; }
+    get { return (_hasBits0 & 16) != 0; }
   }
   /// <summary>Clears the value of the "limit" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLimit() {
-    _hasBits0 &= ~32;
+    _hasBits0 &= ~16;
   }
 
   /// <summary>Field number for the "limit_luckydraw" field.</summary>
@@ -11601,9 +11594,9 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool LimitLuckydraw {
-    get { if ((_hasBits0 & 64) != 0) { return limitLuckydraw_; } else { return LimitLuckydrawDefaultValue; } }
+    get { if ((_hasBits0 & 32) != 0) { return limitLuckydraw_; } else { return LimitLuckydrawDefaultValue; } }
     set {
-      _hasBits0 |= 64;
+      _hasBits0 |= 32;
       limitLuckydraw_ = value;
     }
   }
@@ -11611,13 +11604,13 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLimitLuckydraw {
-    get { return (_hasBits0 & 64) != 0; }
+    get { return (_hasBits0 & 32) != 0; }
   }
   /// <summary>Clears the value of the "limit_luckydraw" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLimitLuckydraw() {
-    _hasBits0 &= ~64;
+    _hasBits0 &= ~32;
   }
 
   /// <summary>Field number for the "limit_colorgame" field.</summary>
@@ -11628,9 +11621,9 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool LimitColorgame {
-    get { if ((_hasBits0 & 128) != 0) { return limitColorgame_; } else { return LimitColorgameDefaultValue; } }
+    get { if ((_hasBits0 & 64) != 0) { return limitColorgame_; } else { return LimitColorgameDefaultValue; } }
     set {
-      _hasBits0 |= 128;
+      _hasBits0 |= 64;
       limitColorgame_ = value;
     }
   }
@@ -11638,13 +11631,13 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLimitColorgame {
-    get { return (_hasBits0 & 128) != 0; }
+    get { return (_hasBits0 & 64) != 0; }
   }
   /// <summary>Clears the value of the "limit_colorgame" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLimitColorgame() {
-    _hasBits0 &= ~128;
+    _hasBits0 &= ~64;
   }
 
   /// <summary>Field number for the "limit_jackpot" field.</summary>
@@ -11655,9 +11648,9 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool LimitJackpot {
-    get { if ((_hasBits0 & 256) != 0) { return limitJackpot_; } else { return LimitJackpotDefaultValue; } }
+    get { if ((_hasBits0 & 128) != 0) { return limitJackpot_; } else { return LimitJackpotDefaultValue; } }
     set {
-      _hasBits0 |= 256;
+      _hasBits0 |= 128;
       limitJackpot_ = value;
     }
   }
@@ -11665,13 +11658,13 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLimitJackpot {
-    get { return (_hasBits0 & 256) != 0; }
+    get { return (_hasBits0 & 128) != 0; }
   }
   /// <summary>Clears the value of the "limit_jackpot" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLimitJackpot() {
-    _hasBits0 &= ~256;
+    _hasBits0 &= ~128;
   }
 
   /// <summary>Field number for the "limit_evchop" field.</summary>
@@ -11682,9 +11675,9 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool LimitEvchop {
-    get { if ((_hasBits0 & 512) != 0) { return limitEvchop_; } else { return LimitEvchopDefaultValue; } }
+    get { if ((_hasBits0 & 256) != 0) { return limitEvchop_; } else { return LimitEvchopDefaultValue; } }
     set {
-      _hasBits0 |= 512;
+      _hasBits0 |= 256;
       limitEvchop_ = value;
     }
   }
@@ -11692,13 +11685,13 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLimitEvchop {
-    get { return (_hasBits0 & 512) != 0; }
+    get { return (_hasBits0 & 256) != 0; }
   }
   /// <summary>Clears the value of the "limit_evchop" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLimitEvchop() {
-    _hasBits0 &= ~512;
+    _hasBits0 &= ~256;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11774,8 +11767,8 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
       output.WriteBool(Enable);
     }
     if (HasClubid) {
-      output.WriteRawTag(32);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(34);
+      output.WriteString(Clubid);
     }
     if (HasTimetype) {
       output.WriteRawTag(40);
@@ -11824,8 +11817,8 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
       output.WriteBool(Enable);
     }
     if (HasClubid) {
-      output.WriteRawTag(32);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(34);
+      output.WriteString(Clubid);
     }
     if (HasTimetype) {
       output.WriteRawTag(40);
@@ -11871,7 +11864,7 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
       size += 1 + 1;
     }
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (HasTimetype) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Timetype);
@@ -11960,8 +11953,8 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
           Enable = input.ReadBool();
           break;
         }
-        case 32: {
-          Clubid = input.ReadInt32();
+        case 34: {
+          Clubid = input.ReadString();
           break;
         }
         case 40: {
@@ -12015,8 +12008,8 @@ public sealed partial class LeagueAutoBanREQ : pb::IMessage<LeagueAutoBanREQ>
           Enable = input.ReadBool();
           break;
         }
-        case 32: {
-          Clubid = input.ReadInt32();
+        case 34: {
+          Clubid = input.ReadString();
           break;
         }
         case 40: {
@@ -12197,32 +12190,31 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 4;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   /// <summary>
   /// copy from req
   /// </summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 8) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 8;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 8) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~8;
+    clubid_ = null;
   }
 
   /// <summary>Field number for the "timetype" field.</summary>
@@ -12236,9 +12228,9 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Timetype {
-    get { if ((_hasBits0 & 16) != 0) { return timetype_; } else { return TimetypeDefaultValue; } }
+    get { if ((_hasBits0 & 8) != 0) { return timetype_; } else { return TimetypeDefaultValue; } }
     set {
-      _hasBits0 |= 16;
+      _hasBits0 |= 8;
       timetype_ = value;
     }
   }
@@ -12246,13 +12238,13 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasTimetype {
-    get { return (_hasBits0 & 16) != 0; }
+    get { return (_hasBits0 & 8) != 0; }
   }
   /// <summary>Clears the value of the "timetype" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearTimetype() {
-    _hasBits0 &= ~16;
+    _hasBits0 &= ~8;
   }
 
   /// <summary>Field number for the "limit" field.</summary>
@@ -12266,9 +12258,9 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long Limit {
-    get { if ((_hasBits0 & 32) != 0) { return limit_; } else { return LimitDefaultValue; } }
+    get { if ((_hasBits0 & 16) != 0) { return limit_; } else { return LimitDefaultValue; } }
     set {
-      _hasBits0 |= 32;
+      _hasBits0 |= 16;
       limit_ = value;
     }
   }
@@ -12276,13 +12268,13 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLimit {
-    get { return (_hasBits0 & 32) != 0; }
+    get { return (_hasBits0 & 16) != 0; }
   }
   /// <summary>Clears the value of the "limit" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLimit() {
-    _hasBits0 &= ~32;
+    _hasBits0 &= ~16;
   }
 
   /// <summary>Field number for the "limit_luckydraw" field.</summary>
@@ -12293,9 +12285,9 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool LimitLuckydraw {
-    get { if ((_hasBits0 & 64) != 0) { return limitLuckydraw_; } else { return LimitLuckydrawDefaultValue; } }
+    get { if ((_hasBits0 & 32) != 0) { return limitLuckydraw_; } else { return LimitLuckydrawDefaultValue; } }
     set {
-      _hasBits0 |= 64;
+      _hasBits0 |= 32;
       limitLuckydraw_ = value;
     }
   }
@@ -12303,13 +12295,13 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLimitLuckydraw {
-    get { return (_hasBits0 & 64) != 0; }
+    get { return (_hasBits0 & 32) != 0; }
   }
   /// <summary>Clears the value of the "limit_luckydraw" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLimitLuckydraw() {
-    _hasBits0 &= ~64;
+    _hasBits0 &= ~32;
   }
 
   /// <summary>Field number for the "limit_colorgame" field.</summary>
@@ -12320,9 +12312,9 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool LimitColorgame {
-    get { if ((_hasBits0 & 128) != 0) { return limitColorgame_; } else { return LimitColorgameDefaultValue; } }
+    get { if ((_hasBits0 & 64) != 0) { return limitColorgame_; } else { return LimitColorgameDefaultValue; } }
     set {
-      _hasBits0 |= 128;
+      _hasBits0 |= 64;
       limitColorgame_ = value;
     }
   }
@@ -12330,13 +12322,13 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLimitColorgame {
-    get { return (_hasBits0 & 128) != 0; }
+    get { return (_hasBits0 & 64) != 0; }
   }
   /// <summary>Clears the value of the "limit_colorgame" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLimitColorgame() {
-    _hasBits0 &= ~128;
+    _hasBits0 &= ~64;
   }
 
   /// <summary>Field number for the "limit_jackpot" field.</summary>
@@ -12347,9 +12339,9 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool LimitJackpot {
-    get { if ((_hasBits0 & 256) != 0) { return limitJackpot_; } else { return LimitJackpotDefaultValue; } }
+    get { if ((_hasBits0 & 128) != 0) { return limitJackpot_; } else { return LimitJackpotDefaultValue; } }
     set {
-      _hasBits0 |= 256;
+      _hasBits0 |= 128;
       limitJackpot_ = value;
     }
   }
@@ -12357,13 +12349,13 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLimitJackpot {
-    get { return (_hasBits0 & 256) != 0; }
+    get { return (_hasBits0 & 128) != 0; }
   }
   /// <summary>Clears the value of the "limit_jackpot" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLimitJackpot() {
-    _hasBits0 &= ~256;
+    _hasBits0 &= ~128;
   }
 
   /// <summary>Field number for the "limit_evchop" field.</summary>
@@ -12374,9 +12366,9 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool LimitEvchop {
-    get { if ((_hasBits0 & 512) != 0) { return limitEvchop_; } else { return LimitEvchopDefaultValue; } }
+    get { if ((_hasBits0 & 256) != 0) { return limitEvchop_; } else { return LimitEvchopDefaultValue; } }
     set {
-      _hasBits0 |= 512;
+      _hasBits0 |= 256;
       limitEvchop_ = value;
     }
   }
@@ -12384,13 +12376,13 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLimitEvchop {
-    get { return (_hasBits0 & 512) != 0; }
+    get { return (_hasBits0 & 256) != 0; }
   }
   /// <summary>Clears the value of the "limit_evchop" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLimitEvchop() {
-    _hasBits0 &= ~512;
+    _hasBits0 &= ~256;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12466,8 +12458,8 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
       output.WriteInt32(Code);
     }
     if (HasClubid) {
-      output.WriteRawTag(32);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(34);
+      output.WriteString(Clubid);
     }
     if (HasTimetype) {
       output.WriteRawTag(40);
@@ -12516,8 +12508,8 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
       output.WriteInt32(Code);
     }
     if (HasClubid) {
-      output.WriteRawTag(32);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(34);
+      output.WriteString(Clubid);
     }
     if (HasTimetype) {
       output.WriteRawTag(40);
@@ -12563,7 +12555,7 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Code);
     }
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (HasTimetype) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Timetype);
@@ -12652,8 +12644,8 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
           Code = input.ReadInt32();
           break;
         }
-        case 32: {
-          Clubid = input.ReadInt32();
+        case 34: {
+          Clubid = input.ReadString();
           break;
         }
         case 40: {
@@ -12707,8 +12699,8 @@ public sealed partial class LeagueAutoBanRSP : pb::IMessage<LeagueAutoBanRSP>
           Code = input.ReadInt32();
           break;
         }
-        case 32: {
-          Clubid = input.ReadInt32();
+        case 34: {
+          Clubid = input.ReadString();
           break;
         }
         case 40: {
@@ -15277,29 +15269,28 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 2;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 2) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 2;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~2;
+    clubid_ = null;
   }
 
   /// <summary>Field number for the "last_week_begin_day" field.</summary>
@@ -15313,9 +15304,9 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int LastWeekBeginDay {
-    get { if ((_hasBits0 & 4) != 0) { return lastWeekBeginDay_; } else { return LastWeekBeginDayDefaultValue; } }
+    get { if ((_hasBits0 & 2) != 0) { return lastWeekBeginDay_; } else { return LastWeekBeginDayDefaultValue; } }
     set {
-      _hasBits0 |= 4;
+      _hasBits0 |= 2;
       lastWeekBeginDay_ = value;
     }
   }
@@ -15323,13 +15314,13 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLastWeekBeginDay {
-    get { return (_hasBits0 & 4) != 0; }
+    get { return (_hasBits0 & 2) != 0; }
   }
   /// <summary>Clears the value of the "last_week_begin_day" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLastWeekBeginDay() {
-    _hasBits0 &= ~4;
+    _hasBits0 &= ~2;
   }
 
   /// <summary>Field number for the "this_week_begin_day" field.</summary>
@@ -15343,9 +15334,9 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int ThisWeekBeginDay {
-    get { if ((_hasBits0 & 8) != 0) { return thisWeekBeginDay_; } else { return ThisWeekBeginDayDefaultValue; } }
+    get { if ((_hasBits0 & 4) != 0) { return thisWeekBeginDay_; } else { return ThisWeekBeginDayDefaultValue; } }
     set {
-      _hasBits0 |= 8;
+      _hasBits0 |= 4;
       thisWeekBeginDay_ = value;
     }
   }
@@ -15353,13 +15344,13 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasThisWeekBeginDay {
-    get { return (_hasBits0 & 8) != 0; }
+    get { return (_hasBits0 & 4) != 0; }
   }
   /// <summary>Clears the value of the "this_week_begin_day" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearThisWeekBeginDay() {
-    _hasBits0 &= ~8;
+    _hasBits0 &= ~4;
   }
 
   /// <summary>Field number for the "timezone" field.</summary>
@@ -15370,9 +15361,9 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Timezone {
-    get { if ((_hasBits0 & 16) != 0) { return timezone_; } else { return TimezoneDefaultValue; } }
+    get { if ((_hasBits0 & 8) != 0) { return timezone_; } else { return TimezoneDefaultValue; } }
     set {
-      _hasBits0 |= 16;
+      _hasBits0 |= 8;
       timezone_ = value;
     }
   }
@@ -15380,40 +15371,39 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasTimezone {
-    get { return (_hasBits0 & 16) != 0; }
+    get { return (_hasBits0 & 8) != 0; }
   }
   /// <summary>Clears the value of the "timezone" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearTimezone() {
-    _hasBits0 &= ~16;
+    _hasBits0 &= ~8;
   }
 
   /// <summary>Field number for the "uid" field.</summary>
   public const int UidFieldNumber = 6;
-  private readonly static long UidDefaultValue = 0L;
+  private readonly static string UidDefaultValue = "";
 
-  private long uid_;
+  private string uid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public long Uid {
-    get { if ((_hasBits0 & 32) != 0) { return uid_; } else { return UidDefaultValue; } }
+  public string Uid {
+    get { return uid_ ?? UidDefaultValue; }
     set {
-      _hasBits0 |= 32;
-      uid_ = value;
+      uid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "uid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasUid {
-    get { return (_hasBits0 & 32) != 0; }
+    get { return uid_ != null; }
   }
   /// <summary>Clears the value of the "uid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearUid() {
-    _hasBits0 &= ~32;
+    uid_ = null;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15473,8 +15463,8 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
       output.WriteInt32(Leagueid);
     }
     if (HasClubid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(18);
+      output.WriteString(Clubid);
     }
     if (HasLastWeekBeginDay) {
       output.WriteRawTag(24);
@@ -15489,8 +15479,8 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
       output.WriteInt32(Timezone);
     }
     if (HasUid) {
-      output.WriteRawTag(48);
-      output.WriteInt64(Uid);
+      output.WriteRawTag(50);
+      output.WriteString(Uid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -15507,8 +15497,8 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
       output.WriteInt32(Leagueid);
     }
     if (HasClubid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(18);
+      output.WriteString(Clubid);
     }
     if (HasLastWeekBeginDay) {
       output.WriteRawTag(24);
@@ -15523,8 +15513,8 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
       output.WriteInt32(Timezone);
     }
     if (HasUid) {
-      output.WriteRawTag(48);
-      output.WriteInt64(Uid);
+      output.WriteRawTag(50);
+      output.WriteString(Uid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -15540,7 +15530,7 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Leagueid);
     }
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (HasLastWeekBeginDay) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(LastWeekBeginDay);
@@ -15552,7 +15542,7 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Timezone);
     }
     if (HasUid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt64Size(Uid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Uid);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -15603,8 +15593,8 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
           Leagueid = input.ReadInt32();
           break;
         }
-        case 16: {
-          Clubid = input.ReadInt32();
+        case 18: {
+          Clubid = input.ReadString();
           break;
         }
         case 24: {
@@ -15619,8 +15609,8 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
           Timezone = input.ReadInt32();
           break;
         }
-        case 48: {
-          Uid = input.ReadInt64();
+        case 50: {
+          Uid = input.ReadString();
           break;
         }
       }
@@ -15642,8 +15632,8 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
           Leagueid = input.ReadInt32();
           break;
         }
-        case 16: {
-          Clubid = input.ReadInt32();
+        case 18: {
+          Clubid = input.ReadString();
           break;
         }
         case 24: {
@@ -15658,8 +15648,8 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
           Timezone = input.ReadInt32();
           break;
         }
-        case 48: {
-          Uid = input.ReadInt64();
+        case 50: {
+          Uid = input.ReadString();
           break;
         }
       }
@@ -15740,29 +15730,28 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 1;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 1) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 1;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 1) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~1;
+    clubid_ = null;
   }
 
   /// <summary>Field number for the "clubname" field.</summary>
@@ -15825,9 +15814,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long AllEarning {
-    get { if ((_hasBits0 & 2) != 0) { return allEarning_; } else { return AllEarningDefaultValue; } }
+    get { if ((_hasBits0 & 1) != 0) { return allEarning_; } else { return AllEarningDefaultValue; } }
     set {
-      _hasBits0 |= 2;
+      _hasBits0 |= 1;
       allEarning_ = value;
     }
   }
@@ -15835,13 +15824,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasAllEarning {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return (_hasBits0 & 1) != 0; }
   }
   /// <summary>Clears the value of the "all_earning" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearAllEarning() {
-    _hasBits0 &= ~2;
+    _hasBits0 &= ~1;
   }
 
   /// <summary>Field number for the "all_jackpot" field.</summary>
@@ -15852,9 +15841,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long AllJackpot {
-    get { if ((_hasBits0 & 4) != 0) { return allJackpot_; } else { return AllJackpotDefaultValue; } }
+    get { if ((_hasBits0 & 2) != 0) { return allJackpot_; } else { return AllJackpotDefaultValue; } }
     set {
-      _hasBits0 |= 4;
+      _hasBits0 |= 2;
       allJackpot_ = value;
     }
   }
@@ -15862,13 +15851,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasAllJackpot {
-    get { return (_hasBits0 & 4) != 0; }
+    get { return (_hasBits0 & 2) != 0; }
   }
   /// <summary>Clears the value of the "all_jackpot" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearAllJackpot() {
-    _hasBits0 &= ~4;
+    _hasBits0 &= ~2;
   }
 
   /// <summary>Field number for the "all_insurance" field.</summary>
@@ -15879,9 +15868,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long AllInsurance {
-    get { if ((_hasBits0 & 8) != 0) { return allInsurance_; } else { return AllInsuranceDefaultValue; } }
+    get { if ((_hasBits0 & 4) != 0) { return allInsurance_; } else { return AllInsuranceDefaultValue; } }
     set {
-      _hasBits0 |= 8;
+      _hasBits0 |= 4;
       allInsurance_ = value;
     }
   }
@@ -15889,13 +15878,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasAllInsurance {
-    get { return (_hasBits0 & 8) != 0; }
+    get { return (_hasBits0 & 4) != 0; }
   }
   /// <summary>Clears the value of the "all_insurance" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearAllInsurance() {
-    _hasBits0 &= ~8;
+    _hasBits0 &= ~4;
   }
 
   /// <summary>Field number for the "last_week_earning" field.</summary>
@@ -15906,9 +15895,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long LastWeekEarning {
-    get { if ((_hasBits0 & 16) != 0) { return lastWeekEarning_; } else { return LastWeekEarningDefaultValue; } }
+    get { if ((_hasBits0 & 8) != 0) { return lastWeekEarning_; } else { return LastWeekEarningDefaultValue; } }
     set {
-      _hasBits0 |= 16;
+      _hasBits0 |= 8;
       lastWeekEarning_ = value;
     }
   }
@@ -15916,13 +15905,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLastWeekEarning {
-    get { return (_hasBits0 & 16) != 0; }
+    get { return (_hasBits0 & 8) != 0; }
   }
   /// <summary>Clears the value of the "last_week_earning" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLastWeekEarning() {
-    _hasBits0 &= ~16;
+    _hasBits0 &= ~8;
   }
 
   /// <summary>Field number for the "last_week_jackpot" field.</summary>
@@ -15933,9 +15922,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long LastWeekJackpot {
-    get { if ((_hasBits0 & 32) != 0) { return lastWeekJackpot_; } else { return LastWeekJackpotDefaultValue; } }
+    get { if ((_hasBits0 & 16) != 0) { return lastWeekJackpot_; } else { return LastWeekJackpotDefaultValue; } }
     set {
-      _hasBits0 |= 32;
+      _hasBits0 |= 16;
       lastWeekJackpot_ = value;
     }
   }
@@ -15943,13 +15932,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLastWeekJackpot {
-    get { return (_hasBits0 & 32) != 0; }
+    get { return (_hasBits0 & 16) != 0; }
   }
   /// <summary>Clears the value of the "last_week_jackpot" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLastWeekJackpot() {
-    _hasBits0 &= ~32;
+    _hasBits0 &= ~16;
   }
 
   /// <summary>Field number for the "last_week_insurance" field.</summary>
@@ -15960,9 +15949,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long LastWeekInsurance {
-    get { if ((_hasBits0 & 64) != 0) { return lastWeekInsurance_; } else { return LastWeekInsuranceDefaultValue; } }
+    get { if ((_hasBits0 & 32) != 0) { return lastWeekInsurance_; } else { return LastWeekInsuranceDefaultValue; } }
     set {
-      _hasBits0 |= 64;
+      _hasBits0 |= 32;
       lastWeekInsurance_ = value;
     }
   }
@@ -15970,13 +15959,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLastWeekInsurance {
-    get { return (_hasBits0 & 64) != 0; }
+    get { return (_hasBits0 & 32) != 0; }
   }
   /// <summary>Clears the value of the "last_week_insurance" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLastWeekInsurance() {
-    _hasBits0 &= ~64;
+    _hasBits0 &= ~32;
   }
 
   /// <summary>Field number for the "this_week_earning" field.</summary>
@@ -15987,9 +15976,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long ThisWeekEarning {
-    get { if ((_hasBits0 & 128) != 0) { return thisWeekEarning_; } else { return ThisWeekEarningDefaultValue; } }
+    get { if ((_hasBits0 & 64) != 0) { return thisWeekEarning_; } else { return ThisWeekEarningDefaultValue; } }
     set {
-      _hasBits0 |= 128;
+      _hasBits0 |= 64;
       thisWeekEarning_ = value;
     }
   }
@@ -15997,13 +15986,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasThisWeekEarning {
-    get { return (_hasBits0 & 128) != 0; }
+    get { return (_hasBits0 & 64) != 0; }
   }
   /// <summary>Clears the value of the "this_week_earning" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearThisWeekEarning() {
-    _hasBits0 &= ~128;
+    _hasBits0 &= ~64;
   }
 
   /// <summary>Field number for the "this_week_jackpot" field.</summary>
@@ -16014,9 +16003,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long ThisWeekJackpot {
-    get { if ((_hasBits0 & 256) != 0) { return thisWeekJackpot_; } else { return ThisWeekJackpotDefaultValue; } }
+    get { if ((_hasBits0 & 128) != 0) { return thisWeekJackpot_; } else { return ThisWeekJackpotDefaultValue; } }
     set {
-      _hasBits0 |= 256;
+      _hasBits0 |= 128;
       thisWeekJackpot_ = value;
     }
   }
@@ -16024,13 +16013,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasThisWeekJackpot {
-    get { return (_hasBits0 & 256) != 0; }
+    get { return (_hasBits0 & 128) != 0; }
   }
   /// <summary>Clears the value of the "this_week_jackpot" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearThisWeekJackpot() {
-    _hasBits0 &= ~256;
+    _hasBits0 &= ~128;
   }
 
   /// <summary>Field number for the "this_week_insurance" field.</summary>
@@ -16041,9 +16030,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long ThisWeekInsurance {
-    get { if ((_hasBits0 & 512) != 0) { return thisWeekInsurance_; } else { return ThisWeekInsuranceDefaultValue; } }
+    get { if ((_hasBits0 & 256) != 0) { return thisWeekInsurance_; } else { return ThisWeekInsuranceDefaultValue; } }
     set {
-      _hasBits0 |= 512;
+      _hasBits0 |= 256;
       thisWeekInsurance_ = value;
     }
   }
@@ -16051,13 +16040,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasThisWeekInsurance {
-    get { return (_hasBits0 & 512) != 0; }
+    get { return (_hasBits0 & 256) != 0; }
   }
   /// <summary>Clears the value of the "this_week_insurance" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearThisWeekInsurance() {
-    _hasBits0 &= ~512;
+    _hasBits0 &= ~256;
   }
 
   /// <summary>Field number for the "all_fee" field.</summary>
@@ -16068,9 +16057,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long AllFee {
-    get { if ((_hasBits0 & 1024) != 0) { return allFee_; } else { return AllFeeDefaultValue; } }
+    get { if ((_hasBits0 & 512) != 0) { return allFee_; } else { return AllFeeDefaultValue; } }
     set {
-      _hasBits0 |= 1024;
+      _hasBits0 |= 512;
       allFee_ = value;
     }
   }
@@ -16078,13 +16067,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasAllFee {
-    get { return (_hasBits0 & 1024) != 0; }
+    get { return (_hasBits0 & 512) != 0; }
   }
   /// <summary>Clears the value of the "all_fee" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearAllFee() {
-    _hasBits0 &= ~1024;
+    _hasBits0 &= ~512;
   }
 
   /// <summary>Field number for the "last_week_fee" field.</summary>
@@ -16095,9 +16084,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long LastWeekFee {
-    get { if ((_hasBits0 & 2048) != 0) { return lastWeekFee_; } else { return LastWeekFeeDefaultValue; } }
+    get { if ((_hasBits0 & 1024) != 0) { return lastWeekFee_; } else { return LastWeekFeeDefaultValue; } }
     set {
-      _hasBits0 |= 2048;
+      _hasBits0 |= 1024;
       lastWeekFee_ = value;
     }
   }
@@ -16105,13 +16094,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLastWeekFee {
-    get { return (_hasBits0 & 2048) != 0; }
+    get { return (_hasBits0 & 1024) != 0; }
   }
   /// <summary>Clears the value of the "last_week_fee" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLastWeekFee() {
-    _hasBits0 &= ~2048;
+    _hasBits0 &= ~1024;
   }
 
   /// <summary>Field number for the "this_week_fee" field.</summary>
@@ -16122,9 +16111,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long ThisWeekFee {
-    get { if ((_hasBits0 & 4096) != 0) { return thisWeekFee_; } else { return ThisWeekFeeDefaultValue; } }
+    get { if ((_hasBits0 & 2048) != 0) { return thisWeekFee_; } else { return ThisWeekFeeDefaultValue; } }
     set {
-      _hasBits0 |= 4096;
+      _hasBits0 |= 2048;
       thisWeekFee_ = value;
     }
   }
@@ -16132,13 +16121,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasThisWeekFee {
-    get { return (_hasBits0 & 4096) != 0; }
+    get { return (_hasBits0 & 2048) != 0; }
   }
   /// <summary>Clears the value of the "this_week_fee" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearThisWeekFee() {
-    _hasBits0 &= ~4096;
+    _hasBits0 &= ~2048;
   }
 
   /// <summary>Field number for the "all_ticket" field.</summary>
@@ -16149,9 +16138,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long AllTicket {
-    get { if ((_hasBits0 & 8192) != 0) { return allTicket_; } else { return AllTicketDefaultValue; } }
+    get { if ((_hasBits0 & 4096) != 0) { return allTicket_; } else { return AllTicketDefaultValue; } }
     set {
-      _hasBits0 |= 8192;
+      _hasBits0 |= 4096;
       allTicket_ = value;
     }
   }
@@ -16159,13 +16148,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasAllTicket {
-    get { return (_hasBits0 & 8192) != 0; }
+    get { return (_hasBits0 & 4096) != 0; }
   }
   /// <summary>Clears the value of the "all_ticket" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearAllTicket() {
-    _hasBits0 &= ~8192;
+    _hasBits0 &= ~4096;
   }
 
   /// <summary>Field number for the "last_week_ticket" field.</summary>
@@ -16176,9 +16165,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long LastWeekTicket {
-    get { if ((_hasBits0 & 16384) != 0) { return lastWeekTicket_; } else { return LastWeekTicketDefaultValue; } }
+    get { if ((_hasBits0 & 8192) != 0) { return lastWeekTicket_; } else { return LastWeekTicketDefaultValue; } }
     set {
-      _hasBits0 |= 16384;
+      _hasBits0 |= 8192;
       lastWeekTicket_ = value;
     }
   }
@@ -16186,13 +16175,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLastWeekTicket {
-    get { return (_hasBits0 & 16384) != 0; }
+    get { return (_hasBits0 & 8192) != 0; }
   }
   /// <summary>Clears the value of the "last_week_ticket" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLastWeekTicket() {
-    _hasBits0 &= ~16384;
+    _hasBits0 &= ~8192;
   }
 
   /// <summary>Field number for the "this_week_ticket" field.</summary>
@@ -16203,9 +16192,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long ThisWeekTicket {
-    get { if ((_hasBits0 & 32768) != 0) { return thisWeekTicket_; } else { return ThisWeekTicketDefaultValue; } }
+    get { if ((_hasBits0 & 16384) != 0) { return thisWeekTicket_; } else { return ThisWeekTicketDefaultValue; } }
     set {
-      _hasBits0 |= 32768;
+      _hasBits0 |= 16384;
       thisWeekTicket_ = value;
     }
   }
@@ -16213,13 +16202,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasThisWeekTicket {
-    get { return (_hasBits0 & 32768) != 0; }
+    get { return (_hasBits0 & 16384) != 0; }
   }
   /// <summary>Clears the value of the "this_week_ticket" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearThisWeekTicket() {
-    _hasBits0 &= ~32768;
+    _hasBits0 &= ~16384;
   }
 
   /// <summary>Field number for the "all_evchop" field.</summary>
@@ -16230,9 +16219,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long AllEvchop {
-    get { if ((_hasBits0 & 65536) != 0) { return allEvchop_; } else { return AllEvchopDefaultValue; } }
+    get { if ((_hasBits0 & 32768) != 0) { return allEvchop_; } else { return AllEvchopDefaultValue; } }
     set {
-      _hasBits0 |= 65536;
+      _hasBits0 |= 32768;
       allEvchop_ = value;
     }
   }
@@ -16240,13 +16229,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasAllEvchop {
-    get { return (_hasBits0 & 65536) != 0; }
+    get { return (_hasBits0 & 32768) != 0; }
   }
   /// <summary>Clears the value of the "all_evchop" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearAllEvchop() {
-    _hasBits0 &= ~65536;
+    _hasBits0 &= ~32768;
   }
 
   /// <summary>Field number for the "last_week_evchop" field.</summary>
@@ -16257,9 +16246,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long LastWeekEvchop {
-    get { if ((_hasBits0 & 131072) != 0) { return lastWeekEvchop_; } else { return LastWeekEvchopDefaultValue; } }
+    get { if ((_hasBits0 & 65536) != 0) { return lastWeekEvchop_; } else { return LastWeekEvchopDefaultValue; } }
     set {
-      _hasBits0 |= 131072;
+      _hasBits0 |= 65536;
       lastWeekEvchop_ = value;
     }
   }
@@ -16267,13 +16256,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLastWeekEvchop {
-    get { return (_hasBits0 & 131072) != 0; }
+    get { return (_hasBits0 & 65536) != 0; }
   }
   /// <summary>Clears the value of the "last_week_evchop" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLastWeekEvchop() {
-    _hasBits0 &= ~131072;
+    _hasBits0 &= ~65536;
   }
 
   /// <summary>Field number for the "this_week_evchop" field.</summary>
@@ -16284,9 +16273,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long ThisWeekEvchop {
-    get { if ((_hasBits0 & 262144) != 0) { return thisWeekEvchop_; } else { return ThisWeekEvchopDefaultValue; } }
+    get { if ((_hasBits0 & 131072) != 0) { return thisWeekEvchop_; } else { return ThisWeekEvchopDefaultValue; } }
     set {
-      _hasBits0 |= 262144;
+      _hasBits0 |= 131072;
       thisWeekEvchop_ = value;
     }
   }
@@ -16294,13 +16283,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasThisWeekEvchop {
-    get { return (_hasBits0 & 262144) != 0; }
+    get { return (_hasBits0 & 131072) != 0; }
   }
   /// <summary>Clears the value of the "this_week_evchop" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearThisWeekEvchop() {
-    _hasBits0 &= ~262144;
+    _hasBits0 &= ~131072;
   }
 
   /// <summary>Field number for the "all_spinup_profit" field.</summary>
@@ -16311,9 +16300,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long AllSpinupProfit {
-    get { if ((_hasBits0 & 524288) != 0) { return allSpinupProfit_; } else { return AllSpinupProfitDefaultValue; } }
+    get { if ((_hasBits0 & 262144) != 0) { return allSpinupProfit_; } else { return AllSpinupProfitDefaultValue; } }
     set {
-      _hasBits0 |= 524288;
+      _hasBits0 |= 262144;
       allSpinupProfit_ = value;
     }
   }
@@ -16321,13 +16310,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasAllSpinupProfit {
-    get { return (_hasBits0 & 524288) != 0; }
+    get { return (_hasBits0 & 262144) != 0; }
   }
   /// <summary>Clears the value of the "all_spinup_profit" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearAllSpinupProfit() {
-    _hasBits0 &= ~524288;
+    _hasBits0 &= ~262144;
   }
 
   /// <summary>Field number for the "last_week_spinup_profit" field.</summary>
@@ -16338,9 +16327,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long LastWeekSpinupProfit {
-    get { if ((_hasBits0 & 1048576) != 0) { return lastWeekSpinupProfit_; } else { return LastWeekSpinupProfitDefaultValue; } }
+    get { if ((_hasBits0 & 524288) != 0) { return lastWeekSpinupProfit_; } else { return LastWeekSpinupProfitDefaultValue; } }
     set {
-      _hasBits0 |= 1048576;
+      _hasBits0 |= 524288;
       lastWeekSpinupProfit_ = value;
     }
   }
@@ -16348,13 +16337,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLastWeekSpinupProfit {
-    get { return (_hasBits0 & 1048576) != 0; }
+    get { return (_hasBits0 & 524288) != 0; }
   }
   /// <summary>Clears the value of the "last_week_spinup_profit" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLastWeekSpinupProfit() {
-    _hasBits0 &= ~1048576;
+    _hasBits0 &= ~524288;
   }
 
   /// <summary>Field number for the "this_week_spinup_profit" field.</summary>
@@ -16365,9 +16354,9 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public long ThisWeekSpinupProfit {
-    get { if ((_hasBits0 & 2097152) != 0) { return thisWeekSpinupProfit_; } else { return ThisWeekSpinupProfitDefaultValue; } }
+    get { if ((_hasBits0 & 1048576) != 0) { return thisWeekSpinupProfit_; } else { return ThisWeekSpinupProfitDefaultValue; } }
     set {
-      _hasBits0 |= 2097152;
+      _hasBits0 |= 1048576;
       thisWeekSpinupProfit_ = value;
     }
   }
@@ -16375,13 +16364,13 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasThisWeekSpinupProfit {
-    get { return (_hasBits0 & 2097152) != 0; }
+    get { return (_hasBits0 & 1048576) != 0; }
   }
   /// <summary>Clears the value of the "this_week_spinup_profit" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearThisWeekSpinupProfit() {
-    _hasBits0 &= ~2097152;
+    _hasBits0 &= ~1048576;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16473,8 +16462,8 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
     output.WriteRawMessage(this);
   #else
     if (HasClubid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(10);
+      output.WriteString(Clubid);
     }
     if (HasClubname) {
       output.WriteRawTag(18);
@@ -16579,8 +16568,8 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     if (HasClubid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(10);
+      output.WriteString(Clubid);
     }
     if (HasClubname) {
       output.WriteRawTag(18);
@@ -16685,7 +16674,7 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
   public int CalculateSize() {
     int size = 0;
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (HasClubname) {
       size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubname);
@@ -16855,8 +16844,8 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
           break;
-        case 8: {
-          Clubid = input.ReadInt32();
+        case 10: {
+          Clubid = input.ReadString();
           break;
         }
         case 18: {
@@ -16966,8 +16955,8 @@ public sealed partial class LeagueDataInfo : pb::IMessage<LeagueDataInfo>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
           break;
-        case 8: {
-          Clubid = input.ReadInt32();
+        case 10: {
+          Clubid = input.ReadString();
           break;
         }
         case 18: {
@@ -17773,56 +17762,54 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
 
   /// <summary>Field number for the "roomid" field.</summary>
   public const int RoomidFieldNumber = 1;
-  private readonly static int RoomidDefaultValue = 0;
+  private readonly static string RoomidDefaultValue = "";
 
-  private int roomid_;
+  private string roomid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Roomid {
-    get { if ((_hasBits0 & 1) != 0) { return roomid_; } else { return RoomidDefaultValue; } }
+  public string Roomid {
+    get { return roomid_ ?? RoomidDefaultValue; }
     set {
-      _hasBits0 |= 1;
-      roomid_ = value;
+      roomid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "roomid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasRoomid {
-    get { return (_hasBits0 & 1) != 0; }
+    get { return roomid_ != null; }
   }
   /// <summary>Clears the value of the "roomid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearRoomid() {
-    _hasBits0 &= ~1;
+    roomid_ = null;
   }
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 2;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 2) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 2;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~2;
+    clubid_ = null;
   }
 
   /// <summary>Field number for the "result" field.</summary>
@@ -17836,9 +17823,9 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Result {
-    get { if ((_hasBits0 & 4) != 0) { return result_; } else { return ResultDefaultValue; } }
+    get { if ((_hasBits0 & 1) != 0) { return result_; } else { return ResultDefaultValue; } }
     set {
-      _hasBits0 |= 4;
+      _hasBits0 |= 1;
       result_ = value;
     }
   }
@@ -17846,13 +17833,13 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasResult {
-    get { return (_hasBits0 & 4) != 0; }
+    get { return (_hasBits0 & 1) != 0; }
   }
   /// <summary>Clears the value of the "result" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearResult() {
-    _hasBits0 &= ~4;
+    _hasBits0 &= ~1;
   }
 
   /// <summary>Field number for the "reason" field.</summary>
@@ -17903,9 +17890,9 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int VpipLimitPerSet {
-    get { if ((_hasBits0 & 8) != 0) { return vpipLimitPerSet_; } else { return VpipLimitPerSetDefaultValue; } }
+    get { if ((_hasBits0 & 2) != 0) { return vpipLimitPerSet_; } else { return VpipLimitPerSetDefaultValue; } }
     set {
-      _hasBits0 |= 8;
+      _hasBits0 |= 2;
       vpipLimitPerSet_ = value;
     }
   }
@@ -17913,13 +17900,13 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasVpipLimitPerSet {
-    get { return (_hasBits0 & 8) != 0; }
+    get { return (_hasBits0 & 2) != 0; }
   }
   /// <summary>Clears the value of the "vpip_limit_per_set" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearVpipLimitPerSet() {
-    _hasBits0 &= ~8;
+    _hasBits0 &= ~2;
   }
 
   /// <summary>Field number for the "vpip_per_set" field.</summary>
@@ -17933,9 +17920,9 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int VpipPerSet {
-    get { if ((_hasBits0 & 16) != 0) { return vpipPerSet_; } else { return VpipPerSetDefaultValue; } }
+    get { if ((_hasBits0 & 4) != 0) { return vpipPerSet_; } else { return VpipPerSetDefaultValue; } }
     set {
-      _hasBits0 |= 16;
+      _hasBits0 |= 4;
       vpipPerSet_ = value;
     }
   }
@@ -17943,13 +17930,13 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasVpipPerSet {
-    get { return (_hasBits0 & 16) != 0; }
+    get { return (_hasBits0 & 4) != 0; }
   }
   /// <summary>Clears the value of the "vpip_per_set" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearVpipPerSet() {
-    _hasBits0 &= ~16;
+    _hasBits0 &= ~4;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18005,12 +17992,12 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
     output.WriteRawMessage(this);
   #else
     if (HasRoomid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Roomid);
+      output.WriteRawTag(10);
+      output.WriteString(Roomid);
     }
     if (HasClubid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(18);
+      output.WriteString(Clubid);
     }
     if (HasResult) {
       output.WriteRawTag(24);
@@ -18039,12 +18026,12 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     if (HasRoomid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Roomid);
+      output.WriteRawTag(10);
+      output.WriteString(Roomid);
     }
     if (HasClubid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(18);
+      output.WriteString(Clubid);
     }
     if (HasResult) {
       output.WriteRawTag(24);
@@ -18073,10 +18060,10 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   public int CalculateSize() {
     int size = 0;
     if (HasRoomid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Roomid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Roomid);
     }
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (HasResult) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Result);
@@ -18135,12 +18122,12 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
           break;
-        case 8: {
-          Roomid = input.ReadInt32();
+        case 10: {
+          Roomid = input.ReadString();
           break;
         }
-        case 16: {
-          Clubid = input.ReadInt32();
+        case 18: {
+          Clubid = input.ReadString();
           break;
         }
         case 24: {
@@ -18174,12 +18161,12 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
           break;
-        case 8: {
-          Roomid = input.ReadInt32();
+        case 10: {
+          Roomid = input.ReadString();
           break;
         }
-        case 16: {
-          Clubid = input.ReadInt32();
+        case 18: {
+          Clubid = input.ReadString();
           break;
         }
         case 24: {
@@ -18406,29 +18393,28 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
 
   /// <summary>Field number for the "roomid" field.</summary>
   public const int RoomidFieldNumber = 1;
-  private readonly static int RoomidDefaultValue = 0;
+  private readonly static string RoomidDefaultValue = "";
 
-  private int roomid_;
+  private string roomid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Roomid {
-    get { if ((_hasBits0 & 1) != 0) { return roomid_; } else { return RoomidDefaultValue; } }
+  public string Roomid {
+    get { return roomid_ ?? RoomidDefaultValue; }
     set {
-      _hasBits0 |= 1;
-      roomid_ = value;
+      roomid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "roomid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasRoomid {
-    get { return (_hasBits0 & 1) != 0; }
+    get { return roomid_ != null; }
   }
   /// <summary>Clears the value of the "roomid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearRoomid() {
-    _hasBits0 &= ~1;
+    roomid_ = null;
   }
 
   /// <summary>Field number for the "result" field.</summary>
@@ -18442,9 +18428,9 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Result {
-    get { if ((_hasBits0 & 2) != 0) { return result_; } else { return ResultDefaultValue; } }
+    get { if ((_hasBits0 & 1) != 0) { return result_; } else { return ResultDefaultValue; } }
     set {
-      _hasBits0 |= 2;
+      _hasBits0 |= 1;
       result_ = value;
     }
   }
@@ -18452,13 +18438,13 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasResult {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return (_hasBits0 & 1) != 0; }
   }
   /// <summary>Clears the value of the "result" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearResult() {
-    _hasBits0 &= ~2;
+    _hasBits0 &= ~1;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18506,8 +18492,8 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
     output.WriteRawMessage(this);
   #else
     if (HasRoomid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Roomid);
+      output.WriteRawTag(10);
+      output.WriteString(Roomid);
     }
     if (HasResult) {
       output.WriteRawTag(16);
@@ -18524,8 +18510,8 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     if (HasRoomid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Roomid);
+      output.WriteRawTag(10);
+      output.WriteString(Roomid);
     }
     if (HasResult) {
       output.WriteRawTag(16);
@@ -18542,7 +18528,7 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
   public int CalculateSize() {
     int size = 0;
     if (HasRoomid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Roomid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Roomid);
     }
     if (HasResult) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Result);
@@ -18580,8 +18566,8 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
           break;
-        case 8: {
-          Roomid = input.ReadInt32();
+        case 10: {
+          Roomid = input.ReadString();
           break;
         }
         case 16: {
@@ -18603,8 +18589,8 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
           break;
-        case 8: {
-          Roomid = input.ReadInt32();
+        case 10: {
+          Roomid = input.ReadString();
           break;
         }
         case 16: {
@@ -19140,7 +19126,6 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
 {
   private static readonly pb::MessageParser<WaitListInfoBRC> _parser = new pb::MessageParser<WaitListInfoBRC>(() => new WaitListInfoBRC());
   private pb::UnknownFieldSet _unknownFields;
-  private int _hasBits0;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public static pb::MessageParser<WaitListInfoBRC> Parser { get { return _parser; } }
@@ -19168,7 +19153,6 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public WaitListInfoBRC(WaitListInfoBRC other) : this() {
-    _hasBits0 = other._hasBits0;
     users_ = other.users_.Clone();
     roomid_ = other.roomid_;
     _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -19196,29 +19180,28 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
 
   /// <summary>Field number for the "roomid" field.</summary>
   public const int RoomidFieldNumber = 2;
-  private readonly static int RoomidDefaultValue = 0;
+  private readonly static string RoomidDefaultValue = "";
 
-  private int roomid_;
+  private string roomid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Roomid {
-    get { if ((_hasBits0 & 1) != 0) { return roomid_; } else { return RoomidDefaultValue; } }
+  public string Roomid {
+    get { return roomid_ ?? RoomidDefaultValue; }
     set {
-      _hasBits0 |= 1;
-      roomid_ = value;
+      roomid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "roomid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasRoomid {
-    get { return (_hasBits0 & 1) != 0; }
+    get { return roomid_ != null; }
   }
   /// <summary>Clears the value of the "roomid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearRoomid() {
-    _hasBits0 &= ~1;
+    roomid_ = null;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19267,8 +19250,8 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
   #else
     users_.WriteTo(output, _repeated_users_codec);
     if (HasRoomid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Roomid);
+      output.WriteRawTag(18);
+      output.WriteString(Roomid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -19282,8 +19265,8 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     users_.WriteTo(ref output, _repeated_users_codec);
     if (HasRoomid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Roomid);
+      output.WriteRawTag(18);
+      output.WriteString(Roomid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -19297,7 +19280,7 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
     int size = 0;
     size += users_.CalculateSize(_repeated_users_codec);
     if (HasRoomid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Roomid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Roomid);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -19334,8 +19317,8 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
           users_.AddEntriesFrom(input, _repeated_users_codec);
           break;
         }
-        case 16: {
-          Roomid = input.ReadInt32();
+        case 18: {
+          Roomid = input.ReadString();
           break;
         }
       }
@@ -19357,8 +19340,8 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
           users_.AddEntriesFrom(ref input, _repeated_users_codec);
           break;
         }
-        case 16: {
-          Roomid = input.ReadInt32();
+        case 18: {
+          Roomid = input.ReadString();
           break;
         }
       }
@@ -20606,7 +20589,6 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
 {
   private static readonly pb::MessageParser<RefuseSitDownREQ> _parser = new pb::MessageParser<RefuseSitDownREQ>(() => new RefuseSitDownREQ());
   private pb::UnknownFieldSet _unknownFields;
-  private int _hasBits0;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public static pb::MessageParser<RefuseSitDownREQ> Parser { get { return _parser; } }
@@ -20634,7 +20616,6 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public RefuseSitDownREQ(RefuseSitDownREQ other) : this() {
-    _hasBits0 = other._hasBits0;
     roomid_ = other.roomid_;
     _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
   }
@@ -20647,29 +20628,28 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
 
   /// <summary>Field number for the "roomid" field.</summary>
   public const int RoomidFieldNumber = 1;
-  private readonly static int RoomidDefaultValue = 0;
+  private readonly static string RoomidDefaultValue = "";
 
-  private int roomid_;
+  private string roomid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Roomid {
-    get { if ((_hasBits0 & 1) != 0) { return roomid_; } else { return RoomidDefaultValue; } }
+  public string Roomid {
+    get { return roomid_ ?? RoomidDefaultValue; }
     set {
-      _hasBits0 |= 1;
-      roomid_ = value;
+      roomid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "roomid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasRoomid {
-    get { return (_hasBits0 & 1) != 0; }
+    get { return roomid_ != null; }
   }
   /// <summary>Clears the value of the "roomid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearRoomid() {
-    _hasBits0 &= ~1;
+    roomid_ = null;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20715,8 +20695,8 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
     output.WriteRawMessage(this);
   #else
     if (HasRoomid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Roomid);
+      output.WriteRawTag(10);
+      output.WriteString(Roomid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -20729,8 +20709,8 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     if (HasRoomid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Roomid);
+      output.WriteRawTag(10);
+      output.WriteString(Roomid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -20743,7 +20723,7 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
   public int CalculateSize() {
     int size = 0;
     if (HasRoomid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Roomid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Roomid);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -20775,8 +20755,8 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
           break;
-        case 8: {
-          Roomid = input.ReadInt32();
+        case 10: {
+          Roomid = input.ReadString();
           break;
         }
       }
@@ -20794,8 +20774,8 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
           break;
-        case 8: {
-          Roomid = input.ReadInt32();
+        case 10: {
+          Roomid = input.ReadString();
           break;
         }
       }
@@ -22180,29 +22160,28 @@ public sealed partial class QuitLeagueREQ : pb::IMessage<QuitLeagueREQ>
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 2;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 2) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 2;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~2;
+    clubid_ = null;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -22254,8 +22233,8 @@ public sealed partial class QuitLeagueREQ : pb::IMessage<QuitLeagueREQ>
       output.WriteInt32(Leagueid);
     }
     if (HasClubid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(18);
+      output.WriteString(Clubid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -22272,8 +22251,8 @@ public sealed partial class QuitLeagueREQ : pb::IMessage<QuitLeagueREQ>
       output.WriteInt32(Leagueid);
     }
     if (HasClubid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(18);
+      output.WriteString(Clubid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -22289,7 +22268,7 @@ public sealed partial class QuitLeagueREQ : pb::IMessage<QuitLeagueREQ>
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Leagueid);
     }
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -22328,8 +22307,8 @@ public sealed partial class QuitLeagueREQ : pb::IMessage<QuitLeagueREQ>
           Leagueid = input.ReadInt32();
           break;
         }
-        case 16: {
-          Clubid = input.ReadInt32();
+        case 18: {
+          Clubid = input.ReadString();
           break;
         }
       }
@@ -22351,8 +22330,8 @@ public sealed partial class QuitLeagueREQ : pb::IMessage<QuitLeagueREQ>
           Leagueid = input.ReadInt32();
           break;
         }
-        case 16: {
-          Clubid = input.ReadInt32();
+        case 18: {
+          Clubid = input.ReadString();
           break;
         }
       }
@@ -22439,29 +22418,28 @@ public sealed partial class QuitLeagueRSP : pb::IMessage<QuitLeagueRSP>
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 2;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 2) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 2;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~2;
+    clubid_ = null;
   }
 
   /// <summary>Field number for the "code" field.</summary>
@@ -22475,9 +22453,9 @@ public sealed partial class QuitLeagueRSP : pb::IMessage<QuitLeagueRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Code {
-    get { if ((_hasBits0 & 4) != 0) { return code_; } else { return CodeDefaultValue; } }
+    get { if ((_hasBits0 & 2) != 0) { return code_; } else { return CodeDefaultValue; } }
     set {
-      _hasBits0 |= 4;
+      _hasBits0 |= 2;
       code_ = value;
     }
   }
@@ -22485,13 +22463,13 @@ public sealed partial class QuitLeagueRSP : pb::IMessage<QuitLeagueRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasCode {
-    get { return (_hasBits0 & 4) != 0; }
+    get { return (_hasBits0 & 2) != 0; }
   }
   /// <summary>Clears the value of the "code" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearCode() {
-    _hasBits0 &= ~4;
+    _hasBits0 &= ~2;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -22545,8 +22523,8 @@ public sealed partial class QuitLeagueRSP : pb::IMessage<QuitLeagueRSP>
       output.WriteInt32(Leagueid);
     }
     if (HasClubid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(18);
+      output.WriteString(Clubid);
     }
     if (HasCode) {
       output.WriteRawTag(24);
@@ -22567,8 +22545,8 @@ public sealed partial class QuitLeagueRSP : pb::IMessage<QuitLeagueRSP>
       output.WriteInt32(Leagueid);
     }
     if (HasClubid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(18);
+      output.WriteString(Clubid);
     }
     if (HasCode) {
       output.WriteRawTag(24);
@@ -22588,7 +22566,7 @@ public sealed partial class QuitLeagueRSP : pb::IMessage<QuitLeagueRSP>
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Leagueid);
     }
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (HasCode) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Code);
@@ -22633,8 +22611,8 @@ public sealed partial class QuitLeagueRSP : pb::IMessage<QuitLeagueRSP>
           Leagueid = input.ReadInt32();
           break;
         }
-        case 16: {
-          Clubid = input.ReadInt32();
+        case 18: {
+          Clubid = input.ReadString();
           break;
         }
         case 24: {
@@ -22660,8 +22638,8 @@ public sealed partial class QuitLeagueRSP : pb::IMessage<QuitLeagueRSP>
           Leagueid = input.ReadInt32();
           break;
         }
-        case 16: {
-          Clubid = input.ReadInt32();
+        case 18: {
+          Clubid = input.ReadString();
           break;
         }
         case 24: {
@@ -22751,29 +22729,28 @@ public sealed partial class DelLeagueClubREQ : pb::IMessage<DelLeagueClubREQ>
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 2;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 2) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 2;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~2;
+    clubid_ = null;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -22825,8 +22802,8 @@ public sealed partial class DelLeagueClubREQ : pb::IMessage<DelLeagueClubREQ>
       output.WriteInt32(Leagueid);
     }
     if (HasClubid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(18);
+      output.WriteString(Clubid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -22843,8 +22820,8 @@ public sealed partial class DelLeagueClubREQ : pb::IMessage<DelLeagueClubREQ>
       output.WriteInt32(Leagueid);
     }
     if (HasClubid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(18);
+      output.WriteString(Clubid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -22860,7 +22837,7 @@ public sealed partial class DelLeagueClubREQ : pb::IMessage<DelLeagueClubREQ>
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Leagueid);
     }
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -22899,8 +22876,8 @@ public sealed partial class DelLeagueClubREQ : pb::IMessage<DelLeagueClubREQ>
           Leagueid = input.ReadInt32();
           break;
         }
-        case 16: {
-          Clubid = input.ReadInt32();
+        case 18: {
+          Clubid = input.ReadString();
           break;
         }
       }
@@ -22922,8 +22899,8 @@ public sealed partial class DelLeagueClubREQ : pb::IMessage<DelLeagueClubREQ>
           Leagueid = input.ReadInt32();
           break;
         }
-        case 16: {
-          Clubid = input.ReadInt32();
+        case 18: {
+          Clubid = input.ReadString();
           break;
         }
       }
@@ -23011,29 +22988,28 @@ public sealed partial class DelLeagueClubRSP : pb::IMessage<DelLeagueClubRSP>
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 2;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 2) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 2;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~2;
+    clubid_ = null;
   }
 
   /// <summary>Field number for the "code" field.</summary>
@@ -23047,9 +23023,9 @@ public sealed partial class DelLeagueClubRSP : pb::IMessage<DelLeagueClubRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Code {
-    get { if ((_hasBits0 & 4) != 0) { return code_; } else { return CodeDefaultValue; } }
+    get { if ((_hasBits0 & 2) != 0) { return code_; } else { return CodeDefaultValue; } }
     set {
-      _hasBits0 |= 4;
+      _hasBits0 |= 2;
       code_ = value;
     }
   }
@@ -23057,13 +23033,13 @@ public sealed partial class DelLeagueClubRSP : pb::IMessage<DelLeagueClubRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasCode {
-    get { return (_hasBits0 & 4) != 0; }
+    get { return (_hasBits0 & 2) != 0; }
   }
   /// <summary>Clears the value of the "code" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearCode() {
-    _hasBits0 &= ~4;
+    _hasBits0 &= ~2;
   }
 
   /// <summary>Field number for the "left_pause_time" field.</summary>
@@ -23077,9 +23053,9 @@ public sealed partial class DelLeagueClubRSP : pb::IMessage<DelLeagueClubRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int LeftPauseTime {
-    get { if ((_hasBits0 & 8) != 0) { return leftPauseTime_; } else { return LeftPauseTimeDefaultValue; } }
+    get { if ((_hasBits0 & 4) != 0) { return leftPauseTime_; } else { return LeftPauseTimeDefaultValue; } }
     set {
-      _hasBits0 |= 8;
+      _hasBits0 |= 4;
       leftPauseTime_ = value;
     }
   }
@@ -23087,13 +23063,13 @@ public sealed partial class DelLeagueClubRSP : pb::IMessage<DelLeagueClubRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasLeftPauseTime {
-    get { return (_hasBits0 & 8) != 0; }
+    get { return (_hasBits0 & 4) != 0; }
   }
   /// <summary>Clears the value of the "left_pause_time" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearLeftPauseTime() {
-    _hasBits0 &= ~8;
+    _hasBits0 &= ~4;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -23149,8 +23125,8 @@ public sealed partial class DelLeagueClubRSP : pb::IMessage<DelLeagueClubRSP>
       output.WriteInt32(Leagueid);
     }
     if (HasClubid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(18);
+      output.WriteString(Clubid);
     }
     if (HasCode) {
       output.WriteRawTag(24);
@@ -23175,8 +23151,8 @@ public sealed partial class DelLeagueClubRSP : pb::IMessage<DelLeagueClubRSP>
       output.WriteInt32(Leagueid);
     }
     if (HasClubid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(18);
+      output.WriteString(Clubid);
     }
     if (HasCode) {
       output.WriteRawTag(24);
@@ -23200,7 +23176,7 @@ public sealed partial class DelLeagueClubRSP : pb::IMessage<DelLeagueClubRSP>
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Leagueid);
     }
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (HasCode) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Code);
@@ -23251,8 +23227,8 @@ public sealed partial class DelLeagueClubRSP : pb::IMessage<DelLeagueClubRSP>
           Leagueid = input.ReadInt32();
           break;
         }
-        case 16: {
-          Clubid = input.ReadInt32();
+        case 18: {
+          Clubid = input.ReadString();
           break;
         }
         case 24: {
@@ -23282,8 +23258,8 @@ public sealed partial class DelLeagueClubRSP : pb::IMessage<DelLeagueClubRSP>
           Leagueid = input.ReadInt32();
           break;
         }
-        case 16: {
-          Clubid = input.ReadInt32();
+        case 18: {
+          Clubid = input.ReadString();
           break;
         }
         case 24: {
@@ -23408,29 +23384,28 @@ public sealed partial class LeagueUpdateBRC : pb::IMessage<LeagueUpdateBRC>
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 3;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 4) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 4;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 4) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~4;
+    clubid_ = null;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -23488,8 +23463,8 @@ public sealed partial class LeagueUpdateBRC : pb::IMessage<LeagueUpdateBRC>
       output.WriteInt32(Type);
     }
     if (HasClubid) {
-      output.WriteRawTag(24);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(26);
+      output.WriteString(Clubid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -23510,8 +23485,8 @@ public sealed partial class LeagueUpdateBRC : pb::IMessage<LeagueUpdateBRC>
       output.WriteInt32(Type);
     }
     if (HasClubid) {
-      output.WriteRawTag(24);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(26);
+      output.WriteString(Clubid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -23530,7 +23505,7 @@ public sealed partial class LeagueUpdateBRC : pb::IMessage<LeagueUpdateBRC>
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Type);
     }
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -23576,8 +23551,8 @@ public sealed partial class LeagueUpdateBRC : pb::IMessage<LeagueUpdateBRC>
           Type = input.ReadInt32();
           break;
         }
-        case 24: {
-          Clubid = input.ReadInt32();
+        case 26: {
+          Clubid = input.ReadString();
           break;
         }
       }
@@ -23603,8 +23578,8 @@ public sealed partial class LeagueUpdateBRC : pb::IMessage<LeagueUpdateBRC>
           Type = input.ReadInt32();
           break;
         }
-        case 24: {
-          Clubid = input.ReadInt32();
+        case 26: {
+          Clubid = input.ReadString();
           break;
         }
       }
@@ -24139,7 +24114,6 @@ public sealed partial class LeagueClubCondREQ : pb::IMessage<LeagueClubCondREQ>
 {
   private static readonly pb::MessageParser<LeagueClubCondREQ> _parser = new pb::MessageParser<LeagueClubCondREQ>(() => new LeagueClubCondREQ());
   private pb::UnknownFieldSet _unknownFields;
-  private int _hasBits0;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public static pb::MessageParser<LeagueClubCondREQ> Parser { get { return _parser; } }
@@ -24167,7 +24141,6 @@ public sealed partial class LeagueClubCondREQ : pb::IMessage<LeagueClubCondREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public LeagueClubCondREQ(LeagueClubCondREQ other) : this() {
-    _hasBits0 = other._hasBits0;
     clubid_ = other.clubid_;
     _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
   }
@@ -24180,29 +24153,28 @@ public sealed partial class LeagueClubCondREQ : pb::IMessage<LeagueClubCondREQ>
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 1;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 1) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 1;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 1) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~1;
+    clubid_ = null;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -24248,8 +24220,8 @@ public sealed partial class LeagueClubCondREQ : pb::IMessage<LeagueClubCondREQ>
     output.WriteRawMessage(this);
   #else
     if (HasClubid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(10);
+      output.WriteString(Clubid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -24262,8 +24234,8 @@ public sealed partial class LeagueClubCondREQ : pb::IMessage<LeagueClubCondREQ>
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     if (HasClubid) {
-      output.WriteRawTag(8);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(10);
+      output.WriteString(Clubid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -24276,7 +24248,7 @@ public sealed partial class LeagueClubCondREQ : pb::IMessage<LeagueClubCondREQ>
   public int CalculateSize() {
     int size = 0;
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -24308,8 +24280,8 @@ public sealed partial class LeagueClubCondREQ : pb::IMessage<LeagueClubCondREQ>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
           break;
-        case 8: {
-          Clubid = input.ReadInt32();
+        case 10: {
+          Clubid = input.ReadString();
           break;
         }
       }
@@ -24327,8 +24299,8 @@ public sealed partial class LeagueClubCondREQ : pb::IMessage<LeagueClubCondREQ>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
           break;
-        case 8: {
-          Clubid = input.ReadInt32();
+        case 10: {
+          Clubid = input.ReadString();
           break;
         }
       }
@@ -25298,29 +25270,28 @@ public sealed partial class LeagueLimitClubBlindREQ : pb::IMessage<LeagueLimitCl
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 2;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 2) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 2;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~2;
+    clubid_ = null;
   }
 
   /// <summary>Field number for the "limit_detail" field.</summary>
@@ -25402,8 +25373,8 @@ public sealed partial class LeagueLimitClubBlindREQ : pb::IMessage<LeagueLimitCl
       output.WriteInt32(Leagueid);
     }
     if (HasClubid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(18);
+      output.WriteString(Clubid);
     }
     if (limitDetail_ != null) {
       output.WriteRawTag(26);
@@ -25425,8 +25396,8 @@ public sealed partial class LeagueLimitClubBlindREQ : pb::IMessage<LeagueLimitCl
       output.WriteInt32(Leagueid);
     }
     if (HasClubid) {
-      output.WriteRawTag(16);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(18);
+      output.WriteString(Clubid);
     }
     if (limitDetail_ != null) {
       output.WriteRawTag(26);
@@ -25447,7 +25418,7 @@ public sealed partial class LeagueLimitClubBlindREQ : pb::IMessage<LeagueLimitCl
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Leagueid);
     }
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (limitDetail_ != null) {
       size += 1 + pb::CodedOutputStream.ComputeMessageSize(LimitDetail);
@@ -25497,8 +25468,8 @@ public sealed partial class LeagueLimitClubBlindREQ : pb::IMessage<LeagueLimitCl
           Leagueid = input.ReadInt32();
           break;
         }
-        case 16: {
-          Clubid = input.ReadInt32();
+        case 18: {
+          Clubid = input.ReadString();
           break;
         }
         case 26: {
@@ -25531,8 +25502,8 @@ public sealed partial class LeagueLimitClubBlindREQ : pb::IMessage<LeagueLimitCl
           Leagueid = input.ReadInt32();
           break;
         }
-        case 16: {
-          Clubid = input.ReadInt32();
+        case 18: {
+          Clubid = input.ReadString();
           break;
         }
         case 26: {
@@ -25662,29 +25633,28 @@ public sealed partial class LeagueLimitClubBlindRSP : pb::IMessage<LeagueLimitCl
 
   /// <summary>Field number for the "clubid" field.</summary>
   public const int ClubidFieldNumber = 3;
-  private readonly static int ClubidDefaultValue = 0;
+  private readonly static string ClubidDefaultValue = "";
 
-  private int clubid_;
+  private string clubid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int Clubid {
-    get { if ((_hasBits0 & 4) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
+  public string Clubid {
+    get { return clubid_ ?? ClubidDefaultValue; }
     set {
-      _hasBits0 |= 4;
-      clubid_ = value;
+      clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
     }
   }
   /// <summary>Gets whether the "clubid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasClubid {
-    get { return (_hasBits0 & 4) != 0; }
+    get { return clubid_ != null; }
   }
   /// <summary>Clears the value of the "clubid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearClubid() {
-    _hasBits0 &= ~4;
+    clubid_ = null;
   }
 
   /// <summary>Field number for the "limit_detail" field.</summary>
@@ -25772,8 +25742,8 @@ public sealed partial class LeagueLimitClubBlindRSP : pb::IMessage<LeagueLimitCl
       output.WriteInt32(Leagueid);
     }
     if (HasClubid) {
-      output.WriteRawTag(24);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(26);
+      output.WriteString(Clubid);
     }
     if (limitDetail_ != null) {
       output.WriteRawTag(34);
@@ -25799,8 +25769,8 @@ public sealed partial class LeagueLimitClubBlindRSP : pb::IMessage<LeagueLimitCl
       output.WriteInt32(Leagueid);
     }
     if (HasClubid) {
-      output.WriteRawTag(24);
-      output.WriteInt32(Clubid);
+      output.WriteRawTag(26);
+      output.WriteString(Clubid);
     }
     if (limitDetail_ != null) {
       output.WriteRawTag(34);
@@ -25824,7 +25794,7 @@ public sealed partial class LeagueLimitClubBlindRSP : pb::IMessage<LeagueLimitCl
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Leagueid);
     }
     if (HasClubid) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
+      size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
     }
     if (limitDetail_ != null) {
       size += 1 + pb::CodedOutputStream.ComputeMessageSize(LimitDetail);
@@ -25881,8 +25851,8 @@ public sealed partial class LeagueLimitClubBlindRSP : pb::IMessage<LeagueLimitCl
           Leagueid = input.ReadInt32();
           break;
         }
-        case 24: {
-          Clubid = input.ReadInt32();
+        case 26: {
+          Clubid = input.ReadString();
           break;
         }
         case 34: {
@@ -25919,8 +25889,8 @@ public sealed partial class LeagueLimitClubBlindRSP : pb::IMessage<LeagueLimitCl
           Leagueid = input.ReadInt32();
           break;
         }
-        case 24: {
-          Clubid = input.ReadInt32();
+        case 26: {
+          Clubid = input.ReadString();
           break;
         }
         case 34: {

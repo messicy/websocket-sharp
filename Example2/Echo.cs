@@ -89,11 +89,14 @@ namespace Example2
 
                     ActionNotifyBRC actionNotifyBRC = new ActionNotifyBRC();
                     actionNotifyBRC.Seatid = 5;
-                    actionNotifyBRC.Actions.Add(ActionType.ActionFold);
-                    actionNotifyBRC.Actions.Add(ActionType.ActionRaise);
-                    actionNotifyBRC.Actions.Add(ActionType.ActionCall);
-                    actionNotifyBRC.Call = 128;
-                    actionNotifyBRC.LeftTime = actionTime;
+                    ActionData data = new ActionData();
+                    data.Actions.Add(ActionType.ActionFold);
+                    data.Actions.Add(ActionType.ActionRaise);
+                    data.Actions.Add(ActionType.ActionCall);
+                    data.Call = 128;
+                    data.LeftTime = actionTime;
+                    actionNotifyBRC.ActionData = data;
+
                     protoWrapGo.Body = actionNotifyBRC.ToByteString();
                     break;
                 case "6":
@@ -124,8 +127,12 @@ namespace Example2
             switch (protoData.Command)
             {
                 case "EnterRoomREQ":
+                    var reqData = EnterRoomREQ.Parser.ParseFrom(protoData.Body);
+                    EnterRoomRSP enterRoomRSP = new EnterRoomRSP();
+                    enterRoomRSP.Roomid = "100";
+
                     UserBrief p1 = new UserBrief();
-                    p1.Uid = 123;
+                    p1.Uid = "123";
                     p1.Name = "mmm";
                     p1.IconUrl = "1";
                     SeatStatus ss1 = new SeatStatus();
@@ -136,7 +143,7 @@ namespace Example2
                     ss1.HasCard = true;
 
                     UserBrief p2 = new UserBrief();
-                    p2.Uid = 2345;
+                    p2.Uid = "2345";
                     p2.Name = "kkk";
                     p2.IconUrl = "3";
                     SeatStatus ss2 = new SeatStatus();
@@ -147,7 +154,7 @@ namespace Example2
                     ss2.HasCard = true;
 
                     UserBrief p3 = new UserBrief();
-                    p3.Uid = 5623;
+                    p3.Uid = "5623";
                     p3.Name = "sss";
                     p3.IconUrl = "4";
                     SeatStatus ss3 = new SeatStatus();
@@ -165,28 +172,43 @@ namespace Example2
                     table.Seat.Add(ss2);
                     table.Seat.Add(ss3);
                     table.DIdx = 5;
+                    enterRoomRSP.TableStatus = table;
 
                     RoomInfo roomInfo = new RoomInfo();
                     roomInfo.ActionTime = actionTime;
                     roomInfo.Blind = 600;
                     roomInfo.Ante = 300;
-
-                    //PlayingStatus ps = new PlayingStatus();
-                    //ps.Cards.Add("6s");
-                    //ps.Cards.Add("Td");
-                    //ps.Cards.Add("As");
-                    //ps.ActionSeatid = 2;
-                    //ps.ActionTime = 5000;
-
-                    EnterRoomRSP enterRoomRSP = new EnterRoomRSP();
-                    enterRoomRSP.Roomid = 100;
-                    enterRoomRSP.TableStatus = table;
-                    //enterRoomRSP.PlayingStatus = ps;
                     enterRoomRSP.RoomInfo = roomInfo;
+
+                    if (reqData.Roomid == "test2")
+                    {
+                        PlayingStatus ps = new PlayingStatus();
+                        ps.ActionSeatid = 5;
+                        ps.ActionTime = 5000;
+                        ActionData data = new ActionData();
+                        data.Actions.Add(ActionType.ActionFold);
+                        data.Actions.Add(ActionType.ActionBet);
+                        data.Actions.Add(ActionType.ActionCheck);
+                        ps.ActionData = data;
+                        enterRoomRSP.PlayingStatus = ps;
+                    }
+                    if (reqData.Roomid == "test3")
+                    {
+                        PlayingStatus ps = new PlayingStatus();
+                        ps.ActionSeatid = 2;
+                        ps.ActionTime = 5000;
+                        ps.PreActionType = 2;
+                        ps.PreActionChips = 200;
+
+                        enterRoomRSP.PlayingStatus = ps;
+                    }
 
                     protoWrapGo.Command = "EnterRoomRSP";
                     protoWrapGo.Body = enterRoomRSP.ToByteString();
-                    simulation = 1;
+                    if (reqData.Roomid == "test1")
+                    {
+                        simulation = 1;
+                    }
                     break;
                 case "LeaveRoomREQ":
                     LeaveRoomRSP leaveRoomRSP = new LeaveRoomRSP();
@@ -248,10 +270,12 @@ namespace Example2
             protoWrapGo.Command = "ActionNotifyBRC";
             var actionNotifyBRC = new ActionNotifyBRC();
             actionNotifyBRC.Seatid = 5;
-            actionNotifyBRC.Actions.Add(ActionType.ActionFold);
-            actionNotifyBRC.Actions.Add(ActionType.ActionBet);
-            actionNotifyBRC.Actions.Add(ActionType.ActionCheck);
-            actionNotifyBRC.LeftTime = actionTime;
+            ActionData data = new ActionData();
+            data.Actions.Add(ActionType.ActionFold);
+            data.Actions.Add(ActionType.ActionBet);
+            data.Actions.Add(ActionType.ActionCheck);
+            data.LeftTime = actionTime;
+            actionNotifyBRC.ActionData = data;
             protoWrapGo.Body = actionNotifyBRC.ToByteString();
             protoBytes = protoWrapGo.ToByteArray();
             Console.WriteLine(protoWrapGo.Command);
@@ -298,12 +322,14 @@ namespace Example2
             protoWrapGo.Command = "ActionNotifyBRC";
             ActionNotifyBRC actionNotifyBRC = new ActionNotifyBRC();
             actionNotifyBRC.Seatid = 7;
-            actionNotifyBRC.LeftTime = actionTime;
+            ActionData data = new ActionData();
+            data.LeftTime = actionTime;
+            actionNotifyBRC.ActionData = data;
             protoWrapGo.Body = actionNotifyBRC.ToByteString();
             Console.WriteLine(protoWrapGo.Command);
             Sessions.Broadcast(protoWrapGo.ToByteArray());
 
-            Thread.Sleep(3 * 1000);
+            Thread.Sleep(9 * 1000);
             protoWrapGo.Command = "ActionBRC";
             actionBRC = new ActionBRC();
             actionBRC.Seatid = 7;
@@ -318,18 +344,20 @@ namespace Example2
             protoWrapGo.Command = "ActionNotifyBRC";
             actionNotifyBRC = new ActionNotifyBRC();
             actionNotifyBRC.Seatid = 2;
-            actionNotifyBRC.LeftTime = actionTime;
+            data = new ActionData();
+            data.LeftTime = actionTime;
+            actionNotifyBRC.ActionData = data;
             protoWrapGo.Body = actionNotifyBRC.ToByteString();
             Console.WriteLine(protoWrapGo.Command);
             Sessions.Broadcast(protoWrapGo.ToByteArray());
 
-            Thread.Sleep(3 * 1000);
+            Thread.Sleep(9 * 1000);
             protoWrapGo.Command = "ActionBRC";
             actionBRC = new ActionBRC();
             actionBRC.Seatid = 2;
-            actionBRC.ActionType = ActionType.ActionCall;
-            actionBRC.Chips = 100;
-            actionBRC.HandChips = 460;
+            actionBRC.ActionType = ActionType.ActionRaise;
+            actionBRC.Chips = 200;
+            actionBRC.HandChips = 360;
             protoWrapGo.Body = actionBRC.ToByteString();
             Console.WriteLine(protoWrapGo.Command);
             Sessions.Broadcast(protoWrapGo.ToByteArray());
@@ -338,11 +366,13 @@ namespace Example2
             protoWrapGo.Command = "ActionNotifyBRC";
             actionNotifyBRC = new ActionNotifyBRC();
             actionNotifyBRC.Seatid = 5;
-            actionNotifyBRC.Actions.Add(ActionType.ActionFold);
-            actionNotifyBRC.Actions.Add(ActionType.ActionRaise);
-            actionNotifyBRC.Actions.Add(ActionType.ActionCall);
-            actionNotifyBRC.Call = 100;
-            actionNotifyBRC.LeftTime = actionTime;
+            data = new ActionData();
+            data.Actions.Add(ActionType.ActionFold);
+            data.Actions.Add(ActionType.ActionRaise);
+            data.Actions.Add(ActionType.ActionCall);
+            data.Call = 200;
+            data.LeftTime = actionTime;
+            actionNotifyBRC.ActionData = data;
             protoWrapGo.Body = actionNotifyBRC.ToByteString();
             Console.WriteLine(protoWrapGo.Command);
             Sessions.Broadcast(protoWrapGo.ToByteArray());
@@ -389,7 +419,9 @@ namespace Example2
             protoWrapGo.Command = "ActionNotifyBRC";
             var actionNotifyBRC = new ActionNotifyBRC();
             actionNotifyBRC.Seatid = 7;
-            actionNotifyBRC.LeftTime = actionTime;
+            ActionData data = new ActionData();
+            data.LeftTime = actionTime;
+            actionNotifyBRC.ActionData = data;
             protoWrapGo.Body = actionNotifyBRC.ToByteString();
             Console.WriteLine(protoWrapGo.Command);
             Sessions.Broadcast(protoWrapGo.ToByteArray());
@@ -409,7 +441,9 @@ namespace Example2
             protoWrapGo.Command = "ActionNotifyBRC";
             actionNotifyBRC = new ActionNotifyBRC();
             actionNotifyBRC.Seatid = 2;
-            actionNotifyBRC.LeftTime = actionTime;
+            data = new ActionData();
+            data.LeftTime = actionTime;
+            actionNotifyBRC.ActionData = data;
             protoWrapGo.Body = actionNotifyBRC.ToByteString();
             Console.WriteLine(protoWrapGo.Command);
             Sessions.Broadcast(protoWrapGo.ToByteArray());
@@ -450,7 +484,9 @@ namespace Example2
             protoWrapGo.Command = "ActionNotifyBRC";
             actionNotifyBRC = new ActionNotifyBRC();
             actionNotifyBRC.Seatid = 7;
-            actionNotifyBRC.LeftTime = actionTime;
+            data = new ActionData();
+            data.LeftTime = actionTime;
+            actionNotifyBRC.ActionData = data;
             protoWrapGo.Body = actionNotifyBRC.ToByteString();
             Console.WriteLine(protoWrapGo.Command);
             Sessions.Broadcast(protoWrapGo.ToByteArray());
@@ -470,7 +506,8 @@ namespace Example2
             protoWrapGo.Command = "ActionNotifyBRC";
             actionNotifyBRC = new ActionNotifyBRC();
             actionNotifyBRC.Seatid = 2;
-            actionNotifyBRC.LeftTime = actionTime;
+            data.LeftTime = actionTime;
+            actionNotifyBRC.ActionData = data;
             protoWrapGo.Body = actionNotifyBRC.ToByteString();
             Console.WriteLine(protoWrapGo.Command);
             Sessions.Broadcast(protoWrapGo.ToByteArray());
