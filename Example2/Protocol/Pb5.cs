@@ -40,7 +40,7 @@ namespace Texas.Protocol {
             "dHlwZSJmCg9BY3Rpb25Ob3RpZnlCUkMSEwoGc2VhdGlkGAEgASgFSACIAQES",
             "JAoKYWN0aW9uRGF0YRgCIAEoCzILLkFjdGlvbkRhdGFIAYgBAUIJCgdfc2Vh",
             "dGlkQg0KC19hY3Rpb25EYXRhIkIKFFF1aXRNdWx0aXBsZVRhYmxlUkVREg4K",
-            "BnJvb21pZBgBIAMoCRIRCgRmbGFnGAIgASgFSACIAQFCBwoFX2ZsYWciTgoU",
+            "BnJvb21pZBgBIAMoBRIRCgRmbGFnGAIgASgFSACIAQFCBwoFX2ZsYWciTgoU",
             "UXVpdE11bHRpcGxlVGFibGVSU1ASEQoEY29kZRgBIAEoBUgAiAEBEhEKBGZs",
             "YWcYAiABKAVIAYgBAUIHCgVfY29kZUIHCgVfZmxhZyIZChdRdWl0QWxsTXVs",
             "dGlwbGVUYWJsZVJFUSI1ChdRdWl0QWxsTXVsdGlwbGVUYWJsZVJTUBIRCgRj",
@@ -108,7 +108,7 @@ namespace Texas.Protocol {
             "EQoEY29kZRgBIAEoBUgAiAEBQgcKBV9jb2RlIjUKD0RlYWxlckNob2ljZUJS",
             "QxIVCghnYW1ldHlwZRgBIAEoBUgAiAEBQgsKCV9nYW1ldHlwZSItChFPdGhl",
             "ckxlYXZlUm9vbUJSQxIQCgN1aWQYASABKANIAIgBAUIGCgRfdWlkIr0BCgxF",
-            "bnRlclJvb21SRVESDgoGcm9vbWlkGAEgASgJEhAKA3RpZBgCIAEoCUgAiAEB",
+            "bnRlclJvb21SRVESDgoGcm9vbWlkGAEgASgFEhAKA3RpZBgCIAEoCUgAiAEB",
             "EgsKA3VpZBgDIAEoAxITCgZjbHViaWQYBCABKAlIAYgBARIVCghsZWFndWVp",
             "ZBgFIAEoCUgCiAEBEg8KAmlwGAYgASgJSAOIAQESEQoEdHlwZRgHIAEoBUgE",
             "iAEBQgYKBF90aWRCCQoHX2NsdWJpZEILCglfbGVhZ3VlaWRCBQoDX2lwQgcK",
@@ -1481,12 +1481,12 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "roomid" field.</summary>
     public const int RoomidFieldNumber = 1;
-    private static readonly pb::FieldCodec<string> _repeated_roomid_codec
-        = pb::FieldCodec.ForString(10);
-    private readonly pbc::RepeatedField<string> roomid_ = new pbc::RepeatedField<string>();
+    private static readonly pb::FieldCodec<int> _repeated_roomid_codec
+        = pb::FieldCodec.ForInt32(10);
+    private readonly pbc::RepeatedField<int> roomid_ = new pbc::RepeatedField<int>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<string> Roomid {
+    public pbc::RepeatedField<int> Roomid {
       get { return roomid_; }
     }
 
@@ -1629,7 +1629,8 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
+          case 10:
+          case 8: {
             roomid_.AddEntriesFrom(input, _repeated_roomid_codec);
             break;
           }
@@ -1652,7 +1653,8 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
+          case 10:
+          case 8: {
             roomid_.AddEntriesFrom(ref input, _repeated_roomid_codec);
             break;
           }
@@ -7694,16 +7696,16 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "roomid" field.</summary>
     public const int RoomidFieldNumber = 1;
-    private string roomid_ = "";
+    private int roomid_;
     /// <summary>
     ///version 0.1
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Roomid {
+    public int Roomid {
       get { return roomid_; }
       set {
-        roomid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        roomid_ = value;
       }
     }
 
@@ -7891,7 +7893,7 @@ namespace Texas.Protocol {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Roomid.Length != 0) hash ^= Roomid.GetHashCode();
+      if (Roomid != 0) hash ^= Roomid.GetHashCode();
       if (HasTid) hash ^= Tid.GetHashCode();
       if (Uid != 0L) hash ^= Uid.GetHashCode();
       if (HasClubid) hash ^= Clubid.GetHashCode();
@@ -7916,9 +7918,9 @@ namespace Texas.Protocol {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Roomid.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Roomid);
+      if (Roomid != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Roomid);
       }
       if (HasTid) {
         output.WriteRawTag(18);
@@ -7954,9 +7956,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Roomid.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Roomid);
+      if (Roomid != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Roomid);
       }
       if (HasTid) {
         output.WriteRawTag(18);
@@ -7992,8 +7994,8 @@ namespace Texas.Protocol {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Roomid.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Roomid);
+      if (Roomid != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Roomid);
       }
       if (HasTid) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Tid);
@@ -8025,7 +8027,7 @@ namespace Texas.Protocol {
       if (other == null) {
         return;
       }
-      if (other.Roomid.Length != 0) {
+      if (other.Roomid != 0) {
         Roomid = other.Roomid;
       }
       if (other.HasTid) {
@@ -8061,8 +8063,8 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            Roomid = input.ReadString();
+          case 8: {
+            Roomid = input.ReadInt32();
             break;
           }
           case 18: {
@@ -8104,8 +8106,8 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            Roomid = input.ReadString();
+          case 8: {
+            Roomid = input.ReadInt32();
             break;
           }
           case 18: {
