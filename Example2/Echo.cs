@@ -29,7 +29,7 @@ namespace Example2
         private void HandleBroadcastTest(MessageEventArgs e)
         {
             broadcastSequence++;
-            ProtoWrapGo protoWrapGo = new ProtoWrapGo();
+            ProtoPacket protoWrapGo = new ProtoPacket();
             protoWrapGo.Op = MessageType.MessageBroadcast;
             protoWrapGo.Seq = broadcastSequence;
             switch (e.Data)
@@ -118,9 +118,9 @@ namespace Example2
         private void HandleProto(MessageEventArgs e)
         {
             int simulation = -1;
-            var protoData = ProtoWrapGo.Parser.ParseFrom(e.RawData);
+            var protoData = ProtoPacket.Parser.ParseFrom(e.RawData);
 
-            ProtoWrapGo protoWrapGo = new ProtoWrapGo();
+            ProtoPacket protoWrapGo = new ProtoPacket();
             protoWrapGo.Op = protoData.Op;
             protoWrapGo.Seq = protoData.Seq;
 
@@ -129,10 +129,10 @@ namespace Example2
                 case "EnterRoomREQ":
                     var reqData = EnterRoomREQ.Parser.ParseFrom(protoData.Body);
                     EnterRoomRSP enterRoomRSP = new EnterRoomRSP();
-                    enterRoomRSP.Roomid = "100";
+                    enterRoomRSP.Roomid = 1;
 
                     UserBrief p1 = new UserBrief();
-                    p1.Uid = "123";
+                    p1.Uid = 123;
                     p1.Name = "mmm";
                     p1.IconUrl = "1";
                     SeatStatus ss1 = new SeatStatus();
@@ -143,7 +143,7 @@ namespace Example2
                     ss1.HasCard = true;
 
                     UserBrief p2 = new UserBrief();
-                    p2.Uid = "2345";
+                    p2.Uid = 2345;
                     p2.Name = "kkk";
                     p2.IconUrl = "3";
                     SeatStatus ss2 = new SeatStatus();
@@ -154,7 +154,7 @@ namespace Example2
                     ss2.HasCard = true;
 
                     UserBrief p3 = new UserBrief();
-                    p3.Uid = "5623";
+                    p3.Uid = 5623;
                     p3.Name = "sss";
                     p3.IconUrl = "4";
                     SeatStatus ss3 = new SeatStatus();
@@ -178,10 +178,10 @@ namespace Example2
                     roomInfo.ActionTime = actionTime;
                     roomInfo.Blind = 600;
                     roomInfo.Ante = 300;
-                    roomInfo.SeatNum = 3;
+                    roomInfo.SeatNum = 9;
                     enterRoomRSP.RoomInfo = roomInfo;
 
-                    if (reqData.Roomid == "test2")
+                    if (reqData.Roomid == 2)
                     {
                         PlayingStatus ps = new PlayingStatus();
                         ps.ActionSeatid = 5;
@@ -193,7 +193,7 @@ namespace Example2
                         ps.ActionData = data;
                         enterRoomRSP.PlayingStatus = ps;
                     }
-                    if (reqData.Roomid == "test3")
+                    if (reqData.Roomid == 3)
                     {
                         PlayingStatus ps = new PlayingStatus();
                         ps.ActionSeatid = 2;
@@ -206,7 +206,7 @@ namespace Example2
 
                     protoWrapGo.Command = "EnterRoomRSP";
                     protoWrapGo.Body = enterRoomRSP.ToByteString();
-                    if (reqData.Roomid == "test1")
+                    if (reqData.Roomid == 1)
                     {
                         simulation = 1;
                     }
@@ -254,7 +254,7 @@ namespace Example2
         {
             Thread.Sleep(500);
             broadcastSequence++;
-            ProtoWrapGo protoWrapGo = new ProtoWrapGo();
+            ProtoPacket protoWrapGo = new ProtoPacket();
             protoWrapGo.Op = MessageType.MessageBroadcast;
             protoWrapGo.Seq = broadcastSequence;
 
@@ -287,7 +287,7 @@ namespace Example2
         {
             Console.WriteLine("StartSimulation2");
             broadcastSequence++;
-            ProtoWrapGo protoWrapGo = new ProtoWrapGo();
+            ProtoPacket protoWrapGo = new ProtoPacket();
             protoWrapGo.Op = MessageType.MessageBroadcast;
             protoWrapGo.Seq = broadcastSequence;
 
@@ -383,7 +383,7 @@ namespace Example2
         {
             Thread.Sleep(500);
             broadcastSequence++;
-            ProtoWrapGo protoWrapGo = new ProtoWrapGo();
+            ProtoPacket protoWrapGo = new ProtoPacket();
             protoWrapGo.Op = MessageType.MessageBroadcast;
             protoWrapGo.Seq = broadcastSequence;
 
