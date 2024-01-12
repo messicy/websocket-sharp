@@ -45,13 +45,13 @@ namespace Texas.Protocol {
             "cHNyX2phY2twb3RfZmVlX3R5cGUidgoQSmFja1BvdFJlY29yZFJFURIVCghs",
             "ZWFndWVpZBgBIAEoBUgAiAEBEhMKBmNsdWJpZBgCIAEoCUgBiAEBEhMKBnBw",
             "c3JpZBgDIAEoBUgCiAEBQgsKCV9sZWFndWVpZEIJCgdfY2x1YmlkQgkKB19w",
-            "cHNyaWQi7wEKDUphY2tQb3RSZWNvcmQSEAoDdWlkGAEgASgJSACIAQESEQoE",
+            "cHNyaWQi7wEKDUphY2tQb3RSZWNvcmQSEAoDdWlkGAEgASgDSACIAQESEQoE",
             "dHlwZRgCIAEoBUgBiAEBEhMKBnJld2FyZBgDIAEoA0gCiAEBEhEKCXNlbGZf",
             "Y2FyZBgEIAMoBRIVCg1vcHBvbmVudF9jYXJkGAUgAygFEhcKCmZldGNoX3Rp",
             "bWUYBiABKANIA4gBARIRCgRuYW1lGAcgASgJSASIAQESEQoEaWNvbhgIIAEo",
             "CUgFiAEBQgYKBF91aWRCBwoFX3R5cGVCCQoHX3Jld2FyZEINCgtfZmV0Y2hf",
             "dGltZUIHCgVfbmFtZUIHCgVfaWNvbiKgAQoQTmV3SmFja1BvdFJld2FyZBIQ",
-            "CgN1aWQYASABKAlIAIgBARIRCgR0eXBlGAIgASgFSAGIAQESEwoGcmV3YXJk",
+            "CgN1aWQYASABKANIAIgBARIRCgR0eXBlGAIgASgFSAGIAQESEwoGcmV3YXJk",
             "GAMgASgDSAKIAQESEQoEbmFtZRgEIAEoCUgDiAEBEhEKBGljb24YBSABKAlI",
             "BIgBAUIGCgRfdWlkQgcKBV90eXBlQgkKB19yZXdhcmRCBwoFX25hbWVCBwoF",
             "X2ljb24i0QEKEE5ld0phY2tQb3RSZWNvcmQSEwoGZ2FtZWlkGAEgASgJSACI",
@@ -59,7 +59,7 @@ namespace Texas.Protocol {
             "IAEoBUgCiAEBEhEKCXdpbl9jYXJkcxgEIAMoBRISCgpsb3NlX2NhcmRzGAUg",
             "AygFEiIKB3Jld2FyZHMYBiADKAsyES5OZXdKYWNrUG90UmV3YXJkQgkKB19n",
             "YW1laWRCDQoLX2ZldGNoX3RpbWVCDwoNX2phY2twb3RfdHlwZSKgAQoQT3B0",
-            "SmFja1BvdFJld2FyZBIQCgN1aWQYASABKAlIAIgBARIRCgR0eXBlGAIgASgF",
+            "SmFja1BvdFJld2FyZBIQCgN1aWQYASABKANIAIgBARIRCgR0eXBlGAIgASgF",
             "SAGIAQESEwoGcmV3YXJkGAMgASgDSAKIAQESEQoEbmFtZRgEIAEoCUgDiAEB",
             "EhEKBGljb24YBSABKAlIBIgBAUIGCgRfdWlkQgcKBV90eXBlQgkKB19yZXdh",
             "cmRCBwoFX25hbWVCBwoFX2ljb24imwIKEE9wdEphY2tQb3RSZWNvcmQSEwoG",
@@ -173,7 +173,7 @@ namespace Texas.Protocol {
             "cm9hZGNhc3RfZW5hYmxlQiMKIV9wcHNyX2phY2twb3RfYnJvYWRjYXN0X3Ro",
             "cmVzaG9sZEIYChZfcHBzcl9qYWNrcG90X2ZlZV9oYW5kQhcKFV9wcHNyX2ph",
             "Y2twb3RfZmVlX3BvdCK5AQoHSmFja1BvdBITCgZzZWF0aWQYASABKAVIAIgB",
-            "ARITCgZjbHViaWQYAiABKAlIAYgBARIQCgN1aWQYAyABKAlIAogBARISCgVj",
+            "ARITCgZjbHViaWQYAiABKAlIAYgBARIQCgN1aWQYAyABKANIAogBARISCgVj",
             "aGlwcxgEIAEoA0gDiAEBEhEKBG5hbWUYBSABKAlIBIgBARIRCgRpY29uGAYg",
             "ASgJSAWIAQFCCQoHX3NlYXRpZEIJCgdfY2x1YmlkQgYKBF91aWRCCAoGX2No",
             "aXBzQgcKBV9uYW1lQgcKBV9pY29uIpYBCgpKYWNrUG90QlJDEhUKCGxlYWd1",
@@ -183,7 +183,7 @@ namespace Texas.Protocol {
             "Y2tQb3RNdWx0aUJvYXJkQlJDEiAKC2phY2twb3RfYnJjGAEgAygLMgsuSmFj",
             "a1BvdEJSQyLeAQoUSmFja1BvdFJvb21TdGF0dXNCUkMSFQoIbGVhZ3VlaWQY",
             "ASABKAVIAIgBARITCgZjbHViaWQYAiABKAlIAYgBARITCgZyb29taWQYAyAB",
-            "KAlIAogBARIbCg5qYWNrcG90X3N0YXR1cxgEIAEoBUgDiAEBEh0KEGphY2tw",
+            "KAVIAogBARIbCg5qYWNrcG90X3N0YXR1cxgEIAEoBUgDiAEBEh0KEGphY2tw",
             "b3RfZmVlX3R5cGUYBSABKAVIBIgBAUILCglfbGVhZ3VlaWRCCQoHX2NsdWJp",
             "ZEIJCgdfcm9vbWlkQhEKD19qYWNrcG90X3N0YXR1c0ITChFfamFja3BvdF9m",
             "ZWVfdHlwZSJ+ChhSZWNoYXJnZUphY2tQb3RSZWNvcmRSRVESFQoIbGVhZ3Vl",
@@ -222,8 +222,8 @@ namespace Texas.Protocol {
             "Tk9ORRAAEiQKIE9QVF9KQUNLUE9UX0NBUkRfVFlQRV9GVUxMX0hPVVNFEAES",
             "IwofT1BUX0pBQ0tQT1RfQ0FSRF9UWVBFX0ZPVVJfS0lORBACEigKJE9QVF9K",
             "QUNLUE9UX0NBUkRfVFlQRV9TVFJBSUdIVF9GTFVTSBADEiUKIU9QVF9KQUNL",
-            "UE9UX0NBUkRfVFlQRV9ST1lBTF9GTFVTSBAEQhpaBy9wYnBwZ2+qAg5UZXhh",
-            "cy5Qcm90b2NvbGIGcHJvdG8z"));
+            "UE9UX0NBUkRfVFlQRV9ST1lBTF9GTFVTSBAEQhhaBS9nb3BiqgIOVGV4YXMu",
+            "UHJvdG9jb2xiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Texas.Protocol.BaseReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Texas.Protocol.JackPotRoomType), typeof(global::Texas.Protocol.TableGameType), typeof(global::Texas.Protocol.NewJackPotRewardType), typeof(global::Texas.Protocol.OptTableGameType), typeof(global::Texas.Protocol.OptJackPotRewardType), typeof(global::Texas.Protocol.OptJackPotCardType), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -1948,28 +1948,29 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "uid" field.</summary>
     public const int UidFieldNumber = 1;
-    private readonly static string UidDefaultValue = "";
+    private readonly static long UidDefaultValue = 0L;
 
-    private string uid_;
+    private long uid_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Uid {
-      get { return uid_ ?? UidDefaultValue; }
+    public long Uid {
+      get { if ((_hasBits0 & 1) != 0) { return uid_; } else { return UidDefaultValue; } }
       set {
-        uid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        _hasBits0 |= 1;
+        uid_ = value;
       }
     }
     /// <summary>Gets whether the "uid" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasUid {
-      get { return uid_ != null; }
+      get { return (_hasBits0 & 1) != 0; }
     }
     /// <summary>Clears the value of the "uid" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearUid() {
-      uid_ = null;
+      _hasBits0 &= ~1;
     }
 
     /// <summary>Field number for the "type" field.</summary>
@@ -1980,9 +1981,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Type {
-      get { if ((_hasBits0 & 1) != 0) { return type_; } else { return TypeDefaultValue; } }
+      get { if ((_hasBits0 & 2) != 0) { return type_; } else { return TypeDefaultValue; } }
       set {
-        _hasBits0 |= 1;
+        _hasBits0 |= 2;
         type_ = value;
       }
     }
@@ -1990,13 +1991,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasType {
-      get { return (_hasBits0 & 1) != 0; }
+      get { return (_hasBits0 & 2) != 0; }
     }
     /// <summary>Clears the value of the "type" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearType() {
-      _hasBits0 &= ~1;
+      _hasBits0 &= ~2;
     }
 
     /// <summary>Field number for the "reward" field.</summary>
@@ -2007,9 +2008,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Reward {
-      get { if ((_hasBits0 & 2) != 0) { return reward_; } else { return RewardDefaultValue; } }
+      get { if ((_hasBits0 & 4) != 0) { return reward_; } else { return RewardDefaultValue; } }
       set {
-        _hasBits0 |= 2;
+        _hasBits0 |= 4;
         reward_ = value;
       }
     }
@@ -2017,13 +2018,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasReward {
-      get { return (_hasBits0 & 2) != 0; }
+      get { return (_hasBits0 & 4) != 0; }
     }
     /// <summary>Clears the value of the "reward" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearReward() {
-      _hasBits0 &= ~2;
+      _hasBits0 &= ~4;
     }
 
     /// <summary>Field number for the "self_card" field.</summary>
@@ -2056,9 +2057,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long FetchTime {
-      get { if ((_hasBits0 & 4) != 0) { return fetchTime_; } else { return FetchTimeDefaultValue; } }
+      get { if ((_hasBits0 & 8) != 0) { return fetchTime_; } else { return FetchTimeDefaultValue; } }
       set {
-        _hasBits0 |= 4;
+        _hasBits0 |= 8;
         fetchTime_ = value;
       }
     }
@@ -2066,13 +2067,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasFetchTime {
-      get { return (_hasBits0 & 4) != 0; }
+      get { return (_hasBits0 & 8) != 0; }
     }
     /// <summary>Clears the value of the "fetch_time" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearFetchTime() {
-      _hasBits0 &= ~4;
+      _hasBits0 &= ~8;
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -2184,8 +2185,8 @@ namespace Texas.Protocol {
       output.WriteRawMessage(this);
     #else
       if (HasUid) {
-        output.WriteRawTag(10);
-        output.WriteString(Uid);
+        output.WriteRawTag(8);
+        output.WriteInt64(Uid);
       }
       if (HasType) {
         output.WriteRawTag(16);
@@ -2220,8 +2221,8 @@ namespace Texas.Protocol {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (HasUid) {
-        output.WriteRawTag(10);
-        output.WriteString(Uid);
+        output.WriteRawTag(8);
+        output.WriteInt64(Uid);
       }
       if (HasType) {
         output.WriteRawTag(16);
@@ -2256,7 +2257,7 @@ namespace Texas.Protocol {
     public int CalculateSize() {
       int size = 0;
       if (HasUid) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Uid);
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Uid);
       }
       if (HasType) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Type);
@@ -2322,8 +2323,8 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            Uid = input.ReadString();
+          case 8: {
+            Uid = input.ReadInt64();
             break;
           }
           case 16: {
@@ -2371,8 +2372,8 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            Uid = input.ReadString();
+          case 8: {
+            Uid = input.ReadInt64();
             break;
           }
           case 16: {
@@ -2464,28 +2465,29 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "uid" field.</summary>
     public const int UidFieldNumber = 1;
-    private readonly static string UidDefaultValue = "";
+    private readonly static long UidDefaultValue = 0L;
 
-    private string uid_;
+    private long uid_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Uid {
-      get { return uid_ ?? UidDefaultValue; }
+    public long Uid {
+      get { if ((_hasBits0 & 1) != 0) { return uid_; } else { return UidDefaultValue; } }
       set {
-        uid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        _hasBits0 |= 1;
+        uid_ = value;
       }
     }
     /// <summary>Gets whether the "uid" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasUid {
-      get { return uid_ != null; }
+      get { return (_hasBits0 & 1) != 0; }
     }
     /// <summary>Clears the value of the "uid" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearUid() {
-      uid_ = null;
+      _hasBits0 &= ~1;
     }
 
     /// <summary>Field number for the "type" field.</summary>
@@ -2496,9 +2498,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Type {
-      get { if ((_hasBits0 & 1) != 0) { return type_; } else { return TypeDefaultValue; } }
+      get { if ((_hasBits0 & 2) != 0) { return type_; } else { return TypeDefaultValue; } }
       set {
-        _hasBits0 |= 1;
+        _hasBits0 |= 2;
         type_ = value;
       }
     }
@@ -2506,13 +2508,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasType {
-      get { return (_hasBits0 & 1) != 0; }
+      get { return (_hasBits0 & 2) != 0; }
     }
     /// <summary>Clears the value of the "type" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearType() {
-      _hasBits0 &= ~1;
+      _hasBits0 &= ~2;
     }
 
     /// <summary>Field number for the "reward" field.</summary>
@@ -2523,9 +2525,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Reward {
-      get { if ((_hasBits0 & 2) != 0) { return reward_; } else { return RewardDefaultValue; } }
+      get { if ((_hasBits0 & 4) != 0) { return reward_; } else { return RewardDefaultValue; } }
       set {
-        _hasBits0 |= 2;
+        _hasBits0 |= 4;
         reward_ = value;
       }
     }
@@ -2533,13 +2535,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasReward {
-      get { return (_hasBits0 & 2) != 0; }
+      get { return (_hasBits0 & 4) != 0; }
     }
     /// <summary>Clears the value of the "reward" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearReward() {
-      _hasBits0 &= ~2;
+      _hasBits0 &= ~4;
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -2645,8 +2647,8 @@ namespace Texas.Protocol {
       output.WriteRawMessage(this);
     #else
       if (HasUid) {
-        output.WriteRawTag(10);
-        output.WriteString(Uid);
+        output.WriteRawTag(8);
+        output.WriteInt64(Uid);
       }
       if (HasType) {
         output.WriteRawTag(16);
@@ -2675,8 +2677,8 @@ namespace Texas.Protocol {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (HasUid) {
-        output.WriteRawTag(10);
-        output.WriteString(Uid);
+        output.WriteRawTag(8);
+        output.WriteInt64(Uid);
       }
       if (HasType) {
         output.WriteRawTag(16);
@@ -2705,7 +2707,7 @@ namespace Texas.Protocol {
     public int CalculateSize() {
       int size = 0;
       if (HasUid) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Uid);
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Uid);
       }
       if (HasType) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Type);
@@ -2761,8 +2763,8 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            Uid = input.ReadString();
+          case 8: {
+            Uid = input.ReadInt64();
             break;
           }
           case 16: {
@@ -2796,8 +2798,8 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            Uid = input.ReadString();
+          case 8: {
+            Uid = input.ReadInt64();
             break;
           }
           case 16: {
@@ -3266,28 +3268,29 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "uid" field.</summary>
     public const int UidFieldNumber = 1;
-    private readonly static string UidDefaultValue = "";
+    private readonly static long UidDefaultValue = 0L;
 
-    private string uid_;
+    private long uid_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Uid {
-      get { return uid_ ?? UidDefaultValue; }
+    public long Uid {
+      get { if ((_hasBits0 & 1) != 0) { return uid_; } else { return UidDefaultValue; } }
       set {
-        uid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        _hasBits0 |= 1;
+        uid_ = value;
       }
     }
     /// <summary>Gets whether the "uid" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasUid {
-      get { return uid_ != null; }
+      get { return (_hasBits0 & 1) != 0; }
     }
     /// <summary>Clears the value of the "uid" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearUid() {
-      uid_ = null;
+      _hasBits0 &= ~1;
     }
 
     /// <summary>Field number for the "type" field.</summary>
@@ -3298,9 +3301,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Type {
-      get { if ((_hasBits0 & 1) != 0) { return type_; } else { return TypeDefaultValue; } }
+      get { if ((_hasBits0 & 2) != 0) { return type_; } else { return TypeDefaultValue; } }
       set {
-        _hasBits0 |= 1;
+        _hasBits0 |= 2;
         type_ = value;
       }
     }
@@ -3308,13 +3311,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasType {
-      get { return (_hasBits0 & 1) != 0; }
+      get { return (_hasBits0 & 2) != 0; }
     }
     /// <summary>Clears the value of the "type" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearType() {
-      _hasBits0 &= ~1;
+      _hasBits0 &= ~2;
     }
 
     /// <summary>Field number for the "reward" field.</summary>
@@ -3325,9 +3328,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Reward {
-      get { if ((_hasBits0 & 2) != 0) { return reward_; } else { return RewardDefaultValue; } }
+      get { if ((_hasBits0 & 4) != 0) { return reward_; } else { return RewardDefaultValue; } }
       set {
-        _hasBits0 |= 2;
+        _hasBits0 |= 4;
         reward_ = value;
       }
     }
@@ -3335,13 +3338,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasReward {
-      get { return (_hasBits0 & 2) != 0; }
+      get { return (_hasBits0 & 4) != 0; }
     }
     /// <summary>Clears the value of the "reward" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearReward() {
-      _hasBits0 &= ~2;
+      _hasBits0 &= ~4;
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -3447,8 +3450,8 @@ namespace Texas.Protocol {
       output.WriteRawMessage(this);
     #else
       if (HasUid) {
-        output.WriteRawTag(10);
-        output.WriteString(Uid);
+        output.WriteRawTag(8);
+        output.WriteInt64(Uid);
       }
       if (HasType) {
         output.WriteRawTag(16);
@@ -3477,8 +3480,8 @@ namespace Texas.Protocol {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       if (HasUid) {
-        output.WriteRawTag(10);
-        output.WriteString(Uid);
+        output.WriteRawTag(8);
+        output.WriteInt64(Uid);
       }
       if (HasType) {
         output.WriteRawTag(16);
@@ -3507,7 +3510,7 @@ namespace Texas.Protocol {
     public int CalculateSize() {
       int size = 0;
       if (HasUid) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Uid);
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Uid);
       }
       if (HasType) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Type);
@@ -3563,8 +3566,8 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            Uid = input.ReadString();
+          case 8: {
+            Uid = input.ReadInt64();
             break;
           }
           case 16: {
@@ -3598,8 +3601,8 @@ namespace Texas.Protocol {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            Uid = input.ReadString();
+          case 8: {
+            Uid = input.ReadInt64();
             break;
           }
           case 16: {
@@ -11558,28 +11561,29 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "uid" field.</summary>
     public const int UidFieldNumber = 3;
-    private readonly static string UidDefaultValue = "";
+    private readonly static long UidDefaultValue = 0L;
 
-    private string uid_;
+    private long uid_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Uid {
-      get { return uid_ ?? UidDefaultValue; }
+    public long Uid {
+      get { if ((_hasBits0 & 2) != 0) { return uid_; } else { return UidDefaultValue; } }
       set {
-        uid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        _hasBits0 |= 2;
+        uid_ = value;
       }
     }
     /// <summary>Gets whether the "uid" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasUid {
-      get { return uid_ != null; }
+      get { return (_hasBits0 & 2) != 0; }
     }
     /// <summary>Clears the value of the "uid" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearUid() {
-      uid_ = null;
+      _hasBits0 &= ~2;
     }
 
     /// <summary>Field number for the "chips" field.</summary>
@@ -11590,9 +11594,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Chips {
-      get { if ((_hasBits0 & 2) != 0) { return chips_; } else { return ChipsDefaultValue; } }
+      get { if ((_hasBits0 & 4) != 0) { return chips_; } else { return ChipsDefaultValue; } }
       set {
-        _hasBits0 |= 2;
+        _hasBits0 |= 4;
         chips_ = value;
       }
     }
@@ -11600,13 +11604,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasChips {
-      get { return (_hasBits0 & 2) != 0; }
+      get { return (_hasBits0 & 4) != 0; }
     }
     /// <summary>Clears the value of the "chips" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearChips() {
-      _hasBits0 &= ~2;
+      _hasBits0 &= ~4;
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -11722,8 +11726,8 @@ namespace Texas.Protocol {
         output.WriteString(Clubid);
       }
       if (HasUid) {
-        output.WriteRawTag(26);
-        output.WriteString(Uid);
+        output.WriteRawTag(24);
+        output.WriteInt64(Uid);
       }
       if (HasChips) {
         output.WriteRawTag(32);
@@ -11756,8 +11760,8 @@ namespace Texas.Protocol {
         output.WriteString(Clubid);
       }
       if (HasUid) {
-        output.WriteRawTag(26);
-        output.WriteString(Uid);
+        output.WriteRawTag(24);
+        output.WriteInt64(Uid);
       }
       if (HasChips) {
         output.WriteRawTag(32);
@@ -11788,7 +11792,7 @@ namespace Texas.Protocol {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
       }
       if (HasUid) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Uid);
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Uid);
       }
       if (HasChips) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(Chips);
@@ -11852,8 +11856,8 @@ namespace Texas.Protocol {
             Clubid = input.ReadString();
             break;
           }
-          case 26: {
-            Uid = input.ReadString();
+          case 24: {
+            Uid = input.ReadInt64();
             break;
           }
           case 32: {
@@ -11891,8 +11895,8 @@ namespace Texas.Protocol {
             Clubid = input.ReadString();
             break;
           }
-          case 26: {
-            Uid = input.ReadString();
+          case 24: {
+            Uid = input.ReadInt64();
             break;
           }
           case 32: {
@@ -12539,28 +12543,29 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "roomid" field.</summary>
     public const int RoomidFieldNumber = 3;
-    private readonly static string RoomidDefaultValue = "";
+    private readonly static int RoomidDefaultValue = 0;
 
-    private string roomid_;
+    private int roomid_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Roomid {
-      get { return roomid_ ?? RoomidDefaultValue; }
+    public int Roomid {
+      get { if ((_hasBits0 & 2) != 0) { return roomid_; } else { return RoomidDefaultValue; } }
       set {
-        roomid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        _hasBits0 |= 2;
+        roomid_ = value;
       }
     }
     /// <summary>Gets whether the "roomid" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasRoomid {
-      get { return roomid_ != null; }
+      get { return (_hasBits0 & 2) != 0; }
     }
     /// <summary>Clears the value of the "roomid" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearRoomid() {
-      roomid_ = null;
+      _hasBits0 &= ~2;
     }
 
     /// <summary>Field number for the "jackpot_status" field.</summary>
@@ -12574,9 +12579,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int JackpotStatus {
-      get { if ((_hasBits0 & 2) != 0) { return jackpotStatus_; } else { return JackpotStatusDefaultValue; } }
+      get { if ((_hasBits0 & 4) != 0) { return jackpotStatus_; } else { return JackpotStatusDefaultValue; } }
       set {
-        _hasBits0 |= 2;
+        _hasBits0 |= 4;
         jackpotStatus_ = value;
       }
     }
@@ -12584,13 +12589,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasJackpotStatus {
-      get { return (_hasBits0 & 2) != 0; }
+      get { return (_hasBits0 & 4) != 0; }
     }
     /// <summary>Clears the value of the "jackpot_status" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearJackpotStatus() {
-      _hasBits0 &= ~2;
+      _hasBits0 &= ~4;
     }
 
     /// <summary>Field number for the "jackpot_fee_type" field.</summary>
@@ -12604,9 +12609,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int JackpotFeeType {
-      get { if ((_hasBits0 & 4) != 0) { return jackpotFeeType_; } else { return JackpotFeeTypeDefaultValue; } }
+      get { if ((_hasBits0 & 8) != 0) { return jackpotFeeType_; } else { return JackpotFeeTypeDefaultValue; } }
       set {
-        _hasBits0 |= 4;
+        _hasBits0 |= 8;
         jackpotFeeType_ = value;
       }
     }
@@ -12614,13 +12619,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasJackpotFeeType {
-      get { return (_hasBits0 & 4) != 0; }
+      get { return (_hasBits0 & 8) != 0; }
     }
     /// <summary>Clears the value of the "jackpot_fee_type" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearJackpotFeeType() {
-      _hasBits0 &= ~4;
+      _hasBits0 &= ~8;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12682,8 +12687,8 @@ namespace Texas.Protocol {
         output.WriteString(Clubid);
       }
       if (HasRoomid) {
-        output.WriteRawTag(26);
-        output.WriteString(Roomid);
+        output.WriteRawTag(24);
+        output.WriteInt32(Roomid);
       }
       if (HasJackpotStatus) {
         output.WriteRawTag(32);
@@ -12712,8 +12717,8 @@ namespace Texas.Protocol {
         output.WriteString(Clubid);
       }
       if (HasRoomid) {
-        output.WriteRawTag(26);
-        output.WriteString(Roomid);
+        output.WriteRawTag(24);
+        output.WriteInt32(Roomid);
       }
       if (HasJackpotStatus) {
         output.WriteRawTag(32);
@@ -12740,7 +12745,7 @@ namespace Texas.Protocol {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
       }
       if (HasRoomid) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Roomid);
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Roomid);
       }
       if (HasJackpotStatus) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(JackpotStatus);
@@ -12798,8 +12803,8 @@ namespace Texas.Protocol {
             Clubid = input.ReadString();
             break;
           }
-          case 26: {
-            Roomid = input.ReadString();
+          case 24: {
+            Roomid = input.ReadInt32();
             break;
           }
           case 32: {
@@ -12833,8 +12838,8 @@ namespace Texas.Protocol {
             Clubid = input.ReadString();
             break;
           }
-          case 26: {
-            Roomid = input.ReadString();
+          case 24: {
+            Roomid = input.ReadInt32();
             break;
           }
           case 32: {

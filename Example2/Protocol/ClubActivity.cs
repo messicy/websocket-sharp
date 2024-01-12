@@ -242,8 +242,8 @@ namespace Texas.Protocol {
             "KAsyFy5Vc2VyU2VsZkFjdGl2aXR5UmViYXRlSAOIAQESNwoRaGlnaF9ibGlu",
             "ZF9yZWJhdGUYBSABKAsyFy5Vc2VyU2VsZkFjdGl2aXR5UmViYXRlSASIAQFC",
             "BwoFX2NvZGVCCQoHX2NvbmZpZ0ITChFfbG93X2JsaW5kX3JlYmF0ZUITChFf",
-            "bWlkX2JsaW5kX3JlYmF0ZUIUChJfaGlnaF9ibGluZF9yZWJhdGVCGloHL3Bi",
-            "cHBnb6oCDlRleGFzLlByb3RvY29sYgZwcm90bzM="));
+            "bWlkX2JsaW5kX3JlYmF0ZUIUChJfaGlnaF9ibGluZF9yZWJhdGVCGFoFL2dv",
+            "cGKqAg5UZXhhcy5Qcm90b2NvbGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Texas.Protocol.PineReflection.Descriptor, global::Texas.Protocol.ClubHelperReflection.Descriptor, global::Texas.Protocol.HandMissionReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

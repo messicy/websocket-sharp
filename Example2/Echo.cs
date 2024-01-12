@@ -147,7 +147,7 @@ namespace Example2
                     p2.Name = "kkk";
                     p2.IconUrl = "3";
                     SeatStatus ss2 = new SeatStatus();
-                    ss2.Seatid = 5;
+                    ss2.Seatid = 1;
                     ss2.Player = p2;
                     ss2.HandChips = 325;
                     //ss2.DestopChips = 885;
@@ -158,7 +158,7 @@ namespace Example2
                     p3.Name = "sss";
                     p3.IconUrl = "4";
                     SeatStatus ss3 = new SeatStatus();
-                    ss3.Seatid = 7;
+                    ss3.Seatid = 0;
                     ss3.Player = p3;
                     ss3.HandChips = 456;
                     //ss3.DestopChips = 251;
@@ -178,6 +178,7 @@ namespace Example2
                     roomInfo.ActionTime = actionTime;
                     roomInfo.Blind = 600;
                     roomInfo.Ante = 300;
+                    roomInfo.SeatNum = 3;
                     enterRoomRSP.RoomInfo = roomInfo;
 
                     if (reqData.Roomid == "test2")

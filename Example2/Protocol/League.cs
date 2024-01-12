@@ -136,7 +136,7 @@ public static partial class LeagueReflection {
           "ZXJXYXJuaW5nTGltaXRSU1ASDAoEY29kZRgBIAEoBSKKAQoNTGVhZ3VlRGF0",
           "YVJFURIQCghsZWFndWVpZBgBIAEoBRIOCgZjbHViaWQYAiABKAkSGwoTbGFz",
           "dF93ZWVrX2JlZ2luX2RheRgDIAEoBRIbChN0aGlzX3dlZWtfYmVnaW5fZGF5",
-          "GAQgASgFEhAKCHRpbWV6b25lGAUgASgFEgsKA3VpZBgGIAEoCSLXBAoOTGVh",
+          "GAQgASgFEhAKCHRpbWV6b25lGAUgASgFEgsKA3VpZBgGIAEoAyLXBAoOTGVh",
           "Z3VlRGF0YUluZm8SDgoGY2x1YmlkGAEgASgJEhAKCGNsdWJuYW1lGAIgASgJ",
           "EhAKCGNsdWJpY29uGAMgASgJEhMKC2FsbF9lYXJuaW5nGAQgASgDEhMKC2Fs",
           "bF9qYWNrcG90GAUgASgDEhUKDWFsbF9pbnN1cmFuY2UYBiABKAMSGQoRbGFz",
@@ -155,15 +155,15 @@ public static partial class LeagueReflection {
           "Y2hhcmdlGAMgASgDEhUKDWphY2twb3RfY2hpcHMYBCABKAMSFgoOdGhpc193",
           "ZWVrX2RhdGUYBSABKAkSFgoObGFzdF93ZWVrX2RhdGUYBiABKAkSDAoEY29k",
           "ZRgHIAEoBSIRCg9Kb2luV2FpdExpc3RSRVEigwEKD0pvaW5XYWl0TGlzdFJT",
-          "UBIOCgZyb29taWQYASABKAkSDgoGY2x1YmlkGAIgASgJEg4KBnJlc3VsdBgD",
+          "UBIOCgZyb29taWQYASABKAUSDgoGY2x1YmlkGAIgASgJEg4KBnJlc3VsdBgD",
           "IAEoBRIOCgZyZWFzb24YBCABKAkSGgoSdnBpcF9saW1pdF9wZXJfc2V0GAUg",
           "ASgFEhQKDHZwaXBfcGVyX3NldBgGIAEoBSISChBMZWF2ZVdhaXRMaXN0UkVR",
-          "IjIKEExlYXZlV2FpdExpc3RSU1ASDgoGcm9vbWlkGAEgASgJEg4KBnJlc3Vs",
+          "IjIKEExlYXZlV2FpdExpc3RSU1ASDgoGcm9vbWlkGAEgASgFEg4KBnJlc3Vs",
           "dBgCIAEoBSKRAQoMV2FpdExpc3RVc2VyEg4KBnVzZXJpZBgBIAEoAxIRCgl1",
           "c2VyX25hbWUYAiABKAkSEQoJY2x1Yl9uYW1lGAMgASgJEhEKCXVzZXJfaWNv",
           "bhgEIAEoCRIOCgZjbHViaWQYBSABKAUSEAoIbGVhZ3VlaWQYBiABKAUSFgoO",
           "dXNlcl92aXBfbGV2ZWwYByABKAUiPwoPV2FpdExpc3RJbmZvQlJDEhwKBXVz",
-          "ZXJzGAEgAygLMg0uV2FpdExpc3RVc2VyEg4KBnJvb21pZBgCIAEoCSKhAgoQ",
+          "ZXJzGAEgAygLMg0uV2FpdExpc3RVc2VyEg4KBnJvb21pZBgCIAEoBSKhAgoQ",
           "V2FpdExpc3RTZWF0SW5mbxIQCghyb29tdHlwZRgBIAEoDRINCgVibGluZBgC",
           "IAEoBRIMCgRhbnRlGAMgASgFEg4KBnJvb21pZBgEIAEoBRIOCgZjbHViaWQY",
           "BSABKAUSDgoGc2VhdGlkGAYgASgFEhEKCWxhc3RfdGltZRgHIAEoBRIMCgRu",
@@ -173,7 +173,7 @@ public static partial class LeagueReflection {
           "ZRIOCgZwcHNyaWQYDiABKAUiFQoTV2FpdExpc3RTZWF0SW5mb1JFUSI7ChNX",
           "YWl0TGlzdFNlYXRJbmZvUlNQEiQKCWluZm9fbGlzdBgBIAMoCzIRLldhaXRM",
           "aXN0U2VhdEluZm8iIgoQUmVmdXNlU2l0RG93blJFURIOCgZyb29taWQYASAB",
-          "KAkiOgoTU2V0Um9vbUF1dGhvcml0eVJFURIQCghsZWFndWVpZBgBIAEoBRIR",
+          "KAUiOgoTU2V0Um9vbUF1dGhvcml0eVJFURIQCghsZWFndWVpZBgBIAEoBRIR",
           "CglhdXRob3JpdHkYAiABKAUiSAoTU2V0Um9vbUF1dGhvcml0eVJTUBIQCghs",
           "ZWFndWVpZBgBIAEoBRIRCglhdXRob3JpdHkYAiABKAUSDAoEY29kZRgDIAEo",
           "BSI3ChBSb29tQXV0aG9yaXR5QlJDEhAKCGxlYWd1ZWlkGAEgASgFEhEKCWF1",
@@ -228,8 +228,8 @@ public static partial class LeagueReflection {
           "TElORF9MSU1JVF9UWVBFX05MSF9QTE81EBASFwoTQkxJTkRfTElNSVRfVFlQ",
           "RV9UUBAREh8KG0JMSU5EX0xJTUlUX1RZUEVfTFVDS1lfRFJBVxASEhoKFkJM",
           "SU5EX0xJTUlUX1RZUEVfQ09MT1IQExIfChtCTElORF9MSU1JVF9UWVBFX0ZM",
-          "QVNIX1BMTzUQFBIcChhCTElORF9MSU1JVF9UWVBFX1RPTkdJVFMQFUIJWgcv",
-          "cGJwcGdv"));
+          "QVNIX1BMTzUQFBIcChhCTElORF9MSU1JVF9UWVBFX1RPTkdJVFMQFUIHWgUv",
+          "Z29wYg=="));
     descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
         new pbr::FileDescriptor[] { global::Texas.Protocol.BaseReflection.Descriptor, global::Texas.Protocol.PreBaseReflection.Descriptor, },
         new pbr::GeneratedClrTypeInfo(new[] {typeof(global::PPSROperations), typeof(global::SuperLeagueOperations), typeof(global::BlindLimitType), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -15382,28 +15382,29 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
 
   /// <summary>Field number for the "uid" field.</summary>
   public const int UidFieldNumber = 6;
-  private readonly static string UidDefaultValue = "";
+  private readonly static long UidDefaultValue = 0L;
 
-  private string uid_;
+  private long uid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public string Uid {
-    get { return uid_ ?? UidDefaultValue; }
+  public long Uid {
+    get { if ((_hasBits0 & 16) != 0) { return uid_; } else { return UidDefaultValue; } }
     set {
-      uid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      _hasBits0 |= 16;
+      uid_ = value;
     }
   }
   /// <summary>Gets whether the "uid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasUid {
-    get { return uid_ != null; }
+    get { return (_hasBits0 & 16) != 0; }
   }
   /// <summary>Clears the value of the "uid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearUid() {
-    uid_ = null;
+    _hasBits0 &= ~16;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15479,8 +15480,8 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
       output.WriteInt32(Timezone);
     }
     if (HasUid) {
-      output.WriteRawTag(50);
-      output.WriteString(Uid);
+      output.WriteRawTag(48);
+      output.WriteInt64(Uid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -15513,8 +15514,8 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
       output.WriteInt32(Timezone);
     }
     if (HasUid) {
-      output.WriteRawTag(50);
-      output.WriteString(Uid);
+      output.WriteRawTag(48);
+      output.WriteInt64(Uid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -15542,7 +15543,7 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Timezone);
     }
     if (HasUid) {
-      size += 1 + pb::CodedOutputStream.ComputeStringSize(Uid);
+      size += 1 + pb::CodedOutputStream.ComputeInt64Size(Uid);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -15609,8 +15610,8 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
           Timezone = input.ReadInt32();
           break;
         }
-        case 50: {
-          Uid = input.ReadString();
+        case 48: {
+          Uid = input.ReadInt64();
           break;
         }
       }
@@ -15648,8 +15649,8 @@ public sealed partial class LeagueDataREQ : pb::IMessage<LeagueDataREQ>
           Timezone = input.ReadInt32();
           break;
         }
-        case 50: {
-          Uid = input.ReadString();
+        case 48: {
+          Uid = input.ReadInt64();
           break;
         }
       }
@@ -17762,28 +17763,29 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
 
   /// <summary>Field number for the "roomid" field.</summary>
   public const int RoomidFieldNumber = 1;
-  private readonly static string RoomidDefaultValue = "";
+  private readonly static int RoomidDefaultValue = 0;
 
-  private string roomid_;
+  private int roomid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public string Roomid {
-    get { return roomid_ ?? RoomidDefaultValue; }
+  public int Roomid {
+    get { if ((_hasBits0 & 1) != 0) { return roomid_; } else { return RoomidDefaultValue; } }
     set {
-      roomid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      _hasBits0 |= 1;
+      roomid_ = value;
     }
   }
   /// <summary>Gets whether the "roomid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasRoomid {
-    get { return roomid_ != null; }
+    get { return (_hasBits0 & 1) != 0; }
   }
   /// <summary>Clears the value of the "roomid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearRoomid() {
-    roomid_ = null;
+    _hasBits0 &= ~1;
   }
 
   /// <summary>Field number for the "clubid" field.</summary>
@@ -17823,9 +17825,9 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Result {
-    get { if ((_hasBits0 & 1) != 0) { return result_; } else { return ResultDefaultValue; } }
+    get { if ((_hasBits0 & 2) != 0) { return result_; } else { return ResultDefaultValue; } }
     set {
-      _hasBits0 |= 1;
+      _hasBits0 |= 2;
       result_ = value;
     }
   }
@@ -17833,13 +17835,13 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasResult {
-    get { return (_hasBits0 & 1) != 0; }
+    get { return (_hasBits0 & 2) != 0; }
   }
   /// <summary>Clears the value of the "result" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearResult() {
-    _hasBits0 &= ~1;
+    _hasBits0 &= ~2;
   }
 
   /// <summary>Field number for the "reason" field.</summary>
@@ -17890,9 +17892,9 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int VpipLimitPerSet {
-    get { if ((_hasBits0 & 2) != 0) { return vpipLimitPerSet_; } else { return VpipLimitPerSetDefaultValue; } }
+    get { if ((_hasBits0 & 4) != 0) { return vpipLimitPerSet_; } else { return VpipLimitPerSetDefaultValue; } }
     set {
-      _hasBits0 |= 2;
+      _hasBits0 |= 4;
       vpipLimitPerSet_ = value;
     }
   }
@@ -17900,13 +17902,13 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasVpipLimitPerSet {
-    get { return (_hasBits0 & 2) != 0; }
+    get { return (_hasBits0 & 4) != 0; }
   }
   /// <summary>Clears the value of the "vpip_limit_per_set" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearVpipLimitPerSet() {
-    _hasBits0 &= ~2;
+    _hasBits0 &= ~4;
   }
 
   /// <summary>Field number for the "vpip_per_set" field.</summary>
@@ -17920,9 +17922,9 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int VpipPerSet {
-    get { if ((_hasBits0 & 4) != 0) { return vpipPerSet_; } else { return VpipPerSetDefaultValue; } }
+    get { if ((_hasBits0 & 8) != 0) { return vpipPerSet_; } else { return VpipPerSetDefaultValue; } }
     set {
-      _hasBits0 |= 4;
+      _hasBits0 |= 8;
       vpipPerSet_ = value;
     }
   }
@@ -17930,13 +17932,13 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasVpipPerSet {
-    get { return (_hasBits0 & 4) != 0; }
+    get { return (_hasBits0 & 8) != 0; }
   }
   /// <summary>Clears the value of the "vpip_per_set" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearVpipPerSet() {
-    _hasBits0 &= ~4;
+    _hasBits0 &= ~8;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17992,8 +17994,8 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
     output.WriteRawMessage(this);
   #else
     if (HasRoomid) {
-      output.WriteRawTag(10);
-      output.WriteString(Roomid);
+      output.WriteRawTag(8);
+      output.WriteInt32(Roomid);
     }
     if (HasClubid) {
       output.WriteRawTag(18);
@@ -18026,8 +18028,8 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     if (HasRoomid) {
-      output.WriteRawTag(10);
-      output.WriteString(Roomid);
+      output.WriteRawTag(8);
+      output.WriteInt32(Roomid);
     }
     if (HasClubid) {
       output.WriteRawTag(18);
@@ -18060,7 +18062,7 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
   public int CalculateSize() {
     int size = 0;
     if (HasRoomid) {
-      size += 1 + pb::CodedOutputStream.ComputeStringSize(Roomid);
+      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Roomid);
     }
     if (HasClubid) {
       size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
@@ -18122,8 +18124,8 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
           break;
-        case 10: {
-          Roomid = input.ReadString();
+        case 8: {
+          Roomid = input.ReadInt32();
           break;
         }
         case 18: {
@@ -18161,8 +18163,8 @@ public sealed partial class JoinWaitListRSP : pb::IMessage<JoinWaitListRSP>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
           break;
-        case 10: {
-          Roomid = input.ReadString();
+        case 8: {
+          Roomid = input.ReadInt32();
           break;
         }
         case 18: {
@@ -18393,28 +18395,29 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
 
   /// <summary>Field number for the "roomid" field.</summary>
   public const int RoomidFieldNumber = 1;
-  private readonly static string RoomidDefaultValue = "";
+  private readonly static int RoomidDefaultValue = 0;
 
-  private string roomid_;
+  private int roomid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public string Roomid {
-    get { return roomid_ ?? RoomidDefaultValue; }
+  public int Roomid {
+    get { if ((_hasBits0 & 1) != 0) { return roomid_; } else { return RoomidDefaultValue; } }
     set {
-      roomid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      _hasBits0 |= 1;
+      roomid_ = value;
     }
   }
   /// <summary>Gets whether the "roomid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasRoomid {
-    get { return roomid_ != null; }
+    get { return (_hasBits0 & 1) != 0; }
   }
   /// <summary>Clears the value of the "roomid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearRoomid() {
-    roomid_ = null;
+    _hasBits0 &= ~1;
   }
 
   /// <summary>Field number for the "result" field.</summary>
@@ -18428,9 +18431,9 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public int Result {
-    get { if ((_hasBits0 & 1) != 0) { return result_; } else { return ResultDefaultValue; } }
+    get { if ((_hasBits0 & 2) != 0) { return result_; } else { return ResultDefaultValue; } }
     set {
-      _hasBits0 |= 1;
+      _hasBits0 |= 2;
       result_ = value;
     }
   }
@@ -18438,13 +18441,13 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasResult {
-    get { return (_hasBits0 & 1) != 0; }
+    get { return (_hasBits0 & 2) != 0; }
   }
   /// <summary>Clears the value of the "result" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearResult() {
-    _hasBits0 &= ~1;
+    _hasBits0 &= ~2;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18492,8 +18495,8 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
     output.WriteRawMessage(this);
   #else
     if (HasRoomid) {
-      output.WriteRawTag(10);
-      output.WriteString(Roomid);
+      output.WriteRawTag(8);
+      output.WriteInt32(Roomid);
     }
     if (HasResult) {
       output.WriteRawTag(16);
@@ -18510,8 +18513,8 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     if (HasRoomid) {
-      output.WriteRawTag(10);
-      output.WriteString(Roomid);
+      output.WriteRawTag(8);
+      output.WriteInt32(Roomid);
     }
     if (HasResult) {
       output.WriteRawTag(16);
@@ -18528,7 +18531,7 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
   public int CalculateSize() {
     int size = 0;
     if (HasRoomid) {
-      size += 1 + pb::CodedOutputStream.ComputeStringSize(Roomid);
+      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Roomid);
     }
     if (HasResult) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Result);
@@ -18566,8 +18569,8 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
           break;
-        case 10: {
-          Roomid = input.ReadString();
+        case 8: {
+          Roomid = input.ReadInt32();
           break;
         }
         case 16: {
@@ -18589,8 +18592,8 @@ public sealed partial class LeaveWaitListRSP : pb::IMessage<LeaveWaitListRSP>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
           break;
-        case 10: {
-          Roomid = input.ReadString();
+        case 8: {
+          Roomid = input.ReadInt32();
           break;
         }
         case 16: {
@@ -19126,6 +19129,7 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
 {
   private static readonly pb::MessageParser<WaitListInfoBRC> _parser = new pb::MessageParser<WaitListInfoBRC>(() => new WaitListInfoBRC());
   private pb::UnknownFieldSet _unknownFields;
+  private int _hasBits0;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public static pb::MessageParser<WaitListInfoBRC> Parser { get { return _parser; } }
@@ -19153,6 +19157,7 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public WaitListInfoBRC(WaitListInfoBRC other) : this() {
+    _hasBits0 = other._hasBits0;
     users_ = other.users_.Clone();
     roomid_ = other.roomid_;
     _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -19180,28 +19185,29 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
 
   /// <summary>Field number for the "roomid" field.</summary>
   public const int RoomidFieldNumber = 2;
-  private readonly static string RoomidDefaultValue = "";
+  private readonly static int RoomidDefaultValue = 0;
 
-  private string roomid_;
+  private int roomid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public string Roomid {
-    get { return roomid_ ?? RoomidDefaultValue; }
+  public int Roomid {
+    get { if ((_hasBits0 & 1) != 0) { return roomid_; } else { return RoomidDefaultValue; } }
     set {
-      roomid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      _hasBits0 |= 1;
+      roomid_ = value;
     }
   }
   /// <summary>Gets whether the "roomid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasRoomid {
-    get { return roomid_ != null; }
+    get { return (_hasBits0 & 1) != 0; }
   }
   /// <summary>Clears the value of the "roomid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearRoomid() {
-    roomid_ = null;
+    _hasBits0 &= ~1;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19250,8 +19256,8 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
   #else
     users_.WriteTo(output, _repeated_users_codec);
     if (HasRoomid) {
-      output.WriteRawTag(18);
-      output.WriteString(Roomid);
+      output.WriteRawTag(16);
+      output.WriteInt32(Roomid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -19265,8 +19271,8 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     users_.WriteTo(ref output, _repeated_users_codec);
     if (HasRoomid) {
-      output.WriteRawTag(18);
-      output.WriteString(Roomid);
+      output.WriteRawTag(16);
+      output.WriteInt32(Roomid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -19280,7 +19286,7 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
     int size = 0;
     size += users_.CalculateSize(_repeated_users_codec);
     if (HasRoomid) {
-      size += 1 + pb::CodedOutputStream.ComputeStringSize(Roomid);
+      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Roomid);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -19317,8 +19323,8 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
           users_.AddEntriesFrom(input, _repeated_users_codec);
           break;
         }
-        case 18: {
-          Roomid = input.ReadString();
+        case 16: {
+          Roomid = input.ReadInt32();
           break;
         }
       }
@@ -19340,8 +19346,8 @@ public sealed partial class WaitListInfoBRC : pb::IMessage<WaitListInfoBRC>
           users_.AddEntriesFrom(ref input, _repeated_users_codec);
           break;
         }
-        case 18: {
-          Roomid = input.ReadString();
+        case 16: {
+          Roomid = input.ReadInt32();
           break;
         }
       }
@@ -20589,6 +20595,7 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
 {
   private static readonly pb::MessageParser<RefuseSitDownREQ> _parser = new pb::MessageParser<RefuseSitDownREQ>(() => new RefuseSitDownREQ());
   private pb::UnknownFieldSet _unknownFields;
+  private int _hasBits0;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public static pb::MessageParser<RefuseSitDownREQ> Parser { get { return _parser; } }
@@ -20616,6 +20623,7 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public RefuseSitDownREQ(RefuseSitDownREQ other) : this() {
+    _hasBits0 = other._hasBits0;
     roomid_ = other.roomid_;
     _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
   }
@@ -20628,28 +20636,29 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
 
   /// <summary>Field number for the "roomid" field.</summary>
   public const int RoomidFieldNumber = 1;
-  private readonly static string RoomidDefaultValue = "";
+  private readonly static int RoomidDefaultValue = 0;
 
-  private string roomid_;
+  private int roomid_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public string Roomid {
-    get { return roomid_ ?? RoomidDefaultValue; }
+  public int Roomid {
+    get { if ((_hasBits0 & 1) != 0) { return roomid_; } else { return RoomidDefaultValue; } }
     set {
-      roomid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      _hasBits0 |= 1;
+      roomid_ = value;
     }
   }
   /// <summary>Gets whether the "roomid" field is set</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public bool HasRoomid {
-    get { return roomid_ != null; }
+    get { return (_hasBits0 & 1) != 0; }
   }
   /// <summary>Clears the value of the "roomid" field</summary>
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public void ClearRoomid() {
-    roomid_ = null;
+    _hasBits0 &= ~1;
   }
 
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20695,8 +20704,8 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
     output.WriteRawMessage(this);
   #else
     if (HasRoomid) {
-      output.WriteRawTag(10);
-      output.WriteString(Roomid);
+      output.WriteRawTag(8);
+      output.WriteInt32(Roomid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -20709,8 +20718,8 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
     if (HasRoomid) {
-      output.WriteRawTag(10);
-      output.WriteString(Roomid);
+      output.WriteRawTag(8);
+      output.WriteInt32(Roomid);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -20723,7 +20732,7 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
   public int CalculateSize() {
     int size = 0;
     if (HasRoomid) {
-      size += 1 + pb::CodedOutputStream.ComputeStringSize(Roomid);
+      size += 1 + pb::CodedOutputStream.ComputeInt32Size(Roomid);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -20755,8 +20764,8 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
           break;
-        case 10: {
-          Roomid = input.ReadString();
+        case 8: {
+          Roomid = input.ReadInt32();
           break;
         }
       }
@@ -20774,8 +20783,8 @@ public sealed partial class RefuseSitDownREQ : pb::IMessage<RefuseSitDownREQ>
         default:
           _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
           break;
-        case 10: {
-          Roomid = input.ReadString();
+        case 8: {
+          Roomid = input.ReadInt32();
           break;
         }
       }
