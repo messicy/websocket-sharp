@@ -167,47 +167,48 @@ namespace Texas.Protocol {
             "AYgBAUIKCghfbWVzc2FnZUIHCgVfdHlwZSINCgtTdHJhZGRsZVJFUSIpCgtT",
             "dHJhZGRsZVJTUBIRCgRjb2RlGAEgASgFSACIAQFCBwoFX2NvZGUiKQoPU2hv",
             "d1N0cmFkZGxlUlNQEg8KAm9rGAEgASgISACIAQFCBQoDX29rIhQKEkNhbmNl",
-            "bFdhaXRCbGluZFJFUSJQChJDYW5jZWxXYWl0QmxpbmRCUkMSEwoGc2VhdGlk",
-            "GAEgASgFSACIAQESEQoEd2FpdBgCIAEoCEgBiAEBQgkKB19zZWF0aWRCBwoF",
-            "X3dhaXQiVgoOUmVidXlOb3RpZnlSU1ASFgoJbGVmdF90aW1lGAEgASgFSACI",
-            "AQESEwoGc2VhdGlkGAIgASgFSAGIAQFCDAoKX2xlZnRfdGltZUIJCgdfc2Vh",
-            "dGlkIkwKCFJlYnV5UkVREhUKCGlzX3JlYnV5GAEgASgISACIAQESEgoFY2hp",
-            "cHMYAiABKANIAYgBAUILCglfaXNfcmVidXlCCAoGX2NoaXBzIpABCghSZWJ1",
-            "eUJSQxIRCgRjb2RlGAEgASgFSACIAQESEwoGc2VhdGlkGAIgASgFSAGIAQES",
-            "EgoFY2hpcHMYAyABKANIAogBARIZCgxodW50ZXJfYm9udXMYBCABKANIA4gB",
-            "AUIHCgVfY29kZUIJCgdfc2VhdGlkQggKBl9jaGlwc0IPCg1faHVudGVyX2Jv",
-            "bnVzIosBCg1Ub3RhbEJ1eWluQlJDEhQKB3VzZXJfaWQYASABKANIAIgBARIY",
-            "Cgt0b3RhbF9idXlpbhgCIAEoA0gBiAEBEhsKDmN1cnJlbnRfcHJvZml0GAMg",
-            "ASgDSAKIAQFCCgoIX3VzZXJfaWRCDgoMX3RvdGFsX2J1eWluQhEKD19jdXJy",
-            "ZW50X3Byb2ZpdCI7CgtGYXN0Rm9sZEJSQxIaCg1jYW5fZmFzdF9mb2xkGAEg",
-            "ASgISACIAQFCEAoOX2Nhbl9mYXN0X2ZvbGQq+wIKC1N0YW5kVXBDb2RlEhAK",
-            "DE5PUk1BTF9TVEFORBAAEhgKC0VSUk9SX1NUQU5EEP///////////wESEgoO",
-            "Tk9fQ0hJUFNfU1RBTkQQARIbChdDTFVCX1JPT01fVElNRV9VUF9TVEFORBAC",
-            "EhMKD05PX0FDVElPTl9TVEFORBADEhAKDFNZU1RFTV9TVEFORBAEEhUKEUxB",
-            "RERFUl9PVkVSX1NUQU5EEAUSFgoSQ0hBTkdFX1RBQkxFX1NUQU5EEAYSEAoM",
-            "S0lDS0VEX1NUQU5EEAcSFgoSRklOQUxfUkVXQVJEX1NUQU5EEAgSEgoOTEFD",
-            "S19HUFNfU1RBTkQQCRIbChdCUkVBS19HUFNfSVBfUlVMRV9TVEFORBAKEhMK",
-            "D1pPT01fRk9MRF9TVEFORBALEhMKD0NBTExUSU1FX0NBTkNFTBAMEhEKDUNB",
-            "UFRDSEFfU1RBTkQQDRIhChRWUElQX1BFUl9TRVRfSU5WQUxJRBDu////////",
-            "//8BKqsGCgtTaXREb3duQ29kZRIPCgtTSVRfRE9XTl9PSxAAEhEKDVNJVF9X",
-            "QUlUX0FVVEgQARIaCg1TSVRfRVJSX01PTkVZEP///////////wESHgoRU0lU",
-            "X0VSUl9OT1RfRU1QVFkQ/v//////////ARIiChVTSVRfRVJSX0FMUkVBRFlf",
-            "U0lURUQQ/f//////////ARIbCg5TSVRfRVJSX1NFQVRJRBD8//////////8B",
-            "EiQKF1NJVF9FUlJfQUxSRUFEWV9TVEFSVEVEEPv//////////wESJwoaU0lU",
-            "X0VSUl9XQUlUTElTVF9OT1RfRU1QVFkQ+v//////////ARIZCgxTSVRfRVJS",
-            "X0NMVUIQ+f//////////ARIYCgtTSVRfRVJSX0dQUxD4//////////8BEhcK",
-            "ClNJVF9FUlJfSVAQ9///////////ARIgChNTSVRfRVJSX0dQU19JTlZBTElE",
-            "EPb//////////wESGwoOU0lUX0VSUl9USUNLRVQQ9f//////////ARIeChFT",
-            "SVRfRVJSX1JPT01fT1ZFUhD0//////////8BEh4KEVNJVF9FUlJfUk9PTV9G",
-            "VUxMEPP//////////wESGwoOU0lUX0VSUl9CT09LRUQQ8v//////////ARIZ",
-            "CgxTSVRfRVJSX1ZQSVAQ8f//////////ARIeChFTSVRfRVJSX0hBTkRTX05V",
-            "TRDw//////////8BEiMKFlNJVF9FUlJfQU5USV9DT0xMVVNJT04Q7///////",
-            "////ARIhChRTSVRfRVJSX1ZQSVBfUEVSX1NFVBDu//////////8BEhsKDlNJ",
-            "VF9FUlJfUEFTU1dEEO3//////////wESGwoOU0lUX0VSUl9DTFVCSUQQ7P//",
-            "////////ARIdChBTSVRfRVJSX0xFQUdVRUlEEOv//////////wESGwoOU0lU",
-            "X0VSUl9QQ19CQU4Q6v//////////ARIfChJTSVRfRVJSX1ZBTElEX01BSUwQ",
-            "6f//////////ARIoChtTSVRfRVJSX0ZMQVNIX0hBU19ORVdfVEFCTEUQ6P//",
-            "////////AUIYWgUvZ29wYqoCDlRleGFzLlByb3RvY29sYgZwcm90bzM="));
+            "bFdhaXRCbGluZFJFUSIUChJDYW5jZWxXYWl0QmxpbmRSU1AiUAoSQ2FuY2Vs",
+            "V2FpdEJsaW5kQlJDEhMKBnNlYXRpZBgBIAEoBUgAiAEBEhEKBHdhaXQYAiAB",
+            "KAhIAYgBAUIJCgdfc2VhdGlkQgcKBV93YWl0IlYKDlJlYnV5Tm90aWZ5UlNQ",
+            "EhYKCWxlZnRfdGltZRgBIAEoBUgAiAEBEhMKBnNlYXRpZBgCIAEoBUgBiAEB",
+            "QgwKCl9sZWZ0X3RpbWVCCQoHX3NlYXRpZCJMCghSZWJ1eVJFURIVCghpc19y",
+            "ZWJ1eRgBIAEoCEgAiAEBEhIKBWNoaXBzGAIgASgDSAGIAQFCCwoJX2lzX3Jl",
+            "YnV5QggKBl9jaGlwcyKQAQoIUmVidXlCUkMSEQoEY29kZRgBIAEoBUgAiAEB",
+            "EhMKBnNlYXRpZBgCIAEoBUgBiAEBEhIKBWNoaXBzGAMgASgDSAKIAQESGQoM",
+            "aHVudGVyX2JvbnVzGAQgASgDSAOIAQFCBwoFX2NvZGVCCQoHX3NlYXRpZEII",
+            "CgZfY2hpcHNCDwoNX2h1bnRlcl9ib251cyKLAQoNVG90YWxCdXlpbkJSQxIU",
+            "Cgd1c2VyX2lkGAEgASgDSACIAQESGAoLdG90YWxfYnV5aW4YAiABKANIAYgB",
+            "ARIbCg5jdXJyZW50X3Byb2ZpdBgDIAEoA0gCiAEBQgoKCF91c2VyX2lkQg4K",
+            "DF90b3RhbF9idXlpbkIRCg9fY3VycmVudF9wcm9maXQiOwoLRmFzdEZvbGRC",
+            "UkMSGgoNY2FuX2Zhc3RfZm9sZBgBIAEoCEgAiAEBQhAKDl9jYW5fZmFzdF9m",
+            "b2xkKvsCCgtTdGFuZFVwQ29kZRIQCgxOT1JNQUxfU1RBTkQQABIYCgtFUlJP",
+            "Ul9TVEFORBD///////////8BEhIKDk5PX0NISVBTX1NUQU5EEAESGwoXQ0xV",
+            "Ql9ST09NX1RJTUVfVVBfU1RBTkQQAhITCg9OT19BQ1RJT05fU1RBTkQQAxIQ",
+            "CgxTWVNURU1fU1RBTkQQBBIVChFMQURERVJfT1ZFUl9TVEFORBAFEhYKEkNI",
+            "QU5HRV9UQUJMRV9TVEFORBAGEhAKDEtJQ0tFRF9TVEFORBAHEhYKEkZJTkFM",
+            "X1JFV0FSRF9TVEFORBAIEhIKDkxBQ0tfR1BTX1NUQU5EEAkSGwoXQlJFQUtf",
+            "R1BTX0lQX1JVTEVfU1RBTkQQChITCg9aT09NX0ZPTERfU1RBTkQQCxITCg9D",
+            "QUxMVElNRV9DQU5DRUwQDBIRCg1DQVBUQ0hBX1NUQU5EEA0SIQoUVlBJUF9Q",
+            "RVJfU0VUX0lOVkFMSUQQ7v//////////ASqrBgoLU2l0RG93bkNvZGUSDwoL",
+            "U0lUX0RPV05fT0sQABIRCg1TSVRfV0FJVF9BVVRIEAESGgoNU0lUX0VSUl9N",
+            "T05FWRD///////////8BEh4KEVNJVF9FUlJfTk9UX0VNUFRZEP7/////////",
+            "/wESIgoVU0lUX0VSUl9BTFJFQURZX1NJVEVEEP3//////////wESGwoOU0lU",
+            "X0VSUl9TRUFUSUQQ/P//////////ARIkChdTSVRfRVJSX0FMUkVBRFlfU1RB",
+            "UlRFRBD7//////////8BEicKGlNJVF9FUlJfV0FJVExJU1RfTk9UX0VNUFRZ",
+            "EPr//////////wESGQoMU0lUX0VSUl9DTFVCEPn//////////wESGAoLU0lU",
+            "X0VSUl9HUFMQ+P//////////ARIXCgpTSVRfRVJSX0lQEPf//////////wES",
+            "IAoTU0lUX0VSUl9HUFNfSU5WQUxJRBD2//////////8BEhsKDlNJVF9FUlJf",
+            "VElDS0VUEPX//////////wESHgoRU0lUX0VSUl9ST09NX09WRVIQ9P//////",
+            "////ARIeChFTSVRfRVJSX1JPT01fRlVMTBDz//////////8BEhsKDlNJVF9F",
+            "UlJfQk9PS0VEEPL//////////wESGQoMU0lUX0VSUl9WUElQEPH/////////",
+            "/wESHgoRU0lUX0VSUl9IQU5EU19OVU0Q8P//////////ARIjChZTSVRfRVJS",
+            "X0FOVElfQ09MTFVTSU9OEO///////////wESIQoUU0lUX0VSUl9WUElQX1BF",
+            "Ul9TRVQQ7v//////////ARIbCg5TSVRfRVJSX1BBU1NXRBDt//////////8B",
+            "EhsKDlNJVF9FUlJfQ0xVQklEEOz//////////wESHQoQU0lUX0VSUl9MRUFH",
+            "VUVJRBDr//////////8BEhsKDlNJVF9FUlJfUENfQkFOEOr//////////wES",
+            "HwoSU0lUX0VSUl9WQUxJRF9NQUlMEOn//////////wESKAobU0lUX0VSUl9G",
+            "TEFTSF9IQVNfTkVXX1RBQkxFEOj//////////wFCGFoFL2dvcGKqAg5UZXhh",
+            "cy5Qcm90b2NvbGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Texas.Protocol.PreBaseReflection.Descriptor, global::Texas.Protocol.BaseReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Texas.Protocol.StandUpCode), typeof(global::Texas.Protocol.SitDownCode), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -269,6 +270,7 @@ namespace Texas.Protocol {
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.StraddleRSP), global::Texas.Protocol.StraddleRSP.Parser, new[]{ "Code" }, new[]{ "Code" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.ShowStraddleRSP), global::Texas.Protocol.ShowStraddleRSP.Parser, new[]{ "Ok" }, new[]{ "Ok" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.CancelWaitBlindREQ), global::Texas.Protocol.CancelWaitBlindREQ.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.CancelWaitBlindRSP), global::Texas.Protocol.CancelWaitBlindRSP.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.CancelWaitBlindBRC), global::Texas.Protocol.CancelWaitBlindBRC.Parser, new[]{ "Seatid", "Wait" }, new[]{ "Seatid", "Wait" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.RebuyNotifyRSP), global::Texas.Protocol.RebuyNotifyRSP.Parser, new[]{ "LeftTime", "Seatid" }, new[]{ "LeftTime", "Seatid" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.RebuyREQ), global::Texas.Protocol.RebuyREQ.Parser, new[]{ "IsRebuy", "Chips" }, new[]{ "IsRebuy", "Chips" }, null, null, null),
@@ -17711,6 +17713,158 @@ namespace Texas.Protocol {
 
   }
 
+  public sealed partial class CancelWaitBlindRSP : pb::IMessage<CancelWaitBlindRSP>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CancelWaitBlindRSP> _parser = new pb::MessageParser<CancelWaitBlindRSP>(() => new CancelWaitBlindRSP());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<CancelWaitBlindRSP> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Texas.Protocol.Pb3Reflection.Descriptor.MessageTypes[58]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CancelWaitBlindRSP() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CancelWaitBlindRSP(CancelWaitBlindRSP other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CancelWaitBlindRSP Clone() {
+      return new CancelWaitBlindRSP(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as CancelWaitBlindRSP);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(CancelWaitBlindRSP other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(CancelWaitBlindRSP other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
   public sealed partial class CancelWaitBlindBRC : pb::IMessage<CancelWaitBlindBRC>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -17726,7 +17880,7 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Texas.Protocol.Pb3Reflection.Descriptor.MessageTypes[58]; }
+      get { return global::Texas.Protocol.Pb3Reflection.Descriptor.MessageTypes[59]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17984,7 +18138,7 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Texas.Protocol.Pb3Reflection.Descriptor.MessageTypes[59]; }
+      get { return global::Texas.Protocol.Pb3Reflection.Descriptor.MessageTypes[60]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18242,7 +18396,7 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Texas.Protocol.Pb3Reflection.Descriptor.MessageTypes[60]; }
+      get { return global::Texas.Protocol.Pb3Reflection.Descriptor.MessageTypes[61]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18503,7 +18657,7 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Texas.Protocol.Pb3Reflection.Descriptor.MessageTypes[61]; }
+      get { return global::Texas.Protocol.Pb3Reflection.Descriptor.MessageTypes[62]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18868,7 +19022,7 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Texas.Protocol.Pb3Reflection.Descriptor.MessageTypes[62]; }
+      get { return global::Texas.Protocol.Pb3Reflection.Descriptor.MessageTypes[63]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19181,7 +19335,7 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Texas.Protocol.Pb3Reflection.Descriptor.MessageTypes[63]; }
+      get { return global::Texas.Protocol.Pb3Reflection.Descriptor.MessageTypes[64]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

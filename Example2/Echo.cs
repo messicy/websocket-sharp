@@ -55,12 +55,12 @@ namespace Example2
 
                     ShowHandInfo showHandInfo1 = new ShowHandInfo();
                     showHandInfo1.Seatid = 2;
-                    showHandInfo1.Cards.Add("8s");
-                    showHandInfo1.Cards.Add("3d");
+                    showHandInfo1.Cards.Add(258);
+                    showHandInfo1.Cards.Add(514);
                     ShowHandInfo showHandInfo2 = new ShowHandInfo();
                     showHandInfo2.Seatid = 5;
-                    showHandInfo2.Cards.Add("4c");
-                    showHandInfo2.Cards.Add("7s");
+                    showHandInfo2.Cards.Add(772);
+                    showHandInfo2.Cards.Add(1029);
 
                     ShowHandRSP showhandBRC = new ShowHandRSP();
                     showhandBRC.Info.Add(showHandInfo1);
@@ -129,12 +129,12 @@ namespace Example2
                 case "EnterRoomREQ":
                     var reqData = EnterRoomREQ.Parser.ParseFrom(protoData.Body);
                     EnterRoomRSP enterRoomRSP = new EnterRoomRSP();
-                    enterRoomRSP.Roomid = 1;
+                    enterRoomRSP.Roomid = reqData.Roomid;
 
                     UserBrief p1 = new UserBrief();
                     p1.Uid = 123;
                     p1.Name = "mmm";
-                    p1.IconUrl = "1";
+                    p1.Avatar = "1";
                     SeatStatus ss1 = new SeatStatus();
                     ss1.Seatid = 2;
                     ss1.Player = p1;
@@ -145,7 +145,7 @@ namespace Example2
                     UserBrief p2 = new UserBrief();
                     p2.Uid = 2345;
                     p2.Name = "kkk";
-                    p2.IconUrl = "3";
+                    p2.Avatar = "3";
                     SeatStatus ss2 = new SeatStatus();
                     ss2.Seatid = 1;
                     ss2.Player = p2;
@@ -156,7 +156,7 @@ namespace Example2
                     UserBrief p3 = new UserBrief();
                     p3.Uid = 5623;
                     p3.Name = "sss";
-                    p3.IconUrl = "4";
+                    p3.Avatar = "4";
                     SeatStatus ss3 = new SeatStatus();
                     ss3.Seatid = 0;
                     ss3.Player = p3;
@@ -260,8 +260,8 @@ namespace Example2
 
             protoWrapGo.Command = "HandCardRSP";
             HandCardRSP handcardBRC = new HandCardRSP();
-            handcardBRC.Cards.Add("Ac");
-            handcardBRC.Cards.Add("5h");
+            handcardBRC.Cards.Add(1027);
+            handcardBRC.Cards.Add(771);
             protoWrapGo.Body = handcardBRC.ToByteString();
             var protoBytes = protoWrapGo.ToByteArray();
             Console.WriteLine(protoWrapGo.Command);
@@ -312,9 +312,9 @@ namespace Example2
             protoWrapGo.Command = "RoundStartBRC";
             RoundStartBRC roundStartBRC = new RoundStartBRC();
             roundStartBRC.Stage = RoundStage.RoundFlop;
-            roundStartBRC.Board.Add("Tc");
-            roundStartBRC.Board.Add("As");
-            roundStartBRC.Board.Add("4h");
+            roundStartBRC.Board.Add(261);
+            roundStartBRC.Board.Add(777);
+            roundStartBRC.Board.Add(266);
             protoWrapGo.Body = roundStartBRC.ToByteString();
             Console.WriteLine(protoWrapGo.Command);
             Sessions.Broadcast(protoWrapGo.ToByteArray());
@@ -408,10 +408,10 @@ namespace Example2
             protoWrapGo.Command = "RoundStartBRC";
             RoundStartBRC roundStartBRC = new RoundStartBRC();
             roundStartBRC.Stage = RoundStage.RoundTurn;
-            roundStartBRC.Board.Add("Tc");
-            roundStartBRC.Board.Add("As");
-            roundStartBRC.Board.Add("4h");
-            roundStartBRC.Board.Add("9s");
+            roundStartBRC.Board.Add(1030);
+            roundStartBRC.Board.Add(1038);
+            roundStartBRC.Board.Add(523);
+            roundStartBRC.Board.Add(268);
             protoWrapGo.Body = roundStartBRC.ToByteString();
             Console.WriteLine(protoWrapGo.Command);
             Sessions.Broadcast(protoWrapGo.ToByteArray());
@@ -472,11 +472,11 @@ namespace Example2
             protoWrapGo.Command = "RoundStartBRC";
             roundStartBRC = new RoundStartBRC();
             roundStartBRC.Stage = RoundStage.RoundRiver;
-            roundStartBRC.Board.Add("Tc");
-            roundStartBRC.Board.Add("As");
-            roundStartBRC.Board.Add("4h");
-            roundStartBRC.Board.Add("9s");
-            roundStartBRC.Board.Add("Ts");
+            roundStartBRC.Board.Add(1036);
+            roundStartBRC.Board.Add(526);
+            roundStartBRC.Board.Add(520);
+            roundStartBRC.Board.Add(268);
+            roundStartBRC.Board.Add(781);
             protoWrapGo.Body = roundStartBRC.ToByteString();
             Console.WriteLine(protoWrapGo.Command);
             Sessions.Broadcast(protoWrapGo.ToByteArray());
@@ -537,12 +537,12 @@ namespace Example2
             protoWrapGo.Command = "ShowHandRSP";
             ShowHandInfo showHandInfo1 = new ShowHandInfo();
             showHandInfo1.Seatid = 2;
-            showHandInfo1.Cards.Add("8s");
-            showHandInfo1.Cards.Add("3d");
+            showHandInfo1.Cards.Add(262);
+            showHandInfo1.Cards.Add(267);
             ShowHandInfo showHandInfo2 = new ShowHandInfo();
             showHandInfo2.Seatid = 7;
-            showHandInfo2.Cards.Add("4c");
-            showHandInfo2.Cards.Add("7s");
+            showHandInfo2.Cards.Add(523);
+            showHandInfo2.Cards.Add(781);
             ShowHandRSP showhandBRC = new ShowHandRSP();
             showhandBRC.Info.Add(showHandInfo1);
             showhandBRC.Info.Add(showHandInfo2);

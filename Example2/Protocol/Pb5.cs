@@ -107,61 +107,62 @@ namespace Texas.Protocol {
             "ZRgBIAEoBUgAiAEBQgsKCV9nYW1ldHlwZSItCg9EZWFsZXJDaG9pY2VSU1AS",
             "EQoEY29kZRgBIAEoBUgAiAEBQgcKBV9jb2RlIjUKD0RlYWxlckNob2ljZUJS",
             "QxIVCghnYW1ldHlwZRgBIAEoBUgAiAEBQgsKCV9nYW1ldHlwZSItChFPdGhl",
-            "ckxlYXZlUm9vbUJSQxIQCgN1aWQYASABKANIAIgBAUIGCgRfdWlkIr0BCgxF",
-            "bnRlclJvb21SRVESDgoGcm9vbWlkGAEgASgFEhAKA3RpZBgCIAEoCUgAiAEB",
-            "EgsKA3VpZBgDIAEoAxITCgZjbHViaWQYBCABKAlIAYgBARIVCghsZWFndWVp",
-            "ZBgFIAEoCUgCiAEBEg8KAmlwGAYgASgJSAOIAQESEQoEdHlwZRgHIAEoBUgE",
-            "iAEBQgYKBF90aWRCCQoHX2NsdWJpZEILCglfbGVhZ3VlaWRCBQoDX2lwQgcK",
-            "BV90eXBlIsgCChVQcmVFbnRlclBhc3N3ZFJvb21SRVESKgoEdHlwZRgBIAEo",
+            "ckxlYXZlUm9vbUJSQxIQCgN1aWQYASABKANIAIgBAUIGCgRfdWlkItoBCgxF",
+            "bnRlclJvb21SRVESEwoGcm9vbWlkGAEgASgFSACIAQESEAoDdGlkGAIgASgF",
+            "SAGIAQESEAoDdWlkGAMgASgDSAKIAQESEwoGY2x1YmlkGAQgASgFSAOIAQES",
+            "FQoIbGVhZ3VlaWQYBSABKAVIBIgBARIPCgJpcBgGIAEoCUgFiAEBEhEKBHR5",
+            "cGUYByABKAVIBogBAUIJCgdfcm9vbWlkQgYKBF90aWRCBgoEX3VpZEIJCgdf",
+            "Y2x1YmlkQgsKCV9sZWFndWVpZEIFCgNfaXBCBwoFX3R5cGUiyAIKFVByZUVu",
+            "dGVyUGFzc3dkUm9vbVJFURIqCgR0eXBlGAEgASgOMhcuUHJlRW50ZXJQYXNz",
+            "d2RSb29tVHlwZUgAiAEBEhMKBnJvb21pZBgCIAEoBUgBiAEBEhAKA3VpZBgD",
+            "IAEoA0gCiAEBEhMKBmNsdWJpZBgEIAEoCUgDiAEBEhUKCGxlYWd1ZWlkGAUg",
+            "ASgFSASIAQESEwoGcGFzc3dkGAYgASgJSAWIAQESGwoOc3VwZXJfbGVhZ3Vl",
+            "aWQYByABKAVIBogBARIaCg1jZXJ0aWZpY2F0aW9uGAggASgFSAeIAQFCBwoF",
+            "X3R5cGVCCQoHX3Jvb21pZEIGCgRfdWlkQgkKB19jbHViaWRCCwoJX2xlYWd1",
+            "ZWlkQgkKB19wYXNzd2RCEQoPX3N1cGVyX2xlYWd1ZWlkQhAKDl9jZXJ0aWZp",
+            "Y2F0aW9uIqgCChVQcmVFbnRlclBhc3N3ZFJvb21SU1ASKgoEdHlwZRgBIAEo",
             "DjIXLlByZUVudGVyUGFzc3dkUm9vbVR5cGVIAIgBARITCgZyb29taWQYAiAB",
             "KAVIAYgBARIQCgN1aWQYAyABKANIAogBARITCgZjbHViaWQYBCABKAlIA4gB",
-            "ARIVCghsZWFndWVpZBgFIAEoBUgEiAEBEhMKBnBhc3N3ZBgGIAEoCUgFiAEB",
-            "EhsKDnN1cGVyX2xlYWd1ZWlkGAcgASgFSAaIAQESGgoNY2VydGlmaWNhdGlv",
-            "bhgIIAEoBUgHiAEBQgcKBV90eXBlQgkKB19yb29taWRCBgoEX3VpZEIJCgdf",
-            "Y2x1YmlkQgsKCV9sZWFndWVpZEIJCgdfcGFzc3dkQhEKD19zdXBlcl9sZWFn",
-            "dWVpZEIQCg5fY2VydGlmaWNhdGlvbiKoAgoVUHJlRW50ZXJQYXNzd2RSb29t",
-            "UlNQEioKBHR5cGUYASABKA4yFy5QcmVFbnRlclBhc3N3ZFJvb21UeXBlSACI",
-            "AQESEwoGcm9vbWlkGAIgASgFSAGIAQESEAoDdWlkGAMgASgDSAKIAQESEwoG",
-            "Y2x1YmlkGAQgASgJSAOIAQESFQoIbGVhZ3VlaWQYBSABKAVIBIgBARIRCgRj",
-            "b2RlGAYgASgFSAWIAQESFAoHY2hlY2tlZBgHIAEoCEgGiAEBEhMKBmtpY2tl",
-            "ZBgIIAEoCEgHiAEBQgcKBV90eXBlQgkKB19yb29taWRCBgoEX3VpZEIJCgdf",
-            "Y2x1YmlkQgsKCV9sZWFndWVpZEIHCgVfY29kZUIKCghfY2hlY2tlZEIJCgdf",
-            "a2lja2VkIuMECg9UYWJsZVNldHRpbmdSRVESEgoFYmNsdWIYASABKAhIAIgB",
-            "ARISCgVib3BlbhgCIAEoCEgBiAEBEiAKE29uZWJ0bl9tb2xlY3VsZV9udW0Y",
-            "AyABKAVIAogBARIjChZvbmVidG5fZGVub21pbmF0b3JfbnVtGAQgASgFSAOI",
-            "AQESIAoTdHdvYnRuX21vbGVjdWxlX251bRgFIAEoBUgEiAEBEiMKFnR3b2J0",
-            "bl9kZW5vbWluYXRvcl9udW0YBiABKAVIBYgBARIiChV0aHJlZWJ0bl9tb2xl",
-            "Y3VsZV9udW0YByABKAVIBogBARIlChh0aHJlZWJ0bl9kZW5vbWluYXRvcl9u",
-            "dW0YCCABKAVIB4gBARIXCgpvbmVidG5fbnVtGAkgASgFSAiIAQESFwoKdHdv",
-            "YnRuX251bRgKIAEoBUgJiAEBEhkKDHRocmVlYnRuX251bRgLIAEoBUgKiAEB",
-            "EhUKCHJvb210eXBlGAwgASgFSAuIAQFCCAoGX2JjbHViQggKBl9ib3BlbkIW",
-            "ChRfb25lYnRuX21vbGVjdWxlX251bUIZChdfb25lYnRuX2Rlbm9taW5hdG9y",
-            "X251bUIWChRfdHdvYnRuX21vbGVjdWxlX251bUIZChdfdHdvYnRuX2Rlbm9t",
-            "aW5hdG9yX251bUIYChZfdGhyZWVidG5fbW9sZWN1bGVfbnVtQhsKGV90aHJl",
-            "ZWJ0bl9kZW5vbWluYXRvcl9udW1CDQoLX29uZWJ0bl9udW1CDQoLX3R3b2J0",
-            "bl9udW1CDwoNX3RocmVlYnRuX251bUILCglfcm9vbXR5cGUiLQoPVGFibGVT",
-            "ZXR0aW5nUlNQEhEKBGNvZGUYASABKAVIAIgBAUIHCgVfY29kZSJfChFPdGhl",
-            "ckVudGVyUm9vbUJSQxIdCgR1c2VyGAEgASgLMgouVXNlckJyaWVmSACIAQES",
-            "FQoIZnJhbWVfaWQYAiABKAlIAYgBAUIHCgVfdXNlckILCglfZnJhbWVfaWQi",
-            "hAEKDlJld2FyZEl0ZW1JbmZvEg8KAmlkGAEgASgFSACIAQESEQoEdHlwZRgC",
-            "IAEoBUgBiAEBEhYKCWl0ZW1fbmFtZRgDIAEoCUgCiAEBEhAKA251bRgEIAEo",
-            "BUgDiAEBQgUKA19pZEIHCgVfdHlwZUIMCgpfaXRlbV9uYW1lQgYKBF9udW0i",
-            "EAoOUXVlcnlSZXdhcmRSRVEiuAEKDlF1ZXJ5UmV3YXJkUlNQEhEKBGNvZGUY",
-            "ASABKAVIAIgBARIVCghpdGVtX251bRgCIAEoBUgBiAEBEiIKCWl0ZW1faW5m",
-            "bxgDIAMoCzIPLlJld2FyZEl0ZW1JbmZvEhgKC3Jld2FyZF90eXBlGAQgASgF",
-            "SAKIAQESEAoDbnVtGAUgASgFSAOIAQFCBwoFX2NvZGVCCwoJX2l0ZW1fbnVt",
-            "Qg4KDF9yZXdhcmRfdHlwZUIGCgRfbnVtIigKDkZldGNoUmV3YXJkUkVREg8K",
-            "AmlkGAEgASgFSACIAQFCBQoDX2lkIiwKDkZldGNoUmV3YXJkUlNQEhEKBGNv",
-            "ZGUYASABKAVIAIgBAUIHCgVfY29kZSJjChtTZXRBdXRvQ2hpcFJlcGxlbmlz",
-            "aG1lbnRSRVESJgoZZW5hYmxlX2NoaXBfcmVwbGVuaXNobWVudBgBIAEoCEgA",
-            "iAEBQhwKGl9lbmFibGVfY2hpcF9yZXBsZW5pc2htZW50IiAKHkdldENoaXBS",
-            "ZXBsZW5pc2htZW50U2V0dGluZ1JFUSJmCh5HZXRDaGlwUmVwbGVuaXNobWVu",
-            "dFNldHRpbmdSU1ASJgoZZW5hYmxlX2NoaXBfcmVwbGVuaXNobWVudBgBIAEo",
-            "CEgAiAEBQhwKGl9lbmFibGVfY2hpcF9yZXBsZW5pc2htZW50KooBChZQcmVF",
-            "bnRlclBhc3N3ZFJvb21UeXBlEiMKH1BSRV9FTlRFUl9QQVNTV0RfUk9PTV9U",
-            "WVBFX05PTkUQABIlCiFQUkVfRU5URVJfUEFTU1dEX1JPT01fVFlQRV9TVEFU",
-            "VVMQARIkCiBQUkVfRU5URVJfUEFTU1dEX1JPT01fVFlQRV9DSEVDSxACQhha",
-            "BS9nb3BiqgIOVGV4YXMuUHJvdG9jb2xiBnByb3RvMw=="));
+            "ARIVCghsZWFndWVpZBgFIAEoBUgEiAEBEhEKBGNvZGUYBiABKAVIBYgBARIU",
+            "CgdjaGVja2VkGAcgASgISAaIAQESEwoGa2lja2VkGAggASgISAeIAQFCBwoF",
+            "X3R5cGVCCQoHX3Jvb21pZEIGCgRfdWlkQgkKB19jbHViaWRCCwoJX2xlYWd1",
+            "ZWlkQgcKBV9jb2RlQgoKCF9jaGVja2VkQgkKB19raWNrZWQi4wQKD1RhYmxl",
+            "U2V0dGluZ1JFURISCgViY2x1YhgBIAEoCEgAiAEBEhIKBWJvcGVuGAIgASgI",
+            "SAGIAQESIAoTb25lYnRuX21vbGVjdWxlX251bRgDIAEoBUgCiAEBEiMKFm9u",
+            "ZWJ0bl9kZW5vbWluYXRvcl9udW0YBCABKAVIA4gBARIgChN0d29idG5fbW9s",
+            "ZWN1bGVfbnVtGAUgASgFSASIAQESIwoWdHdvYnRuX2Rlbm9taW5hdG9yX251",
+            "bRgGIAEoBUgFiAEBEiIKFXRocmVlYnRuX21vbGVjdWxlX251bRgHIAEoBUgG",
+            "iAEBEiUKGHRocmVlYnRuX2Rlbm9taW5hdG9yX251bRgIIAEoBUgHiAEBEhcK",
+            "Cm9uZWJ0bl9udW0YCSABKAVICIgBARIXCgp0d29idG5fbnVtGAogASgFSAmI",
+            "AQESGQoMdGhyZWVidG5fbnVtGAsgASgFSAqIAQESFQoIcm9vbXR5cGUYDCAB",
+            "KAVIC4gBAUIICgZfYmNsdWJCCAoGX2JvcGVuQhYKFF9vbmVidG5fbW9sZWN1",
+            "bGVfbnVtQhkKF19vbmVidG5fZGVub21pbmF0b3JfbnVtQhYKFF90d29idG5f",
+            "bW9sZWN1bGVfbnVtQhkKF190d29idG5fZGVub21pbmF0b3JfbnVtQhgKFl90",
+            "aHJlZWJ0bl9tb2xlY3VsZV9udW1CGwoZX3RocmVlYnRuX2Rlbm9taW5hdG9y",
+            "X251bUINCgtfb25lYnRuX251bUINCgtfdHdvYnRuX251bUIPCg1fdGhyZWVi",
+            "dG5fbnVtQgsKCV9yb29tdHlwZSItCg9UYWJsZVNldHRpbmdSU1ASEQoEY29k",
+            "ZRgBIAEoBUgAiAEBQgcKBV9jb2RlIl8KEU90aGVyRW50ZXJSb29tQlJDEh0K",
+            "BHVzZXIYASABKAsyCi5Vc2VyQnJpZWZIAIgBARIVCghmcmFtZV9pZBgCIAEo",
+            "CUgBiAEBQgcKBV91c2VyQgsKCV9mcmFtZV9pZCKEAQoOUmV3YXJkSXRlbUlu",
+            "Zm8SDwoCaWQYASABKAVIAIgBARIRCgR0eXBlGAIgASgFSAGIAQESFgoJaXRl",
+            "bV9uYW1lGAMgASgJSAKIAQESEAoDbnVtGAQgASgFSAOIAQFCBQoDX2lkQgcK",
+            "BV90eXBlQgwKCl9pdGVtX25hbWVCBgoEX251bSIQCg5RdWVyeVJld2FyZFJF",
+            "USK4AQoOUXVlcnlSZXdhcmRSU1ASEQoEY29kZRgBIAEoBUgAiAEBEhUKCGl0",
+            "ZW1fbnVtGAIgASgFSAGIAQESIgoJaXRlbV9pbmZvGAMgAygLMg8uUmV3YXJk",
+            "SXRlbUluZm8SGAoLcmV3YXJkX3R5cGUYBCABKAVIAogBARIQCgNudW0YBSAB",
+            "KAVIA4gBAUIHCgVfY29kZUILCglfaXRlbV9udW1CDgoMX3Jld2FyZF90eXBl",
+            "QgYKBF9udW0iKAoORmV0Y2hSZXdhcmRSRVESDwoCaWQYASABKAVIAIgBAUIF",
+            "CgNfaWQiLAoORmV0Y2hSZXdhcmRSU1ASEQoEY29kZRgBIAEoBUgAiAEBQgcK",
+            "BV9jb2RlImMKG1NldEF1dG9DaGlwUmVwbGVuaXNobWVudFJFURImChllbmFi",
+            "bGVfY2hpcF9yZXBsZW5pc2htZW50GAEgASgISACIAQFCHAoaX2VuYWJsZV9j",
+            "aGlwX3JlcGxlbmlzaG1lbnQiIAoeR2V0Q2hpcFJlcGxlbmlzaG1lbnRTZXR0",
+            "aW5nUkVRImYKHkdldENoaXBSZXBsZW5pc2htZW50U2V0dGluZ1JTUBImChll",
+            "bmFibGVfY2hpcF9yZXBsZW5pc2htZW50GAEgASgISACIAQFCHAoaX2VuYWJs",
+            "ZV9jaGlwX3JlcGxlbmlzaG1lbnQqigEKFlByZUVudGVyUGFzc3dkUm9vbVR5",
+            "cGUSIwofUFJFX0VOVEVSX1BBU1NXRF9ST09NX1RZUEVfTk9ORRAAEiUKIVBS",
+            "RV9FTlRFUl9QQVNTV0RfUk9PTV9UWVBFX1NUQVRVUxABEiQKIFBSRV9FTlRF",
+            "Ul9QQVNTV0RfUk9PTV9UWVBFX0NIRUNLEAJCGFoFL2dvcGKqAg5UZXhhcy5Q",
+            "cm90b2NvbGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Texas.Protocol.PreBaseReflection.Descriptor, global::Texas.Protocol.BaseReflection.Descriptor, global::Texas.Protocol.Pb1Reflection.Descriptor, global::Texas.Protocol.PineReflection.Descriptor, global::Texas.Protocol.TpReflection.Descriptor, global::Texas.Protocol.PusoyReflection.Descriptor, global::Texas.Protocol.LuckyDrawReflection.Descriptor, global::Texas.Protocol.ColorgameReflection.Descriptor, global::Texas.Protocol.TongitsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Texas.Protocol.PreEnterPasswdRoomType), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -188,7 +189,7 @@ namespace Texas.Protocol {
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.DealerChoiceRSP), global::Texas.Protocol.DealerChoiceRSP.Parser, new[]{ "Code" }, new[]{ "Code" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.DealerChoiceBRC), global::Texas.Protocol.DealerChoiceBRC.Parser, new[]{ "Gametype" }, new[]{ "Gametype" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.OtherLeaveRoomBRC), global::Texas.Protocol.OtherLeaveRoomBRC.Parser, new[]{ "Uid" }, new[]{ "Uid" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.EnterRoomREQ), global::Texas.Protocol.EnterRoomREQ.Parser, new[]{ "Roomid", "Tid", "Uid", "Clubid", "Leagueid", "Ip", "Type" }, new[]{ "Tid", "Clubid", "Leagueid", "Ip", "Type" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.EnterRoomREQ), global::Texas.Protocol.EnterRoomREQ.Parser, new[]{ "Roomid", "Tid", "Uid", "Clubid", "Leagueid", "Ip", "Type" }, new[]{ "Roomid", "Tid", "Uid", "Clubid", "Leagueid", "Ip", "Type" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.PreEnterPasswdRoomREQ), global::Texas.Protocol.PreEnterPasswdRoomREQ.Parser, new[]{ "Type", "Roomid", "Uid", "Clubid", "Leagueid", "Passwd", "SuperLeagueid", "Certification" }, new[]{ "Type", "Roomid", "Uid", "Clubid", "Leagueid", "Passwd", "SuperLeagueid", "Certification" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.PreEnterPasswdRoomRSP), global::Texas.Protocol.PreEnterPasswdRoomRSP.Parser, new[]{ "Type", "Roomid", "Uid", "Clubid", "Leagueid", "Code", "Checked", "Kicked" }, new[]{ "Type", "Roomid", "Uid", "Clubid", "Leagueid", "Code", "Checked", "Kicked" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Texas.Protocol.TableSettingREQ), global::Texas.Protocol.TableSettingREQ.Parser, new[]{ "Bclub", "Bopen", "OnebtnMoleculeNum", "OnebtnDenominatorNum", "TwobtnMoleculeNum", "TwobtnDenominatorNum", "ThreebtnMoleculeNum", "ThreebtnDenominatorNum", "OnebtnNum", "TwobtnNum", "ThreebtnNum", "Roomtype" }, new[]{ "Bclub", "Bopen", "OnebtnMoleculeNum", "OnebtnDenominatorNum", "TwobtnMoleculeNum", "TwobtnDenominatorNum", "ThreebtnMoleculeNum", "ThreebtnDenominatorNum", "OnebtnNum", "TwobtnNum", "ThreebtnNum", "Roomtype" }, null, null, null),
@@ -7696,6 +7697,8 @@ namespace Texas.Protocol {
 
     /// <summary>Field number for the "roomid" field.</summary>
     public const int RoomidFieldNumber = 1;
+    private readonly static int RoomidDefaultValue = 0;
+
     private int roomid_;
     /// <summary>
     ///version 0.1
@@ -7703,43 +7706,59 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Roomid {
-      get { return roomid_; }
+      get { if ((_hasBits0 & 1) != 0) { return roomid_; } else { return RoomidDefaultValue; } }
       set {
+        _hasBits0 |= 1;
         roomid_ = value;
       }
+    }
+    /// <summary>Gets whether the "roomid" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasRoomid {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "roomid" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearRoomid() {
+      _hasBits0 &= ~1;
     }
 
     /// <summary>Field number for the "tid" field.</summary>
     public const int TidFieldNumber = 2;
-    private readonly static string TidDefaultValue = "";
+    private readonly static int TidDefaultValue = 0;
 
-    private string tid_;
+    private int tid_;
     /// <summary>
     ///mtt可以指定tid
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Tid {
-      get { return tid_ ?? TidDefaultValue; }
+    public int Tid {
+      get { if ((_hasBits0 & 2) != 0) { return tid_; } else { return TidDefaultValue; } }
       set {
-        tid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        _hasBits0 |= 2;
+        tid_ = value;
       }
     }
     /// <summary>Gets whether the "tid" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasTid {
-      get { return tid_ != null; }
+      get { return (_hasBits0 & 2) != 0; }
     }
     /// <summary>Clears the value of the "tid" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearTid() {
-      tid_ = null;
+      _hasBits0 &= ~2;
     }
 
     /// <summary>Field number for the "uid" field.</summary>
     public const int UidFieldNumber = 3;
+    private readonly static long UidDefaultValue = 0L;
+
     private long uid_;
     /// <summary>
     ///version 0.1
@@ -7747,62 +7766,77 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Uid {
-      get { return uid_; }
+      get { if ((_hasBits0 & 4) != 0) { return uid_; } else { return UidDefaultValue; } }
       set {
+        _hasBits0 |= 4;
         uid_ = value;
       }
+    }
+    /// <summary>Gets whether the "uid" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasUid {
+      get { return (_hasBits0 & 4) != 0; }
+    }
+    /// <summary>Clears the value of the "uid" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearUid() {
+      _hasBits0 &= ~4;
     }
 
     /// <summary>Field number for the "clubid" field.</summary>
     public const int ClubidFieldNumber = 4;
-    private readonly static string ClubidDefaultValue = "";
+    private readonly static int ClubidDefaultValue = 0;
 
-    private string clubid_;
+    private int clubid_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Clubid {
-      get { return clubid_ ?? ClubidDefaultValue; }
+    public int Clubid {
+      get { if ((_hasBits0 & 8) != 0) { return clubid_; } else { return ClubidDefaultValue; } }
       set {
-        clubid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        _hasBits0 |= 8;
+        clubid_ = value;
       }
     }
     /// <summary>Gets whether the "clubid" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasClubid {
-      get { return clubid_ != null; }
+      get { return (_hasBits0 & 8) != 0; }
     }
     /// <summary>Clears the value of the "clubid" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearClubid() {
-      clubid_ = null;
+      _hasBits0 &= ~8;
     }
 
     /// <summary>Field number for the "leagueid" field.</summary>
     public const int LeagueidFieldNumber = 5;
-    private readonly static string LeagueidDefaultValue = "";
+    private readonly static int LeagueidDefaultValue = 0;
 
-    private string leagueid_;
+    private int leagueid_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Leagueid {
-      get { return leagueid_ ?? LeagueidDefaultValue; }
+    public int Leagueid {
+      get { if ((_hasBits0 & 16) != 0) { return leagueid_; } else { return LeagueidDefaultValue; } }
       set {
-        leagueid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        _hasBits0 |= 16;
+        leagueid_ = value;
       }
     }
     /// <summary>Gets whether the "leagueid" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasLeagueid {
-      get { return leagueid_ != null; }
+      get { return (_hasBits0 & 16) != 0; }
     }
     /// <summary>Clears the value of the "leagueid" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearLeagueid() {
-      leagueid_ = null;
+      _hasBits0 &= ~16;
     }
 
     /// <summary>Field number for the "ip" field.</summary>
@@ -7845,9 +7879,9 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Type {
-      get { if ((_hasBits0 & 1) != 0) { return type_; } else { return TypeDefaultValue; } }
+      get { if ((_hasBits0 & 32) != 0) { return type_; } else { return TypeDefaultValue; } }
       set {
-        _hasBits0 |= 1;
+        _hasBits0 |= 32;
         type_ = value;
       }
     }
@@ -7855,13 +7889,13 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasType {
-      get { return (_hasBits0 & 1) != 0; }
+      get { return (_hasBits0 & 32) != 0; }
     }
     /// <summary>Clears the value of the "type" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearType() {
-      _hasBits0 &= ~1;
+      _hasBits0 &= ~32;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7893,9 +7927,9 @@ namespace Texas.Protocol {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Roomid != 0) hash ^= Roomid.GetHashCode();
+      if (HasRoomid) hash ^= Roomid.GetHashCode();
       if (HasTid) hash ^= Tid.GetHashCode();
-      if (Uid != 0L) hash ^= Uid.GetHashCode();
+      if (HasUid) hash ^= Uid.GetHashCode();
       if (HasClubid) hash ^= Clubid.GetHashCode();
       if (HasLeagueid) hash ^= Leagueid.GetHashCode();
       if (HasIp) hash ^= Ip.GetHashCode();
@@ -7918,25 +7952,25 @@ namespace Texas.Protocol {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Roomid != 0) {
+      if (HasRoomid) {
         output.WriteRawTag(8);
         output.WriteInt32(Roomid);
       }
       if (HasTid) {
-        output.WriteRawTag(18);
-        output.WriteString(Tid);
+        output.WriteRawTag(16);
+        output.WriteInt32(Tid);
       }
-      if (Uid != 0L) {
+      if (HasUid) {
         output.WriteRawTag(24);
         output.WriteInt64(Uid);
       }
       if (HasClubid) {
-        output.WriteRawTag(34);
-        output.WriteString(Clubid);
+        output.WriteRawTag(32);
+        output.WriteInt32(Clubid);
       }
       if (HasLeagueid) {
-        output.WriteRawTag(42);
-        output.WriteString(Leagueid);
+        output.WriteRawTag(40);
+        output.WriteInt32(Leagueid);
       }
       if (HasIp) {
         output.WriteRawTag(50);
@@ -7956,25 +7990,25 @@ namespace Texas.Protocol {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Roomid != 0) {
+      if (HasRoomid) {
         output.WriteRawTag(8);
         output.WriteInt32(Roomid);
       }
       if (HasTid) {
-        output.WriteRawTag(18);
-        output.WriteString(Tid);
+        output.WriteRawTag(16);
+        output.WriteInt32(Tid);
       }
-      if (Uid != 0L) {
+      if (HasUid) {
         output.WriteRawTag(24);
         output.WriteInt64(Uid);
       }
       if (HasClubid) {
-        output.WriteRawTag(34);
-        output.WriteString(Clubid);
+        output.WriteRawTag(32);
+        output.WriteInt32(Clubid);
       }
       if (HasLeagueid) {
-        output.WriteRawTag(42);
-        output.WriteString(Leagueid);
+        output.WriteRawTag(40);
+        output.WriteInt32(Leagueid);
       }
       if (HasIp) {
         output.WriteRawTag(50);
@@ -7994,20 +8028,20 @@ namespace Texas.Protocol {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Roomid != 0) {
+      if (HasRoomid) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Roomid);
       }
       if (HasTid) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Tid);
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Tid);
       }
-      if (Uid != 0L) {
+      if (HasUid) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(Uid);
       }
       if (HasClubid) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Clubid);
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Clubid);
       }
       if (HasLeagueid) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Leagueid);
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Leagueid);
       }
       if (HasIp) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Ip);
@@ -8027,13 +8061,13 @@ namespace Texas.Protocol {
       if (other == null) {
         return;
       }
-      if (other.Roomid != 0) {
+      if (other.HasRoomid) {
         Roomid = other.Roomid;
       }
       if (other.HasTid) {
         Tid = other.Tid;
       }
-      if (other.Uid != 0L) {
+      if (other.HasUid) {
         Uid = other.Uid;
       }
       if (other.HasClubid) {
@@ -8067,20 +8101,20 @@ namespace Texas.Protocol {
             Roomid = input.ReadInt32();
             break;
           }
-          case 18: {
-            Tid = input.ReadString();
+          case 16: {
+            Tid = input.ReadInt32();
             break;
           }
           case 24: {
             Uid = input.ReadInt64();
             break;
           }
-          case 34: {
-            Clubid = input.ReadString();
+          case 32: {
+            Clubid = input.ReadInt32();
             break;
           }
-          case 42: {
-            Leagueid = input.ReadString();
+          case 40: {
+            Leagueid = input.ReadInt32();
             break;
           }
           case 50: {
@@ -8110,20 +8144,20 @@ namespace Texas.Protocol {
             Roomid = input.ReadInt32();
             break;
           }
-          case 18: {
-            Tid = input.ReadString();
+          case 16: {
+            Tid = input.ReadInt32();
             break;
           }
           case 24: {
             Uid = input.ReadInt64();
             break;
           }
-          case 34: {
-            Clubid = input.ReadString();
+          case 32: {
+            Clubid = input.ReadInt32();
             break;
           }
-          case 42: {
-            Leagueid = input.ReadString();
+          case 40: {
+            Leagueid = input.ReadInt32();
             break;
           }
           case 50: {
